@@ -10,10 +10,34 @@ import com.orbischallenge.tron.protocol.TronProtocol.Direction;
 
 public class PlayerAI implements Player {
 
+        private int map_detail[][];
+   
 	@Override
 	public void newGame(TronGameBoard map,  
 			LightCycle playerCycle, LightCycle opponentCycle) {
-
+                //all values are initialized to 0 by default
+                //the actual size of the playable board is (map.length() - 2)^2 because of the walls on the sides
+                int size = map.length() - 2;
+                map_detail = new int[size][size]; 
+                /*
+                Wall = -1
+                PowerUps = 10
+                Trail = 1
+                LightCycle = 2
+                */
+                for (int i = 0; i < size; i++) 
+                    for (int j = 0; j < size; j++) {
+                        switch (map.tileType(i + 1, j + 1)) {
+                            case WALL: map_detail[i][j] = -1;
+                                       break;
+                            case TRAIL: map_detail[i][j] = 1 ;
+                                       break;
+                            case LIGHTCYCLE: map_detail[i][j] = 2 ;
+                                       break;
+                            case POWERUP: map_detail[i][j] = 10;
+                                       break;
+                        }
+                    }
 		return;
 		
 	}
