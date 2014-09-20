@@ -9,8 +9,6 @@ import com.orbischallenge.tron.protocol.TronProtocol.PowerUpType;
 import com.orbischallenge.tron.protocol.TronProtocol.Direction;
 
 public class PlayerAI implements Player {
-	
-	private int randMove;
 
 	@Override
 	public void newGame(TronGameBoard map,  
