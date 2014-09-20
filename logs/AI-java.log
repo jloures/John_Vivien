@@ -1397,3 +1397,51 @@
 20/09/2014 03:26:02.828] - [INFO] - [id: 0xb4631a10, /127.0.0.1:50988 :> localhost/127.0.0.1:19999] DISCONNECTED
 20/09/2014 03:26:02.830] - [INFO] - [id: 0xb4631a10, /127.0.0.1:50988 :> localhost/127.0.0.1:19999] UNBOUND
 20/09/2014 03:26:02.831] - [INFO] - [id: 0xb4631a10, /127.0.0.1:50988 :> localhost/127.0.0.1:19999] CLOSED
+20/09/2014 04:06:23.543] - [INFO] - Client starting
+20/09/2014 04:06:23.967] - [INFO] - [id: 0x02ddfcc3] OPEN
+20/09/2014 04:06:23.995] - [INFO] - [id: 0x02ddfcc3, /127.0.0.1:51011 => localhost/127.0.0.1:19999] BOUND: /127.0.0.1:51011
+20/09/2014 04:06:23.996] - [INFO] - [id: 0x02ddfcc3, /127.0.0.1:51011 => localhost/127.0.0.1:19999] CONNECTED: localhost/127.0.0.1:19999
+20/09/2014 04:06:24.015] - [INFO] - [id: 0x02ddfcc3, /127.0.0.1:51011 :> localhost/127.0.0.1:19999] DISCONNECTED
+20/09/2014 04:06:24.017] - [INFO] - [id: 0x02ddfcc3, /127.0.0.1:51011 :> localhost/127.0.0.1:19999] UNBOUND
+20/09/2014 04:06:24.018] - [INFO] - [id: 0x02ddfcc3, /127.0.0.1:51011 :> localhost/127.0.0.1:19999] CLOSED
+20/09/2014 04:06:24.078] - [SEVERE] - Unexpected exception from upstream. java.nio.channels.ClosedChannelException
+
+20/09/2014 04:06:35.605] - [INFO] - Client starting
+20/09/2014 04:06:35.789] - [INFO] - [id: 0x0aff1088] OPEN
+20/09/2014 04:06:35.806] - [INFO] - [id: 0x0aff1088, /127.0.0.1:51014 => localhost/127.0.0.1:19999] BOUND: /127.0.0.1:51014
+20/09/2014 04:06:35.810] - [INFO] - [id: 0x0aff1088, /127.0.0.1:51014 => localhost/127.0.0.1:19999] CONNECTED: localhost/127.0.0.1:19999
+20/09/2014 04:06:36.681] - [INFO] - writing response back for turn 1 for player 1
+20/09/2014 04:06:36.687] - [INFO] - message sent: took 12,325,629
+20/09/2014 04:06:37.107] - [INFO] - writing response back for turn 2 for player 1
+20/09/2014 04:06:37.109] - [INFO] - message sent: took 7,506,839
+20/09/2014 04:06:37.227] - [INFO] - writing response back for turn 3 for player 1
+20/09/2014 04:06:37.229] - [INFO] - message sent: took 6,813,715
+20/09/2014 04:06:37.357] - [INFO] - writing response back for turn 4 for player 1
+20/09/2014 04:06:37.359] - [INFO] - message sent: took 8,088,627
+20/09/2014 04:06:37.471] - [INFO] - writing response back for turn 5 for player 1
+20/09/2014 04:06:37.472] - [INFO] - message sent: took 7,167,722
+20/09/2014 04:06:37.584] - [INFO] - writing response back for turn 6 for player 1
+20/09/2014 04:06:37.586] - [INFO] - message sent: took 6,938,141
+20/09/2014 04:06:37.697] - [INFO] - writing response back for turn 7 for player 1
+20/09/2014 04:06:37.699] - [INFO] - message sent: took 6,978,296
+20/09/2014 04:06:37.811] - [INFO] - writing response back for turn 8 for player 1
+20/09/2014 04:06:37.813] - [INFO] - message sent: took 7,252,069
+20/09/2014 04:06:37.926] - [INFO] - writing response back for turn 9 for player 1
+20/09/2014 04:06:37.928] - [INFO] - message sent: took 6,989,764
+20/09/2014 04:06:38.041] - [INFO] - writing response back for turn 10 for player 1
+20/09/2014 04:06:38.043] - [INFO] - message sent: took 7,012,778
+20/09/2014 04:06:38.162] - [INFO] - writing response back for turn 11 for player 1
+20/09/2014 04:06:38.163] - [INFO] - message sent: took 7,013,778
+20/09/2014 04:06:38.275] - [INFO] - writing response back for turn 12 for player 1
+20/09/2014 04:06:38.276] - [INFO] - message sent: took 7,325,400
+20/09/2014 04:06:38.388] - [INFO] - writing response back for turn 13 for player 1
+20/09/2014 04:06:38.390] - [INFO] - message sent: took 7,202,390
+20/09/2014 04:06:38.505] - [INFO] - writing response back for turn 14 for player 1
+20/09/2014 04:06:38.507] - [INFO] - message sent: took 7,513,674
+20/09/2014 04:06:38.618] - [INFO] - writing response back for turn 15 for player 1
+20/09/2014 04:06:38.619] - [INFO] - message sent: took 6,399,539
+20/09/2014 04:06:38.732] - [INFO] - writing response back for turn 16 for player 1
+20/09/2014 04:06:38.737] - [INFO] - message sent: took 10,166,703
+20/09/2014 04:06:38.845] - [INFO] - [id: 0x0aff1088, /127.0.0.1:51014 :> localhost/127.0.0.1:19999] DISCONNECTED
+20/09/2014 04:06:38.846] - [INFO] - [id: 0x0aff1088, /127.0.0.1:51014 :> localhost/127.0.0.1:19999] UNBOUND
+20/09/2014 04:06:38.847] - [INFO] - [id: 0x0aff1088, /127.0.0.1:51014 :> localhost/127.0.0.1:19999] CLOSED
