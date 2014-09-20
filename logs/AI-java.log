@@ -492,3 +492,908 @@
 20/09/2014 02:58:48.124] - [INFO] - [id: 0x3e11c673, /127.0.0.1:50933 :> localhost/127.0.0.1:19999] DISCONNECTED
 20/09/2014 02:58:48.125] - [INFO] - [id: 0x3e11c673, /127.0.0.1:50933 :> localhost/127.0.0.1:19999] UNBOUND
 20/09/2014 02:58:48.126] - [INFO] - [id: 0x3e11c673, /127.0.0.1:50933 :> localhost/127.0.0.1:19999] CLOSED
+20/09/2014 03:10:01.692] - [INFO] - Client starting
+20/09/2014 03:10:01.811] - [INFO] - [id: 0x4ceb14b5] OPEN
+20/09/2014 03:10:01.826] - [INFO] - [id: 0x4ceb14b5] CLOSED
+20/09/2014 03:10:01.858] - [SEVERE] - Unexpected exception from upstream. java.nio.channels.ClosedChannelException
+
+20/09/2014 03:10:07.294] - [INFO] - Client starting
+20/09/2014 03:10:07.424] - [INFO] - [id: 0x60a7d380] OPEN
+20/09/2014 03:10:07.434] - [INFO] - [id: 0x60a7d380, /127.0.0.1:50963 => localhost/127.0.0.1:19999] BOUND: /127.0.0.1:50963
+20/09/2014 03:10:07.436] - [INFO] - [id: 0x60a7d380, /127.0.0.1:50963 => localhost/127.0.0.1:19999] CONNECTED: localhost/127.0.0.1:19999
+20/09/2014 03:10:08.290] - [INFO] - writing response back for turn 1 for player 1
+20/09/2014 03:10:08.297] - [INFO] - message sent: took 15,155,338
+20/09/2014 03:10:08.416] - [INFO] - writing response back for turn 2 for player 1
+20/09/2014 03:10:08.417] - [INFO] - message sent: took 6,854,446
+20/09/2014 03:10:08.538] - [INFO] - writing response back for turn 3 for player 1
+20/09/2014 03:10:08.539] - [INFO] - message sent: took 6,432,573
+20/09/2014 03:10:08.650] - [INFO] - writing response back for turn 4 for player 1
+20/09/2014 03:10:08.651] - [INFO] - message sent: took 6,964,760
+20/09/2014 03:10:08.773] - [INFO] - writing response back for turn 5 for player 1
+20/09/2014 03:10:08.774] - [INFO] - message sent: took 7,129,061
+20/09/2014 03:10:08.889] - [INFO] - writing response back for turn 6 for player 1
+20/09/2014 03:10:08.890] - [INFO] - message sent: took 7,200,743
+20/09/2014 03:10:09.000] - [INFO] - writing response back for turn 7 for player 1
+20/09/2014 03:10:09.002] - [INFO] - message sent: took 6,541,691
+20/09/2014 03:10:09.126] - [INFO] - writing response back for turn 8 for player 1
+20/09/2014 03:10:09.127] - [INFO] - message sent: took 11,534,846
+20/09/2014 03:10:09.243] - [INFO] - writing response back for turn 9 for player 1
+20/09/2014 03:10:09.255] - [INFO] - message sent: took 21,434,280
+20/09/2014 03:10:09.356] - [INFO] - writing response back for turn 10 for player 1
+20/09/2014 03:10:09.357] - [INFO] - message sent: took 6,206,827
+20/09/2014 03:10:09.471] - [INFO] - writing response back for turn 11 for player 1
+20/09/2014 03:10:09.472] - [INFO] - message sent: took 9,311,846
+20/09/2014 03:10:09.580] - [INFO] - [id: 0x60a7d380, /127.0.0.1:50963 :> localhost/127.0.0.1:19999] DISCONNECTED
+20/09/2014 03:10:09.581] - [INFO] - [id: 0x60a7d380, /127.0.0.1:50963 :> localhost/127.0.0.1:19999] UNBOUND
+20/09/2014 03:10:09.582] - [INFO] - [id: 0x60a7d380, /127.0.0.1:50963 :> localhost/127.0.0.1:19999] CLOSED
+20/09/2014 03:11:33.483] - [INFO] - Client starting
+20/09/2014 03:11:33.615] - [INFO] - [id: 0xa64dbe9c] OPEN
+20/09/2014 03:11:33.630] - [INFO] - [id: 0xa64dbe9c, /127.0.0.1:50964 => localhost/127.0.0.1:19999] BOUND: /127.0.0.1:50964
+20/09/2014 03:11:33.631] - [INFO] - [id: 0xa64dbe9c, /127.0.0.1:50964 => localhost/127.0.0.1:19999] CONNECTED: localhost/127.0.0.1:19999
+20/09/2014 03:11:34.553] - [INFO] - writing response back for turn 1 for player 1
+20/09/2014 03:11:34.560] - [INFO] - message sent: took 13,500,691
+20/09/2014 03:11:34.912] - [INFO] - writing response back for turn 2 for player 1
+20/09/2014 03:11:34.913] - [INFO] - message sent: took 7,081,618
+20/09/2014 03:11:35.042] - [INFO] - writing response back for turn 3 for player 1
+20/09/2014 03:11:35.044] - [INFO] - message sent: took 7,544,026
+20/09/2014 03:11:35.158] - [INFO] - writing response back for turn 4 for player 1
+20/09/2014 03:11:35.160] - [INFO] - message sent: took 7,777,568
+20/09/2014 03:11:35.276] - [INFO] - writing response back for turn 5 for player 1
+20/09/2014 03:11:35.278] - [INFO] - message sent: took 7,624,749
+20/09/2014 03:11:35.388] - [INFO] - writing response back for turn 6 for player 1
+20/09/2014 03:11:35.390] - [INFO] - message sent: took 7,247,641
+20/09/2014 03:11:35.502] - [INFO] - writing response back for turn 7 for player 1
+20/09/2014 03:11:35.504] - [INFO] - message sent: took 7,094,159
+20/09/2014 03:11:35.615] - [INFO] - writing response back for turn 8 for player 1
+20/09/2014 03:11:35.619] - [INFO] - message sent: took 9,595,770
+20/09/2014 03:11:35.730] - [INFO] - writing response back for turn 9 for player 1
+20/09/2014 03:11:35.732] - [INFO] - message sent: took 7,074,076
+20/09/2014 03:11:35.842] - [INFO] - writing response back for turn 10 for player 1
+20/09/2014 03:11:35.844] - [INFO] - message sent: took 6,861,428
+20/09/2014 03:11:35.956] - [INFO] - writing response back for turn 11 for player 1
+20/09/2014 03:11:35.957] - [INFO] - message sent: took 6,825,128
+20/09/2014 03:11:36.069] - [INFO] - [id: 0xa64dbe9c, /127.0.0.1:50964 :> localhost/127.0.0.1:19999] DISCONNECTED
+20/09/2014 03:11:36.070] - [INFO] - [id: 0xa64dbe9c, /127.0.0.1:50964 :> localhost/127.0.0.1:19999] UNBOUND
+20/09/2014 03:11:36.072] - [INFO] - [id: 0xa64dbe9c, /127.0.0.1:50964 :> localhost/127.0.0.1:19999] CLOSED
+20/09/2014 03:11:42.365] - [INFO] - Client starting
+20/09/2014 03:11:42.490] - [INFO] - [id: 0xa635a23a] OPEN
+20/09/2014 03:11:42.504] - [INFO] - [id: 0xa635a23a] CLOSED
+20/09/2014 03:11:42.542] - [SEVERE] - Unexpected exception from upstream. java.nio.channels.ClosedChannelException
+
+20/09/2014 03:11:46.631] - [INFO] - Client starting
+20/09/2014 03:11:46.786] - [INFO] - [id: 0x157d1974] OPEN
+20/09/2014 03:11:46.802] - [INFO] - [id: 0x157d1974, /127.0.0.1:50966 => localhost/127.0.0.1:19999] BOUND: /127.0.0.1:50966
+20/09/2014 03:11:46.805] - [INFO] - [id: 0x157d1974, /127.0.0.1:50966 => localhost/127.0.0.1:19999] CONNECTED: localhost/127.0.0.1:19999
+20/09/2014 03:11:47.652] - [INFO] - writing response back for turn 1 for player 1
+20/09/2014 03:11:47.659] - [INFO] - message sent: took 13,374,963
+20/09/2014 03:11:48.032] - [INFO] - writing response back for turn 2 for player 1
+20/09/2014 03:11:48.037] - [INFO] - message sent: took 10,413,783
+20/09/2014 03:11:48.166] - [INFO] - writing response back for turn 3 for player 1
+20/09/2014 03:11:48.168] - [INFO] - message sent: took 7,683,059
+20/09/2014 03:11:48.285] - [INFO] - writing response back for turn 4 for player 1
+20/09/2014 03:11:48.286] - [INFO] - message sent: took 6,306,668
+20/09/2014 03:11:48.399] - [INFO] - writing response back for turn 5 for player 1
+20/09/2014 03:11:48.401] - [INFO] - message sent: took 6,865,843
+20/09/2014 03:11:48.510] - [INFO] - writing response back for turn 6 for player 1
+20/09/2014 03:11:48.511] - [INFO] - message sent: took 6,438,342
+20/09/2014 03:11:48.623] - [INFO] - writing response back for turn 7 for player 1
+20/09/2014 03:11:48.624] - [INFO] - message sent: took 6,689,605
+20/09/2014 03:11:48.736] - [INFO] - writing response back for turn 8 for player 1
+20/09/2014 03:11:48.738] - [INFO] - message sent: took 7,455,014
+20/09/2014 03:11:48.850] - [INFO] - writing response back for turn 9 for player 1
+20/09/2014 03:11:48.852] - [INFO] - message sent: took 7,086,786
+20/09/2014 03:11:48.969] - [INFO] - writing response back for turn 10 for player 1
+20/09/2014 03:11:48.971] - [INFO] - message sent: took 7,192,792
+20/09/2014 03:11:49.089] - [INFO] - writing response back for turn 11 for player 1
+20/09/2014 03:11:49.090] - [INFO] - message sent: took 7,530,086
+20/09/2014 03:11:49.214] - [INFO] - writing response back for turn 12 for player 1
+20/09/2014 03:11:49.217] - [INFO] - message sent: took 8,369,174
+20/09/2014 03:11:49.326] - [INFO] - writing response back for turn 13 for player 1
+20/09/2014 03:11:49.328] - [INFO] - message sent: took 7,625,614
+20/09/2014 03:11:49.440] - [INFO] - writing response back for turn 14 for player 1
+20/09/2014 03:11:49.445] - [INFO] - message sent: took 9,774,312
+20/09/2014 03:11:49.554] - [INFO] - writing response back for turn 15 for player 1
+20/09/2014 03:11:49.555] - [INFO] - message sent: took 6,490,539
+20/09/2014 03:11:49.667] - [INFO] - writing response back for turn 16 for player 1
+20/09/2014 03:11:49.672] - [INFO] - message sent: took 13,908,570
+20/09/2014 03:11:49.782] - [INFO] - [id: 0x157d1974, /127.0.0.1:50966 :> localhost/127.0.0.1:19999] DISCONNECTED
+20/09/2014 03:11:49.783] - [INFO] - [id: 0x157d1974, /127.0.0.1:50966 :> localhost/127.0.0.1:19999] UNBOUND
+20/09/2014 03:11:49.784] - [INFO] - [id: 0x157d1974, /127.0.0.1:50966 :> localhost/127.0.0.1:19999] CLOSED
+20/09/2014 03:12:52.494] - [INFO] - Client starting
+20/09/2014 03:12:52.630] - [INFO] - [id: 0x4ed577cd] OPEN
+20/09/2014 03:12:52.644] - [INFO] - [id: 0x4ed577cd, /127.0.0.1:50967 => localhost/127.0.0.1:19999] BOUND: /127.0.0.1:50967
+20/09/2014 03:12:52.648] - [INFO] - [id: 0x4ed577cd, /127.0.0.1:50967 => localhost/127.0.0.1:19999] CONNECTED: localhost/127.0.0.1:19999
+20/09/2014 03:12:53.602] - [INFO] - writing response back for turn 1 for player 1
+20/09/2014 03:12:53.607] - [INFO] - message sent: took 11,781,091
+20/09/2014 03:12:53.727] - [INFO] - writing response back for turn 2 for player 1
+20/09/2014 03:12:53.729] - [INFO] - message sent: took 7,312,383
+20/09/2014 03:12:53.849] - [INFO] - writing response back for turn 3 for player 1
+20/09/2014 03:12:53.852] - [INFO] - message sent: took 14,347,768
+20/09/2014 03:12:53.966] - [INFO] - writing response back for turn 4 for player 1
+20/09/2014 03:12:53.968] - [INFO] - message sent: took 6,552,870
+20/09/2014 03:12:54.079] - [INFO] - writing response back for turn 5 for player 1
+20/09/2014 03:12:54.080] - [INFO] - message sent: took 6,414,826
+20/09/2014 03:12:54.190] - [INFO] - writing response back for turn 6 for player 1
+20/09/2014 03:12:54.192] - [INFO] - message sent: took 6,795,364
+20/09/2014 03:12:54.305] - [INFO] - writing response back for turn 7 for player 1
+20/09/2014 03:12:54.306] - [INFO] - message sent: took 6,912,639
+20/09/2014 03:12:54.427] - [INFO] - writing response back for turn 8 for player 1
+20/09/2014 03:12:54.428] - [INFO] - message sent: took 7,050,504
+20/09/2014 03:12:54.542] - [INFO] - writing response back for turn 9 for player 1
+20/09/2014 03:12:54.544] - [INFO] - message sent: took 7,306,545
+20/09/2014 03:12:54.658] - [INFO] - writing response back for turn 10 for player 1
+20/09/2014 03:12:54.659] - [INFO] - message sent: took 7,114,020
+20/09/2014 03:12:54.769] - [INFO] - writing response back for turn 11 for player 1
+20/09/2014 03:12:54.771] - [INFO] - message sent: took 7,095,628
+20/09/2014 03:12:54.881] - [INFO] - writing response back for turn 12 for player 1
+20/09/2014 03:12:54.883] - [INFO] - message sent: took 7,052,173
+20/09/2014 03:12:54.995] - [INFO] - writing response back for turn 13 for player 1
+20/09/2014 03:12:54.997] - [INFO] - message sent: took 7,290,333
+20/09/2014 03:12:55.108] - [INFO] - writing response back for turn 14 for player 1
+20/09/2014 03:12:55.112] - [INFO] - message sent: took 11,484,230
+20/09/2014 03:12:55.230] - [INFO] - writing response back for turn 15 for player 1
+20/09/2014 03:12:55.232] - [INFO] - message sent: took 6,841,189
+20/09/2014 03:12:55.341] - [INFO] - writing response back for turn 16 for player 1
+20/09/2014 03:12:55.345] - [INFO] - message sent: took 9,308,459
+20/09/2014 03:12:55.461] - [INFO] - writing response back for turn 17 for player 1
+20/09/2014 03:12:55.462] - [INFO] - message sent: took 6,856,221
+20/09/2014 03:12:55.573] - [INFO] - writing response back for turn 18 for player 1
+20/09/2014 03:12:55.576] - [INFO] - message sent: took 8,713,227
+20/09/2014 03:12:55.689] - [INFO] - writing response back for turn 19 for player 1
+20/09/2014 03:12:55.694] - [INFO] - message sent: took 10,551,620
+20/09/2014 03:12:55.803] - [INFO] - writing response back for turn 20 for player 1
+20/09/2014 03:12:55.804] - [INFO] - message sent: took 7,095,073
+20/09/2014 03:12:55.918] - [INFO] - writing response back for turn 21 for player 1
+20/09/2014 03:12:55.920] - [INFO] - message sent: took 7,304,501
+20/09/2014 03:12:56.030] - [INFO] - writing response back for turn 22 for player 1
+20/09/2014 03:12:56.031] - [INFO] - message sent: took 6,491,150
+20/09/2014 03:12:56.140] - [INFO] - writing response back for turn 23 for player 1
+20/09/2014 03:12:56.142] - [INFO] - message sent: took 7,630,677
+20/09/2014 03:12:56.255] - [INFO] - writing response back for turn 24 for player 1
+20/09/2014 03:12:56.256] - [INFO] - message sent: took 6,925,768
+20/09/2014 03:12:56.365] - [INFO] - writing response back for turn 25 for player 1
+20/09/2014 03:12:56.366] - [INFO] - message sent: took 6,503,254
+20/09/2014 03:12:56.475] - [INFO] - writing response back for turn 26 for player 1
+20/09/2014 03:12:56.476] - [INFO] - message sent: took 6,499,662
+20/09/2014 03:12:56.585] - [INFO] - writing response back for turn 27 for player 1
+20/09/2014 03:12:56.587] - [INFO] - message sent: took 8,233,980
+20/09/2014 03:12:56.695] - [INFO] - writing response back for turn 28 for player 1
+20/09/2014 03:12:56.697] - [INFO] - message sent: took 6,662,684
+20/09/2014 03:12:56.806] - [INFO] - writing response back for turn 29 for player 1
+20/09/2014 03:12:56.809] - [INFO] - message sent: took 7,685,109
+20/09/2014 03:12:56.917] - [INFO] - writing response back for turn 30 for player 1
+20/09/2014 03:12:56.918] - [INFO] - message sent: took 6,252,662
+20/09/2014 03:12:57.027] - [INFO] - writing response back for turn 31 for player 1
+20/09/2014 03:12:57.027] - [INFO] - message sent: took 6,543,389
+20/09/2014 03:12:57.137] - [INFO] - writing response back for turn 32 for player 1
+20/09/2014 03:12:57.137] - [INFO] - message sent: took 6,452,556
+20/09/2014 03:12:57.247] - [INFO] - writing response back for turn 33 for player 1
+20/09/2014 03:12:57.249] - [INFO] - message sent: took 7,378,936
+20/09/2014 03:12:57.357] - [INFO] - writing response back for turn 34 for player 1
+20/09/2014 03:12:57.359] - [INFO] - message sent: took 8,135,333
+20/09/2014 03:12:57.469] - [INFO] - writing response back for turn 35 for player 1
+20/09/2014 03:12:57.471] - [INFO] - message sent: took 8,262,192
+20/09/2014 03:12:57.580] - [INFO] - writing response back for turn 36 for player 1
+20/09/2014 03:12:57.581] - [INFO] - message sent: took 6,618,447
+20/09/2014 03:12:57.692] - [INFO] - writing response back for turn 37 for player 1
+20/09/2014 03:12:57.693] - [INFO] - message sent: took 6,940,208
+20/09/2014 03:12:57.804] - [INFO] - writing response back for turn 38 for player 1
+20/09/2014 03:12:57.805] - [INFO] - message sent: took 7,230,382
+20/09/2014 03:12:57.915] - [INFO] - writing response back for turn 39 for player 1
+20/09/2014 03:12:57.917] - [INFO] - message sent: took 7,137,536
+20/09/2014 03:12:58.027] - [INFO] - writing response back for turn 40 for player 1
+20/09/2014 03:12:58.036] - [INFO] - message sent: took 14,722,077
+20/09/2014 03:12:58.149] - [INFO] - writing response back for turn 41 for player 1
+20/09/2014 03:12:58.152] - [INFO] - message sent: took 11,104,784
+20/09/2014 03:12:58.260] - [INFO] - writing response back for turn 42 for player 1
+20/09/2014 03:12:58.262] - [INFO] - message sent: took 6,920,248
+20/09/2014 03:12:58.372] - [INFO] - writing response back for turn 43 for player 1
+20/09/2014 03:12:58.374] - [INFO] - message sent: took 8,720,251
+20/09/2014 03:12:58.483] - [INFO] - writing response back for turn 44 for player 1
+20/09/2014 03:12:58.484] - [INFO] - message sent: took 7,203,086
+20/09/2014 03:12:58.593] - [INFO] - writing response back for turn 45 for player 1
+20/09/2014 03:12:58.594] - [INFO] - message sent: took 5,943,975
+20/09/2014 03:12:58.703] - [INFO] - writing response back for turn 46 for player 1
+20/09/2014 03:12:58.705] - [INFO] - message sent: took 6,925,757
+20/09/2014 03:12:58.809] - [INFO] - [id: 0x4ed577cd, /127.0.0.1:50967 :> localhost/127.0.0.1:19999] DISCONNECTED
+20/09/2014 03:12:58.810] - [INFO] - [id: 0x4ed577cd, /127.0.0.1:50967 :> localhost/127.0.0.1:19999] UNBOUND
+20/09/2014 03:12:58.810] - [INFO] - [id: 0x4ed577cd, /127.0.0.1:50967 :> localhost/127.0.0.1:19999] CLOSED
+20/09/2014 03:13:10.671] - [INFO] - Client starting
+20/09/2014 03:13:10.812] - [INFO] - [id: 0xdfb38a06] OPEN
+20/09/2014 03:13:10.828] - [INFO] - [id: 0xdfb38a06, /127.0.0.1:50968 => localhost/127.0.0.1:19999] BOUND: /127.0.0.1:50968
+20/09/2014 03:13:10.829] - [INFO] - [id: 0xdfb38a06, /127.0.0.1:50968 => localhost/127.0.0.1:19999] CONNECTED: localhost/127.0.0.1:19999
+20/09/2014 03:13:11.619] - [INFO] - writing response back for turn 1 for player 1
+20/09/2014 03:13:11.625] - [INFO] - message sent: took 12,117,666
+20/09/2014 03:13:12.085] - [INFO] - writing response back for turn 2 for player 1
+20/09/2014 03:13:12.088] - [INFO] - message sent: took 8,832,794
+20/09/2014 03:13:12.202] - [INFO] - writing response back for turn 3 for player 1
+20/09/2014 03:13:12.205] - [INFO] - message sent: took 11,917,086
+20/09/2014 03:13:12.314] - [INFO] - writing response back for turn 4 for player 1
+20/09/2014 03:13:12.317] - [INFO] - message sent: took 8,458,481
+20/09/2014 03:13:12.433] - [INFO] - writing response back for turn 5 for player 1
+20/09/2014 03:13:12.434] - [INFO] - message sent: took 7,414,297
+20/09/2014 03:13:12.545] - [INFO] - writing response back for turn 6 for player 1
+20/09/2014 03:13:12.547] - [INFO] - message sent: took 7,556,513
+20/09/2014 03:13:12.656] - [INFO] - writing response back for turn 7 for player 1
+20/09/2014 03:13:12.658] - [INFO] - message sent: took 7,154,040
+20/09/2014 03:13:12.769] - [INFO] - writing response back for turn 8 for player 1
+20/09/2014 03:13:12.770] - [INFO] - message sent: took 6,743,341
+20/09/2014 03:13:12.880] - [INFO] - writing response back for turn 9 for player 1
+20/09/2014 03:13:12.882] - [INFO] - message sent: took 7,417,619
+20/09/2014 03:13:12.992] - [INFO] - writing response back for turn 10 for player 1
+20/09/2014 03:13:12.994] - [INFO] - message sent: took 7,496,325
+20/09/2014 03:13:13.106] - [INFO] - writing response back for turn 11 for player 1
+20/09/2014 03:13:13.107] - [INFO] - message sent: took 7,159,772
+20/09/2014 03:13:13.220] - [INFO] - writing response back for turn 12 for player 1
+20/09/2014 03:13:13.223] - [INFO] - message sent: took 7,736,091
+20/09/2014 03:13:13.331] - [INFO] - writing response back for turn 13 for player 1
+20/09/2014 03:13:13.332] - [INFO] - message sent: took 6,845,716
+20/09/2014 03:13:13.442] - [INFO] - writing response back for turn 14 for player 1
+20/09/2014 03:13:13.443] - [INFO] - message sent: took 6,802,738
+20/09/2014 03:13:13.555] - [INFO] - writing response back for turn 15 for player 1
+20/09/2014 03:13:13.557] - [INFO] - message sent: took 8,660,586
+20/09/2014 03:13:13.672] - [INFO] - writing response back for turn 16 for player 1
+20/09/2014 03:13:13.677] - [INFO] - message sent: took 16,293,528
+20/09/2014 03:13:13.786] - [INFO] - writing response back for turn 17 for player 1
+20/09/2014 03:13:13.789] - [INFO] - message sent: took 8,089,712
+20/09/2014 03:13:13.899] - [INFO] - writing response back for turn 18 for player 1
+20/09/2014 03:13:13.901] - [INFO] - message sent: took 8,285,985
+20/09/2014 03:13:14.011] - [INFO] - writing response back for turn 19 for player 1
+20/09/2014 03:13:14.012] - [INFO] - message sent: took 6,781,581
+20/09/2014 03:13:14.128] - [INFO] - writing response back for turn 20 for player 1
+20/09/2014 03:13:14.129] - [INFO] - message sent: took 11,948,978
+20/09/2014 03:13:14.240] - [INFO] - writing response back for turn 21 for player 1
+20/09/2014 03:13:14.241] - [INFO] - message sent: took 6,736,848
+20/09/2014 03:13:14.352] - [INFO] - writing response back for turn 22 for player 1
+20/09/2014 03:13:14.354] - [INFO] - message sent: took 6,987,496
+20/09/2014 03:13:14.465] - [INFO] - writing response back for turn 23 for player 1
+20/09/2014 03:13:14.466] - [INFO] - message sent: took 7,396,213
+20/09/2014 03:13:14.578] - [INFO] - writing response back for turn 24 for player 1
+20/09/2014 03:13:14.579] - [INFO] - message sent: took 8,617,794
+20/09/2014 03:13:14.689] - [INFO] - [id: 0xdfb38a06, /127.0.0.1:50968 :> localhost/127.0.0.1:19999] DISCONNECTED
+20/09/2014 03:13:14.691] - [INFO] - [id: 0xdfb38a06, /127.0.0.1:50968 :> localhost/127.0.0.1:19999] UNBOUND
+20/09/2014 03:13:14.692] - [INFO] - [id: 0xdfb38a06, /127.0.0.1:50968 :> localhost/127.0.0.1:19999] CLOSED
+20/09/2014 03:13:47.150] - [INFO] - Client starting
+20/09/2014 03:13:47.267] - [INFO] - [id: 0x57a0a8d3] OPEN
+20/09/2014 03:13:47.281] - [INFO] - [id: 0x57a0a8d3, /127.0.0.1:50969 => localhost/127.0.0.1:19999] BOUND: /127.0.0.1:50969
+20/09/2014 03:13:47.282] - [INFO] - [id: 0x57a0a8d3, /127.0.0.1:50969 => localhost/127.0.0.1:19999] CONNECTED: localhost/127.0.0.1:19999
+20/09/2014 03:13:48.189] - [INFO] - writing response back for turn 1 for player 1
+20/09/2014 03:13:48.197] - [INFO] - message sent: took 16,760,015
+20/09/2014 03:13:48.321] - [INFO] - writing response back for turn 2 for player 1
+20/09/2014 03:13:48.325] - [INFO] - message sent: took 8,635,652
+20/09/2014 03:13:48.438] - [INFO] - writing response back for turn 3 for player 1
+20/09/2014 03:13:48.440] - [INFO] - message sent: took 6,526,899
+20/09/2014 03:13:48.549] - [INFO] - writing response back for turn 4 for player 1
+20/09/2014 03:13:48.551] - [INFO] - message sent: took 6,862,647
+20/09/2014 03:13:48.660] - [INFO] - writing response back for turn 5 for player 1
+20/09/2014 03:13:48.662] - [INFO] - message sent: took 7,488,905
+20/09/2014 03:13:48.775] - [INFO] - writing response back for turn 6 for player 1
+20/09/2014 03:13:48.776] - [INFO] - message sent: took 6,763,179
+20/09/2014 03:13:48.887] - [INFO] - writing response back for turn 7 for player 1
+20/09/2014 03:13:48.888] - [INFO] - message sent: took 6,998,183
+20/09/2014 03:13:49.002] - [INFO] - writing response back for turn 8 for player 1
+20/09/2014 03:13:49.004] - [INFO] - message sent: took 7,218,552
+20/09/2014 03:13:49.114] - [INFO] - [id: 0x57a0a8d3, /127.0.0.1:50969 :> localhost/127.0.0.1:19999] DISCONNECTED
+20/09/2014 03:13:49.115] - [INFO] - [id: 0x57a0a8d3, /127.0.0.1:50969 :> localhost/127.0.0.1:19999] UNBOUND
+20/09/2014 03:13:49.116] - [INFO] - [id: 0x57a0a8d3, /127.0.0.1:50969 :> localhost/127.0.0.1:19999] CLOSED
+20/09/2014 03:19:51.583] - [INFO] - Client starting
+20/09/2014 03:19:51.730] - [INFO] - [id: 0x555bb8ea] OPEN
+20/09/2014 03:19:51.878] - [INFO] - [id: 0x555bb8ea, /127.0.0.1:50974 => localhost/127.0.0.1:19999] BOUND: /127.0.0.1:50974
+20/09/2014 03:19:51.887] - [INFO] - [id: 0x555bb8ea, /127.0.0.1:50974 => localhost/127.0.0.1:19999] CONNECTED: localhost/127.0.0.1:19999
+20/09/2014 03:19:52.732] - [INFO] - writing response back for turn 1 for player 1
+20/09/2014 03:19:52.738] - [INFO] - message sent: took 13,327,482
+20/09/2014 03:19:52.857] - [INFO] - writing response back for turn 2 for player 1
+20/09/2014 03:19:52.858] - [INFO] - message sent: took 6,529,171
+20/09/2014 03:19:52.973] - [INFO] - writing response back for turn 3 for player 1
+20/09/2014 03:19:52.975] - [INFO] - message sent: took 6,617,205
+20/09/2014 03:19:53.085] - [INFO] - writing response back for turn 4 for player 1
+20/09/2014 03:19:53.087] - [INFO] - message sent: took 6,490,992
+20/09/2014 03:19:53.197] - [INFO] - writing response back for turn 5 for player 1
+20/09/2014 03:19:53.199] - [INFO] - message sent: took 7,189,973
+20/09/2014 03:19:53.312] - [INFO] - writing response back for turn 6 for player 1
+20/09/2014 03:19:53.314] - [INFO] - message sent: took 7,372,090
+20/09/2014 03:19:53.433] - [INFO] - writing response back for turn 7 for player 1
+20/09/2014 03:19:53.435] - [INFO] - message sent: took 7,065,347
+20/09/2014 03:19:53.548] - [INFO] - writing response back for turn 8 for player 1
+20/09/2014 03:19:53.550] - [INFO] - message sent: took 6,898,644
+20/09/2014 03:19:53.669] - [INFO] - writing response back for turn 9 for player 1
+20/09/2014 03:19:53.671] - [INFO] - message sent: took 8,412,119
+20/09/2014 03:19:53.780] - [INFO] - writing response back for turn 10 for player 1
+20/09/2014 03:19:53.782] - [INFO] - message sent: took 7,264,853
+20/09/2014 03:19:53.891] - [INFO] - writing response back for turn 11 for player 1
+20/09/2014 03:19:53.892] - [INFO] - message sent: took 7,144,263
+20/09/2014 03:19:53.999] - [INFO] - [id: 0x555bb8ea, /127.0.0.1:50974 :> localhost/127.0.0.1:19999] DISCONNECTED
+20/09/2014 03:19:54.000] - [INFO] - [id: 0x555bb8ea, /127.0.0.1:50974 :> localhost/127.0.0.1:19999] UNBOUND
+20/09/2014 03:19:54.001] - [INFO] - [id: 0x555bb8ea, /127.0.0.1:50974 :> localhost/127.0.0.1:19999] CLOSED
+20/09/2014 03:20:19.644] - [INFO] - Client starting
+20/09/2014 03:20:19.776] - [INFO] - [id: 0xf8abe228] OPEN
+20/09/2014 03:20:19.796] - [INFO] - [id: 0xf8abe228, /127.0.0.1:50976 => localhost/127.0.0.1:19999] BOUND: /127.0.0.1:50976
+20/09/2014 03:20:19.798] - [INFO] - [id: 0xf8abe228, /127.0.0.1:50976 => localhost/127.0.0.1:19999] CONNECTED: localhost/127.0.0.1:19999
+20/09/2014 03:20:20.606] - [INFO] - writing response back for turn 1 for player 1
+20/09/2014 03:20:20.612] - [INFO] - message sent: took 12,900,209
+20/09/2014 03:20:20.734] - [INFO] - writing response back for turn 2 for player 1
+20/09/2014 03:20:20.745] - [INFO] - message sent: took 17,915,951
+20/09/2014 03:20:20.857] - [INFO] - writing response back for turn 3 for player 1
+20/09/2014 03:20:20.859] - [INFO] - message sent: took 7,972,719
+20/09/2014 03:20:20.970] - [INFO] - writing response back for turn 4 for player 1
+20/09/2014 03:20:20.972] - [INFO] - message sent: took 8,040,313
+20/09/2014 03:20:21.090] - [INFO] - writing response back for turn 5 for player 1
+20/09/2014 03:20:21.091] - [INFO] - message sent: took 7,083,031
+20/09/2014 03:20:21.208] - [INFO] - writing response back for turn 6 for player 1
+20/09/2014 03:20:21.210] - [INFO] - message sent: took 7,412,940
+20/09/2014 03:20:21.322] - [INFO] - writing response back for turn 7 for player 1
+20/09/2014 03:20:21.323] - [INFO] - message sent: took 7,684,889
+20/09/2014 03:20:21.440] - [INFO] - writing response back for turn 8 for player 1
+20/09/2014 03:20:21.442] - [INFO] - message sent: took 10,588,920
+20/09/2014 03:20:21.552] - [INFO] - writing response back for turn 9 for player 1
+20/09/2014 03:20:21.554] - [INFO] - message sent: took 7,716,471
+20/09/2014 03:20:21.663] - [INFO] - writing response back for turn 10 for player 1
+20/09/2014 03:20:21.665] - [INFO] - message sent: took 7,557,247
+20/09/2014 03:20:21.788] - [INFO] - writing response back for turn 11 for player 1
+20/09/2014 03:20:21.789] - [INFO] - message sent: took 8,118,246
+20/09/2014 03:20:21.898] - [INFO] - writing response back for turn 12 for player 1
+20/09/2014 03:20:21.900] - [INFO] - message sent: took 7,812,750
+20/09/2014 03:20:22.012] - [INFO] - writing response back for turn 13 for player 1
+20/09/2014 03:20:22.013] - [INFO] - message sent: took 6,440,987
+20/09/2014 03:20:22.124] - [INFO] - writing response back for turn 14 for player 1
+20/09/2014 03:20:22.127] - [INFO] - message sent: took 8,224,892
+20/09/2014 03:20:22.238] - [INFO] - writing response back for turn 15 for player 1
+20/09/2014 03:20:22.239] - [INFO] - message sent: took 6,638,296
+20/09/2014 03:20:22.349] - [INFO] - writing response back for turn 16 for player 1
+20/09/2014 03:20:22.353] - [INFO] - message sent: took 10,228,197
+20/09/2014 03:20:22.463] - [INFO] - writing response back for turn 17 for player 1
+20/09/2014 03:20:22.468] - [INFO] - message sent: took 11,275,297
+20/09/2014 03:20:22.579] - [INFO] - writing response back for turn 18 for player 1
+20/09/2014 03:20:22.580] - [INFO] - message sent: took 7,125,291
+20/09/2014 03:20:22.689] - [INFO] - writing response back for turn 19 for player 1
+20/09/2014 03:20:22.690] - [INFO] - message sent: took 7,084,714
+20/09/2014 03:20:22.801] - [INFO] - writing response back for turn 20 for player 1
+20/09/2014 03:20:22.802] - [INFO] - message sent: took 6,600,115
+20/09/2014 03:20:22.917] - [INFO] - writing response back for turn 21 for player 1
+20/09/2014 03:20:22.919] - [INFO] - message sent: took 8,132,605
+20/09/2014 03:20:23.030] - [INFO] - writing response back for turn 22 for player 1
+20/09/2014 03:20:23.031] - [INFO] - message sent: took 6,175,288
+20/09/2014 03:20:23.144] - [INFO] - writing response back for turn 23 for player 1
+20/09/2014 03:20:23.146] - [INFO] - message sent: took 7,636,784
+20/09/2014 03:20:23.256] - [INFO] - writing response back for turn 24 for player 1
+20/09/2014 03:20:23.259] - [INFO] - message sent: took 9,158,855
+20/09/2014 03:20:23.378] - [INFO] - writing response back for turn 25 for player 1
+20/09/2014 03:20:23.379] - [INFO] - message sent: took 6,172,350
+20/09/2014 03:20:23.488] - [INFO] - writing response back for turn 26 for player 1
+20/09/2014 03:20:23.489] - [INFO] - message sent: took 6,861,383
+20/09/2014 03:20:23.598] - [INFO] - writing response back for turn 27 for player 1
+20/09/2014 03:20:23.599] - [INFO] - message sent: took 7,457,174
+20/09/2014 03:20:23.709] - [INFO] - writing response back for turn 28 for player 1
+20/09/2014 03:20:23.710] - [INFO] - message sent: took 6,777,531
+20/09/2014 03:20:23.820] - [INFO] - writing response back for turn 29 for player 1
+20/09/2014 03:20:23.821] - [INFO] - message sent: took 6,603,027
+20/09/2014 03:20:23.932] - [INFO] - writing response back for turn 30 for player 1
+20/09/2014 03:20:23.932] - [INFO] - message sent: took 6,475,596
+20/09/2014 03:20:24.041] - [INFO] - writing response back for turn 31 for player 1
+20/09/2014 03:20:24.042] - [INFO] - message sent: took 6,241,808
+20/09/2014 03:20:24.152] - [INFO] - writing response back for turn 32 for player 1
+20/09/2014 03:20:24.153] - [INFO] - message sent: took 7,107,596
+20/09/2014 03:20:24.264] - [INFO] - writing response back for turn 33 for player 1
+20/09/2014 03:20:24.265] - [INFO] - message sent: took 6,132,730
+20/09/2014 03:20:24.377] - [INFO] - writing response back for turn 34 for player 1
+20/09/2014 03:20:24.378] - [INFO] - message sent: took 6,616,624
+20/09/2014 03:20:24.489] - [INFO] - writing response back for turn 35 for player 1
+20/09/2014 03:20:24.491] - [INFO] - message sent: took 8,331,712
+20/09/2014 03:20:24.602] - [INFO] - writing response back for turn 36 for player 1
+20/09/2014 03:20:24.603] - [INFO] - message sent: took 6,859,563
+20/09/2014 03:20:24.714] - [INFO] - writing response back for turn 37 for player 1
+20/09/2014 03:20:24.719] - [INFO] - message sent: took 10,790,077
+20/09/2014 03:20:24.825] - [INFO] - writing response back for turn 38 for player 1
+20/09/2014 03:20:24.827] - [INFO] - message sent: took 7,050,627
+20/09/2014 03:20:24.937] - [INFO] - writing response back for turn 39 for player 1
+20/09/2014 03:20:24.938] - [INFO] - message sent: took 6,569,767
+20/09/2014 03:20:25.048] - [INFO] - writing response back for turn 40 for player 1
+20/09/2014 03:20:25.049] - [INFO] - message sent: took 6,638,857
+20/09/2014 03:20:25.160] - [INFO] - writing response back for turn 41 for player 1
+20/09/2014 03:20:25.161] - [INFO] - message sent: took 8,048,657
+20/09/2014 03:20:25.268] - [INFO] - writing response back for turn 42 for player 1
+20/09/2014 03:20:25.270] - [INFO] - message sent: took 6,904,015
+20/09/2014 03:20:25.383] - [INFO] - writing response back for turn 43 for player 1
+20/09/2014 03:20:25.387] - [INFO] - message sent: took 9,863,143
+20/09/2014 03:20:25.499] - [INFO] - writing response back for turn 44 for player 1
+20/09/2014 03:20:25.500] - [INFO] - message sent: took 6,934,493
+20/09/2014 03:20:25.609] - [INFO] - writing response back for turn 45 for player 1
+20/09/2014 03:20:25.612] - [INFO] - message sent: took 7,971,305
+20/09/2014 03:20:25.719] - [INFO] - writing response back for turn 46 for player 1
+20/09/2014 03:20:25.720] - [INFO] - message sent: took 6,568,529
+20/09/2014 03:20:25.829] - [INFO] - writing response back for turn 47 for player 1
+20/09/2014 03:20:25.830] - [INFO] - message sent: took 6,471,389
+20/09/2014 03:20:25.938] - [INFO] - writing response back for turn 48 for player 1
+20/09/2014 03:20:25.939] - [INFO] - message sent: took 5,812,727
+20/09/2014 03:20:26.052] - [INFO] - writing response back for turn 49 for player 1
+20/09/2014 03:20:26.054] - [INFO] - message sent: took 10,802,014
+20/09/2014 03:20:26.162] - [INFO] - writing response back for turn 50 for player 1
+20/09/2014 03:20:26.164] - [INFO] - message sent: took 7,119,720
+20/09/2014 03:20:26.273] - [INFO] - writing response back for turn 51 for player 1
+20/09/2014 03:20:26.276] - [INFO] - message sent: took 8,734,654
+20/09/2014 03:20:26.383] - [INFO] - writing response back for turn 52 for player 1
+20/09/2014 03:20:26.383] - [INFO] - message sent: took 6,298,371
+20/09/2014 03:20:26.493] - [INFO] - writing response back for turn 53 for player 1
+20/09/2014 03:20:26.497] - [INFO] - message sent: took 10,656,265
+20/09/2014 03:20:26.603] - [INFO] - writing response back for turn 54 for player 1
+20/09/2014 03:20:26.604] - [INFO] - message sent: took 6,866,424
+20/09/2014 03:20:26.713] - [INFO] - writing response back for turn 55 for player 1
+20/09/2014 03:20:26.714] - [INFO] - message sent: took 6,932,278
+20/09/2014 03:20:26.823] - [INFO] - writing response back for turn 56 for player 1
+20/09/2014 03:20:26.825] - [INFO] - message sent: took 6,836,998
+20/09/2014 03:20:26.932] - [INFO] - writing response back for turn 57 for player 1
+20/09/2014 03:20:26.933] - [INFO] - message sent: took 6,475,212
+20/09/2014 03:20:27.042] - [INFO] - writing response back for turn 58 for player 1
+20/09/2014 03:20:27.043] - [INFO] - message sent: took 6,050,992
+20/09/2014 03:20:27.151] - [INFO] - writing response back for turn 59 for player 1
+20/09/2014 03:20:27.152] - [INFO] - message sent: took 6,424,579
+20/09/2014 03:20:27.262] - [INFO] - writing response back for turn 60 for player 1
+20/09/2014 03:20:27.263] - [INFO] - message sent: took 6,806,595
+20/09/2014 03:20:27.380] - [INFO] - [id: 0xf8abe228, /127.0.0.1:50976 :> localhost/127.0.0.1:19999] DISCONNECTED
+20/09/2014 03:20:27.381] - [INFO] - [id: 0xf8abe228, /127.0.0.1:50976 :> localhost/127.0.0.1:19999] UNBOUND
+20/09/2014 03:20:27.381] - [INFO] - [id: 0xf8abe228, /127.0.0.1:50976 :> localhost/127.0.0.1:19999] CLOSED
+20/09/2014 03:22:16.977] - [INFO] - Client starting
+20/09/2014 03:22:17.120] - [INFO] - [id: 0x9bf39170] OPEN
+20/09/2014 03:22:17.139] - [INFO] - [id: 0x9bf39170, /127.0.0.1:50977 => localhost/127.0.0.1:19999] BOUND: /127.0.0.1:50977
+20/09/2014 03:22:17.147] - [INFO] - [id: 0x9bf39170, /127.0.0.1:50977 => localhost/127.0.0.1:19999] CONNECTED: localhost/127.0.0.1:19999
+20/09/2014 03:22:18.065] - [INFO] - writing response back for turn 1 for player 1
+20/09/2014 03:22:18.076] - [INFO] - message sent: took 17,567,387
+20/09/2014 03:22:18.201] - [INFO] - writing response back for turn 2 for player 1
+20/09/2014 03:22:18.203] - [INFO] - message sent: took 6,773,324
+20/09/2014 03:22:18.314] - [INFO] - writing response back for turn 3 for player 1
+20/09/2014 03:22:18.316] - [INFO] - message sent: took 6,940,495
+20/09/2014 03:22:18.427] - [INFO] - writing response back for turn 4 for player 1
+20/09/2014 03:22:18.430] - [INFO] - message sent: took 8,171,289
+20/09/2014 03:22:18.547] - [INFO] - writing response back for turn 5 for player 1
+20/09/2014 03:22:18.548] - [INFO] - message sent: took 7,127,737
+20/09/2014 03:22:18.660] - [INFO] - writing response back for turn 6 for player 1
+20/09/2014 03:22:18.662] - [INFO] - message sent: took 7,428,989
+20/09/2014 03:22:18.780] - [INFO] - writing response back for turn 7 for player 1
+20/09/2014 03:22:18.782] - [INFO] - message sent: took 14,797,757
+20/09/2014 03:22:18.893] - [INFO] - writing response back for turn 8 for player 1
+20/09/2014 03:22:18.898] - [INFO] - message sent: took 10,372,608
+20/09/2014 03:22:19.006] - [INFO] - writing response back for turn 9 for player 1
+20/09/2014 03:22:19.007] - [INFO] - message sent: took 6,404,090
+20/09/2014 03:22:19.116] - [INFO] - writing response back for turn 10 for player 1
+20/09/2014 03:22:19.118] - [INFO] - message sent: took 6,932,807
+20/09/2014 03:22:19.228] - [INFO] - writing response back for turn 11 for player 1
+20/09/2014 03:22:19.231] - [INFO] - message sent: took 7,565,362
+20/09/2014 03:22:19.342] - [INFO] - writing response back for turn 12 for player 1
+20/09/2014 03:22:19.343] - [INFO] - message sent: took 7,327,274
+20/09/2014 03:22:19.454] - [INFO] - writing response back for turn 13 for player 1
+20/09/2014 03:22:19.455] - [INFO] - message sent: took 7,387,825
+20/09/2014 03:22:19.565] - [INFO] - writing response back for turn 14 for player 1
+20/09/2014 03:22:19.566] - [INFO] - message sent: took 7,308,750
+20/09/2014 03:22:19.675] - [INFO] - writing response back for turn 15 for player 1
+20/09/2014 03:22:19.677] - [INFO] - message sent: took 7,402,086
+20/09/2014 03:22:19.786] - [INFO] - writing response back for turn 16 for player 1
+20/09/2014 03:22:19.787] - [INFO] - message sent: took 6,375,456
+20/09/2014 03:22:19.898] - [INFO] - writing response back for turn 17 for player 1
+20/09/2014 03:22:19.900] - [INFO] - message sent: took 8,760,743
+20/09/2014 03:22:20.014] - [INFO] - writing response back for turn 18 for player 1
+20/09/2014 03:22:20.016] - [INFO] - message sent: took 11,743,241
+20/09/2014 03:22:20.133] - [INFO] - writing response back for turn 19 for player 1
+20/09/2014 03:22:20.134] - [INFO] - message sent: took 9,790,038
+20/09/2014 03:22:20.245] - [INFO] - writing response back for turn 20 for player 1
+20/09/2014 03:22:20.247] - [INFO] - message sent: took 7,084,015
+20/09/2014 03:22:20.355] - [INFO] - writing response back for turn 21 for player 1
+20/09/2014 03:22:20.356] - [INFO] - message sent: took 6,416,548
+20/09/2014 03:22:20.466] - [INFO] - [id: 0x9bf39170, /127.0.0.1:50977 :> localhost/127.0.0.1:19999] DISCONNECTED
+20/09/2014 03:22:20.467] - [INFO] - [id: 0x9bf39170, /127.0.0.1:50977 :> localhost/127.0.0.1:19999] UNBOUND
+20/09/2014 03:22:20.467] - [INFO] - [id: 0x9bf39170, /127.0.0.1:50977 :> localhost/127.0.0.1:19999] CLOSED
+20/09/2014 03:22:29.000] - [INFO] - Client starting
+20/09/2014 03:22:29.128] - [INFO] - [id: 0x915a545c] OPEN
+20/09/2014 03:22:29.148] - [INFO] - [id: 0x915a545c, /127.0.0.1:50978 => localhost/127.0.0.1:19999] BOUND: /127.0.0.1:50978
+20/09/2014 03:22:29.149] - [INFO] - [id: 0x915a545c, /127.0.0.1:50978 => localhost/127.0.0.1:19999] CONNECTED: localhost/127.0.0.1:19999
+20/09/2014 03:22:29.951] - [INFO] - writing response back for turn 1 for player 1
+20/09/2014 03:22:29.959] - [INFO] - message sent: took 14,436,477
+20/09/2014 03:22:30.373] - [INFO] - writing response back for turn 2 for player 1
+20/09/2014 03:22:30.374] - [INFO] - message sent: took 7,118,698
+20/09/2014 03:22:30.488] - [INFO] - writing response back for turn 3 for player 1
+20/09/2014 03:22:30.489] - [INFO] - message sent: took 6,617,942
+20/09/2014 03:22:30.618] - [INFO] - writing response back for turn 4 for player 1
+20/09/2014 03:22:30.620] - [INFO] - message sent: took 7,024,513
+20/09/2014 03:22:30.736] - [INFO] - writing response back for turn 5 for player 1
+20/09/2014 03:22:30.738] - [INFO] - message sent: took 7,323,406
+20/09/2014 03:22:30.848] - [INFO] - writing response back for turn 6 for player 1
+20/09/2014 03:22:30.849] - [INFO] - message sent: took 6,881,406
+20/09/2014 03:22:30.961] - [INFO] - writing response back for turn 7 for player 1
+20/09/2014 03:22:30.962] - [INFO] - message sent: took 6,908,580
+20/09/2014 03:22:31.076] - [INFO] - writing response back for turn 8 for player 1
+20/09/2014 03:22:31.078] - [INFO] - message sent: took 7,478,120
+20/09/2014 03:22:31.186] - [INFO] - [id: 0x915a545c, /127.0.0.1:50978 :> localhost/127.0.0.1:19999] DISCONNECTED
+20/09/2014 03:22:31.187] - [INFO] - [id: 0x915a545c, /127.0.0.1:50978 :> localhost/127.0.0.1:19999] UNBOUND
+20/09/2014 03:22:31.188] - [INFO] - [id: 0x915a545c, /127.0.0.1:50978 :> localhost/127.0.0.1:19999] CLOSED
+20/09/2014 03:22:38.863] - [INFO] - Client starting
+20/09/2014 03:22:38.990] - [INFO] - [id: 0x0648878c] OPEN
+20/09/2014 03:22:39.003] - [INFO] - [id: 0x0648878c, /127.0.0.1:50979 => localhost/127.0.0.1:19999] BOUND: /127.0.0.1:50979
+20/09/2014 03:22:39.005] - [INFO] - [id: 0x0648878c, /127.0.0.1:50979 => localhost/127.0.0.1:19999] CONNECTED: localhost/127.0.0.1:19999
+20/09/2014 03:22:39.840] - [INFO] - writing response back for turn 1 for player 1
+20/09/2014 03:22:39.845] - [INFO] - message sent: took 12,570,031
+20/09/2014 03:22:39.971] - [INFO] - writing response back for turn 2 for player 1
+20/09/2014 03:22:39.973] - [INFO] - message sent: took 7,125,327
+20/09/2014 03:22:40.085] - [INFO] - writing response back for turn 3 for player 1
+20/09/2014 03:22:40.087] - [INFO] - message sent: took 7,479,541
+20/09/2014 03:22:40.198] - [INFO] - writing response back for turn 4 for player 1
+20/09/2014 03:22:40.199] - [INFO] - message sent: took 6,275,739
+20/09/2014 03:22:40.328] - [INFO] - writing response back for turn 5 for player 1
+20/09/2014 03:22:40.330] - [INFO] - message sent: took 7,629,418
+20/09/2014 03:22:40.442] - [INFO] - writing response back for turn 6 for player 1
+20/09/2014 03:22:40.444] - [INFO] - message sent: took 6,381,015
+20/09/2014 03:22:40.557] - [INFO] - writing response back for turn 7 for player 1
+20/09/2014 03:22:40.558] - [INFO] - message sent: took 7,124,220
+20/09/2014 03:22:40.677] - [INFO] - writing response back for turn 8 for player 1
+20/09/2014 03:22:40.683] - [INFO] - message sent: took 11,905,338
+20/09/2014 03:22:40.792] - [INFO] - writing response back for turn 9 for player 1
+20/09/2014 03:22:40.793] - [INFO] - message sent: took 7,274,854
+20/09/2014 03:22:40.904] - [INFO] - writing response back for turn 10 for player 1
+20/09/2014 03:22:40.906] - [INFO] - message sent: took 7,182,427
+20/09/2014 03:22:41.017] - [INFO] - writing response back for turn 11 for player 1
+20/09/2014 03:22:41.019] - [INFO] - message sent: took 6,353,613
+20/09/2014 03:22:41.129] - [INFO] - writing response back for turn 12 for player 1
+20/09/2014 03:22:41.130] - [INFO] - message sent: took 6,952,908
+20/09/2014 03:22:41.242] - [INFO] - writing response back for turn 13 for player 1
+20/09/2014 03:22:41.243] - [INFO] - message sent: took 7,478,955
+20/09/2014 03:22:41.356] - [INFO] - writing response back for turn 14 for player 1
+20/09/2014 03:22:41.358] - [INFO] - message sent: took 6,842,065
+20/09/2014 03:22:41.468] - [INFO] - writing response back for turn 15 for player 1
+20/09/2014 03:22:41.469] - [INFO] - message sent: took 7,250,992
+20/09/2014 03:22:41.582] - [INFO] - writing response back for turn 16 for player 1
+20/09/2014 03:22:41.584] - [INFO] - message sent: took 6,926,762
+20/09/2014 03:22:41.693] - [INFO] - [id: 0x0648878c, /127.0.0.1:50979 :> localhost/127.0.0.1:19999] DISCONNECTED
+20/09/2014 03:22:41.694] - [INFO] - [id: 0x0648878c, /127.0.0.1:50979 :> localhost/127.0.0.1:19999] UNBOUND
+20/09/2014 03:22:41.695] - [INFO] - [id: 0x0648878c, /127.0.0.1:50979 :> localhost/127.0.0.1:19999] CLOSED
+20/09/2014 03:23:24.285] - [INFO] - Client starting
+20/09/2014 03:23:24.419] - [INFO] - [id: 0xeb1b2589] OPEN
+20/09/2014 03:23:24.434] - [INFO] - [id: 0xeb1b2589, /127.0.0.1:50981 => localhost/127.0.0.1:19999] BOUND: /127.0.0.1:50981
+20/09/2014 03:23:24.435] - [INFO] - [id: 0xeb1b2589, /127.0.0.1:50981 => localhost/127.0.0.1:19999] CONNECTED: localhost/127.0.0.1:19999
+20/09/2014 03:23:25.385] - [INFO] - writing response back for turn 1 for player 1
+20/09/2014 03:23:25.395] - [INFO] - message sent: took 17,320,540
+20/09/2014 03:23:25.515] - [INFO] - writing response back for turn 2 for player 1
+20/09/2014 03:23:25.517] - [INFO] - message sent: took 7,510,789
+20/09/2014 03:23:25.632] - [INFO] - writing response back for turn 3 for player 1
+20/09/2014 03:23:25.635] - [INFO] - message sent: took 7,902,942
+20/09/2014 03:23:25.747] - [INFO] - writing response back for turn 4 for player 1
+20/09/2014 03:23:25.749] - [INFO] - message sent: took 7,863,902
+20/09/2014 03:23:25.874] - [INFO] - writing response back for turn 5 for player 1
+20/09/2014 03:23:25.876] - [INFO] - message sent: took 7,084,178
+20/09/2014 03:23:25.994] - [INFO] - writing response back for turn 6 for player 1
+20/09/2014 03:23:25.998] - [INFO] - message sent: took 10,220,486
+20/09/2014 03:23:26.109] - [INFO] - writing response back for turn 7 for player 1
+20/09/2014 03:23:26.110] - [INFO] - message sent: took 6,714,863
+20/09/2014 03:23:26.219] - [INFO] - writing response back for turn 8 for player 1
+20/09/2014 03:23:26.221] - [INFO] - message sent: took 7,501,224
+20/09/2014 03:23:26.333] - [INFO] - [id: 0xeb1b2589, /127.0.0.1:50981 :> localhost/127.0.0.1:19999] DISCONNECTED
+20/09/2014 03:23:26.334] - [INFO] - [id: 0xeb1b2589, /127.0.0.1:50981 :> localhost/127.0.0.1:19999] UNBOUND
+20/09/2014 03:23:26.335] - [INFO] - [id: 0xeb1b2589, /127.0.0.1:50981 :> localhost/127.0.0.1:19999] CLOSED
+20/09/2014 03:23:31.893] - [INFO] - Client starting
+20/09/2014 03:23:32.028] - [INFO] - [id: 0x9e88a994] OPEN
+20/09/2014 03:23:32.044] - [INFO] - [id: 0x9e88a994, /127.0.0.1:50982 => localhost/127.0.0.1:19999] BOUND: /127.0.0.1:50982
+20/09/2014 03:23:32.046] - [INFO] - [id: 0x9e88a994, /127.0.0.1:50982 => localhost/127.0.0.1:19999] CONNECTED: localhost/127.0.0.1:19999
+20/09/2014 03:23:32.947] - [INFO] - writing response back for turn 1 for player 1
+20/09/2014 03:23:32.955] - [INFO] - message sent: took 14,520,070
+20/09/2014 03:23:33.084] - [INFO] - writing response back for turn 2 for player 1
+20/09/2014 03:23:33.086] - [INFO] - message sent: took 8,061,673
+20/09/2014 03:23:33.203] - [INFO] - writing response back for turn 3 for player 1
+20/09/2014 03:23:33.205] - [INFO] - message sent: took 7,197,478
+20/09/2014 03:23:33.314] - [INFO] - writing response back for turn 4 for player 1
+20/09/2014 03:23:33.316] - [INFO] - message sent: took 7,000,201
+20/09/2014 03:23:33.430] - [INFO] - writing response back for turn 5 for player 1
+20/09/2014 03:23:33.431] - [INFO] - message sent: took 6,822,698
+20/09/2014 03:23:33.542] - [INFO] - writing response back for turn 6 for player 1
+20/09/2014 03:23:33.544] - [INFO] - message sent: took 9,007,165
+20/09/2014 03:23:33.656] - [INFO] - writing response back for turn 7 for player 1
+20/09/2014 03:23:33.659] - [INFO] - message sent: took 9,853,524
+20/09/2014 03:23:33.769] - [INFO] - writing response back for turn 8 for player 1
+20/09/2014 03:23:33.771] - [INFO] - message sent: took 7,323,373
+20/09/2014 03:23:33.881] - [INFO] - writing response back for turn 9 for player 1
+20/09/2014 03:23:33.882] - [INFO] - message sent: took 6,660,053
+20/09/2014 03:23:33.991] - [INFO] - writing response back for turn 10 for player 1
+20/09/2014 03:23:33.992] - [INFO] - message sent: took 6,838,960
+20/09/2014 03:23:34.103] - [INFO] - writing response back for turn 11 for player 1
+20/09/2014 03:23:34.104] - [INFO] - message sent: took 7,357,273
+20/09/2014 03:23:34.210] - [INFO] - [id: 0x9e88a994, /127.0.0.1:50982 :> localhost/127.0.0.1:19999] DISCONNECTED
+20/09/2014 03:23:34.212] - [INFO] - [id: 0x9e88a994, /127.0.0.1:50982 :> localhost/127.0.0.1:19999] UNBOUND
+20/09/2014 03:23:34.213] - [INFO] - [id: 0x9e88a994, /127.0.0.1:50982 :> localhost/127.0.0.1:19999] CLOSED
+20/09/2014 03:23:45.828] - [INFO] - Client starting
+20/09/2014 03:23:45.948] - [INFO] - [id: 0x24d39b1e] OPEN
+20/09/2014 03:23:45.960] - [INFO] - [id: 0x24d39b1e, /127.0.0.1:50983 => localhost/127.0.0.1:19999] BOUND: /127.0.0.1:50983
+20/09/2014 03:23:45.962] - [INFO] - [id: 0x24d39b1e, /127.0.0.1:50983 => localhost/127.0.0.1:19999] CONNECTED: localhost/127.0.0.1:19999
+20/09/2014 03:23:46.785] - [INFO] - writing response back for turn 1 for player 1
+20/09/2014 03:23:46.791] - [INFO] - message sent: took 11,995,997
+20/09/2014 03:23:47.205] - [INFO] - writing response back for turn 2 for player 1
+20/09/2014 03:23:47.207] - [INFO] - message sent: took 17,840,292
+20/09/2014 03:23:47.317] - [INFO] - writing response back for turn 3 for player 1
+20/09/2014 03:23:47.320] - [INFO] - message sent: took 8,094,128
+20/09/2014 03:23:47.438] - [INFO] - writing response back for turn 4 for player 1
+20/09/2014 03:23:47.440] - [INFO] - message sent: took 15,307,004
+20/09/2014 03:23:47.551] - [INFO] - writing response back for turn 5 for player 1
+20/09/2014 03:23:47.553] - [INFO] - message sent: took 8,399,499
+20/09/2014 03:23:47.664] - [INFO] - writing response back for turn 6 for player 1
+20/09/2014 03:23:47.668] - [INFO] - message sent: took 12,115,418
+20/09/2014 03:23:47.780] - [INFO] - writing response back for turn 7 for player 1
+20/09/2014 03:23:47.782] - [INFO] - message sent: took 8,861,675
+20/09/2014 03:23:47.897] - [INFO] - writing response back for turn 8 for player 1
+20/09/2014 03:23:47.898] - [INFO] - message sent: took 12,215,270
+20/09/2014 03:23:48.009] - [INFO] - writing response back for turn 9 for player 1
+20/09/2014 03:23:48.014] - [INFO] - message sent: took 11,162,882
+20/09/2014 03:23:48.124] - [INFO] - writing response back for turn 10 for player 1
+20/09/2014 03:23:48.125] - [INFO] - message sent: took 7,786,798
+20/09/2014 03:23:48.237] - [INFO] - writing response back for turn 11 for player 1
+20/09/2014 03:23:48.238] - [INFO] - message sent: took 6,577,664
+20/09/2014 03:23:48.348] - [INFO] - writing response back for turn 12 for player 1
+20/09/2014 03:23:48.350] - [INFO] - message sent: took 7,120,270
+20/09/2014 03:23:48.474] - [INFO] - writing response back for turn 13 for player 1
+20/09/2014 03:23:48.476] - [INFO] - message sent: took 17,454,320
+20/09/2014 03:23:48.593] - [INFO] - writing response back for turn 14 for player 1
+20/09/2014 03:23:48.606] - [INFO] - message sent: took 18,497,210
+20/09/2014 03:23:48.723] - [INFO] - writing response back for turn 15 for player 1
+20/09/2014 03:23:48.727] - [INFO] - message sent: took 9,794,545
+20/09/2014 03:23:48.837] - [INFO] - writing response back for turn 16 for player 1
+20/09/2014 03:23:48.843] - [INFO] - message sent: took 11,756,006
+20/09/2014 03:23:48.956] - [INFO] - writing response back for turn 17 for player 1
+20/09/2014 03:23:48.959] - [INFO] - message sent: took 8,882,368
+20/09/2014 03:23:49.068] - [INFO] - writing response back for turn 18 for player 1
+20/09/2014 03:23:49.069] - [INFO] - message sent: took 6,426,974
+20/09/2014 03:23:49.178] - [INFO] - writing response back for turn 19 for player 1
+20/09/2014 03:23:49.180] - [INFO] - message sent: took 7,360,881
+20/09/2014 03:23:49.291] - [INFO] - writing response back for turn 20 for player 1
+20/09/2014 03:23:49.295] - [INFO] - message sent: took 10,935,992
+20/09/2014 03:23:49.410] - [INFO] - writing response back for turn 21 for player 1
+20/09/2014 03:23:49.411] - [INFO] - message sent: took 10,938,399
+20/09/2014 03:23:49.521] - [INFO] - writing response back for turn 22 for player 1
+20/09/2014 03:23:49.525] - [INFO] - message sent: took 9,301,628
+20/09/2014 03:23:49.634] - [INFO] - writing response back for turn 23 for player 1
+20/09/2014 03:23:49.635] - [INFO] - message sent: took 7,030,404
+20/09/2014 03:23:49.746] - [INFO] - writing response back for turn 24 for player 1
+20/09/2014 03:23:49.747] - [INFO] - message sent: took 7,104,677
+20/09/2014 03:23:49.858] - [INFO] - writing response back for turn 25 for player 1
+20/09/2014 03:23:49.860] - [INFO] - message sent: took 7,831,498
+20/09/2014 03:23:49.969] - [INFO] - writing response back for turn 26 for player 1
+20/09/2014 03:23:49.971] - [INFO] - message sent: took 7,309,290
+20/09/2014 03:23:50.081] - [INFO] - writing response back for turn 27 for player 1
+20/09/2014 03:23:50.084] - [INFO] - message sent: took 8,558,364
+20/09/2014 03:23:50.192] - [INFO] - writing response back for turn 28 for player 1
+20/09/2014 03:23:50.199] - [INFO] - message sent: took 12,661,599
+20/09/2014 03:23:50.308] - [INFO] - writing response back for turn 29 for player 1
+20/09/2014 03:23:50.310] - [INFO] - message sent: took 7,559,049
+20/09/2014 03:23:50.420] - [INFO] - writing response back for turn 30 for player 1
+20/09/2014 03:23:50.422] - [INFO] - message sent: took 6,652,712
+20/09/2014 03:23:50.531] - [INFO] - writing response back for turn 31 for player 1
+20/09/2014 03:23:50.532] - [INFO] - message sent: took 6,364,656
+20/09/2014 03:23:50.642] - [INFO] - writing response back for turn 32 for player 1
+20/09/2014 03:23:50.644] - [INFO] - message sent: took 8,388,858
+20/09/2014 03:23:50.753] - [INFO] - writing response back for turn 33 for player 1
+20/09/2014 03:23:50.755] - [INFO] - message sent: took 7,196,133
+20/09/2014 03:23:50.860] - [INFO] - [id: 0x24d39b1e, /127.0.0.1:50983 :> localhost/127.0.0.1:19999] DISCONNECTED
+20/09/2014 03:23:50.861] - [INFO] - [id: 0x24d39b1e, /127.0.0.1:50983 :> localhost/127.0.0.1:19999] UNBOUND
+20/09/2014 03:23:50.862] - [INFO] - [id: 0x24d39b1e, /127.0.0.1:50983 :> localhost/127.0.0.1:19999] CLOSED
+20/09/2014 03:24:27.089] - [INFO] - Client starting
+20/09/2014 03:24:27.219] - [INFO] - [id: 0x9ca2b10e] OPEN
+20/09/2014 03:24:27.234] - [INFO] - [id: 0x9ca2b10e, /127.0.0.1:50984 => localhost/127.0.0.1:19999] BOUND: /127.0.0.1:50984
+20/09/2014 03:24:27.236] - [INFO] - [id: 0x9ca2b10e, /127.0.0.1:50984 => localhost/127.0.0.1:19999] CONNECTED: localhost/127.0.0.1:19999
+20/09/2014 03:24:28.140] - [INFO] - writing response back for turn 1 for player 1
+20/09/2014 03:24:28.146] - [INFO] - message sent: took 16,536,795
+20/09/2014 03:24:28.269] - [INFO] - writing response back for turn 2 for player 1
+20/09/2014 03:24:28.271] - [INFO] - message sent: took 7,433,812
+20/09/2014 03:24:28.385] - [INFO] - writing response back for turn 3 for player 1
+20/09/2014 03:24:28.386] - [INFO] - message sent: took 6,475,598
+20/09/2014 03:24:28.497] - [INFO] - writing response back for turn 4 for player 1
+20/09/2014 03:24:28.499] - [INFO] - message sent: took 6,558,992
+20/09/2014 03:24:28.613] - [INFO] - writing response back for turn 5 for player 1
+20/09/2014 03:24:28.615] - [INFO] - message sent: took 6,876,148
+20/09/2014 03:24:28.731] - [INFO] - writing response back for turn 6 for player 1
+20/09/2014 03:24:28.732] - [INFO] - message sent: took 6,543,283
+20/09/2014 03:24:28.843] - [INFO] - writing response back for turn 7 for player 1
+20/09/2014 03:24:28.845] - [INFO] - message sent: took 7,981,349
+20/09/2014 03:24:28.961] - [INFO] - writing response back for turn 8 for player 1
+20/09/2014 03:24:28.966] - [INFO] - message sent: took 10,733,817
+20/09/2014 03:24:29.078] - [INFO] - writing response back for turn 9 for player 1
+20/09/2014 03:24:29.079] - [INFO] - message sent: took 7,041,099
+20/09/2014 03:24:29.192] - [INFO] - writing response back for turn 10 for player 1
+20/09/2014 03:24:29.193] - [INFO] - message sent: took 6,874,377
+20/09/2014 03:24:29.306] - [INFO] - writing response back for turn 11 for player 1
+20/09/2014 03:24:29.307] - [INFO] - message sent: took 6,635,313
+20/09/2014 03:24:29.419] - [INFO] - writing response back for turn 12 for player 1
+20/09/2014 03:24:29.421] - [INFO] - message sent: took 7,330,544
+20/09/2014 03:24:29.530] - [INFO] - writing response back for turn 13 for player 1
+20/09/2014 03:24:29.531] - [INFO] - message sent: took 6,161,745
+20/09/2014 03:24:29.641] - [INFO] - writing response back for turn 14 for player 1
+20/09/2014 03:24:29.643] - [INFO] - message sent: took 7,767,977
+20/09/2014 03:24:29.755] - [INFO] - writing response back for turn 15 for player 1
+20/09/2014 03:24:29.757] - [INFO] - message sent: took 7,493,625
+20/09/2014 03:24:29.871] - [INFO] - writing response back for turn 16 for player 1
+20/09/2014 03:24:29.872] - [INFO] - message sent: took 6,782,800
+20/09/2014 03:24:29.983] - [INFO] - [id: 0x9ca2b10e, /127.0.0.1:50984 :> localhost/127.0.0.1:19999] DISCONNECTED
+20/09/2014 03:24:29.984] - [INFO] - [id: 0x9ca2b10e, /127.0.0.1:50984 :> localhost/127.0.0.1:19999] UNBOUND
+20/09/2014 03:24:29.985] - [INFO] - [id: 0x9ca2b10e, /127.0.0.1:50984 :> localhost/127.0.0.1:19999] CLOSED
+20/09/2014 03:24:39.752] - [INFO] - Client starting
+20/09/2014 03:24:39.907] - [INFO] - [id: 0xeeaa91f0] OPEN
+20/09/2014 03:24:39.921] - [INFO] - [id: 0xeeaa91f0, /127.0.0.1:50985 => localhost/127.0.0.1:19999] BOUND: /127.0.0.1:50985
+20/09/2014 03:24:39.923] - [INFO] - [id: 0xeeaa91f0, /127.0.0.1:50985 => localhost/127.0.0.1:19999] CONNECTED: localhost/127.0.0.1:19999
+20/09/2014 03:24:40.784] - [INFO] - writing response back for turn 1 for player 1
+20/09/2014 03:24:40.794] - [INFO] - message sent: took 18,403,267
+20/09/2014 03:24:40.913] - [INFO] - writing response back for turn 2 for player 1
+20/09/2014 03:24:40.918] - [INFO] - message sent: took 10,216,504
+20/09/2014 03:24:41.035] - [INFO] - writing response back for turn 3 for player 1
+20/09/2014 03:24:41.036] - [INFO] - message sent: took 7,156,199
+20/09/2014 03:24:41.147] - [INFO] - writing response back for turn 4 for player 1
+20/09/2014 03:24:41.148] - [INFO] - message sent: took 7,106,491
+20/09/2014 03:24:41.264] - [INFO] - writing response back for turn 5 for player 1
+20/09/2014 03:24:41.266] - [INFO] - message sent: took 8,160,851
+20/09/2014 03:24:41.379] - [INFO] - writing response back for turn 6 for player 1
+20/09/2014 03:24:41.381] - [INFO] - message sent: took 8,241,804
+20/09/2014 03:24:41.516] - [INFO] - writing response back for turn 7 for player 1
+20/09/2014 03:24:41.523] - [INFO] - message sent: took 37,556,957
+20/09/2014 03:24:41.630] - [INFO] - writing response back for turn 8 for player 1
+20/09/2014 03:24:41.632] - [INFO] - message sent: took 6,858,422
+20/09/2014 03:24:41.742] - [INFO] - writing response back for turn 9 for player 1
+20/09/2014 03:24:41.748] - [INFO] - message sent: took 12,200,798
+20/09/2014 03:24:41.861] - [INFO] - writing response back for turn 10 for player 1
+20/09/2014 03:24:41.863] - [INFO] - message sent: took 10,239,683
+20/09/2014 03:24:41.971] - [INFO] - [id: 0xeeaa91f0, /127.0.0.1:50985 :> localhost/127.0.0.1:19999] DISCONNECTED
+20/09/2014 03:24:41.972] - [INFO] - [id: 0xeeaa91f0, /127.0.0.1:50985 :> localhost/127.0.0.1:19999] UNBOUND
+20/09/2014 03:24:41.972] - [INFO] - [id: 0xeeaa91f0, /127.0.0.1:50985 :> localhost/127.0.0.1:19999] CLOSED
+20/09/2014 03:24:57.257] - [INFO] - Client starting
+20/09/2014 03:24:57.399] - [INFO] - [id: 0x692939fa] OPEN
+20/09/2014 03:24:57.420] - [INFO] - [id: 0x692939fa, /127.0.0.1:50986 => localhost/127.0.0.1:19999] BOUND: /127.0.0.1:50986
+20/09/2014 03:24:57.422] - [INFO] - [id: 0x692939fa, /127.0.0.1:50986 => localhost/127.0.0.1:19999] CONNECTED: localhost/127.0.0.1:19999
+20/09/2014 03:24:58.232] - [INFO] - writing response back for turn 1 for player 1
+20/09/2014 03:24:58.238] - [INFO] - message sent: took 13,128,346
+20/09/2014 03:24:58.726] - [INFO] - writing response back for turn 2 for player 1
+20/09/2014 03:24:58.728] - [INFO] - message sent: took 14,896,206
+20/09/2014 03:24:58.837] - [INFO] - writing response back for turn 3 for player 1
+20/09/2014 03:24:58.840] - [INFO] - message sent: took 7,909,563
+20/09/2014 03:24:58.955] - [INFO] - writing response back for turn 4 for player 1
+20/09/2014 03:24:58.956] - [INFO] - message sent: took 8,619,688
+20/09/2014 03:24:59.072] - [INFO] - writing response back for turn 5 for player 1
+20/09/2014 03:24:59.075] - [INFO] - message sent: took 11,754,221
+20/09/2014 03:24:59.184] - [INFO] - writing response back for turn 6 for player 1
+20/09/2014 03:24:59.185] - [INFO] - message sent: took 6,978,612
+20/09/2014 03:24:59.294] - [INFO] - writing response back for turn 7 for player 1
+20/09/2014 03:24:59.296] - [INFO] - message sent: took 8,152,132
+20/09/2014 03:24:59.407] - [INFO] - writing response back for turn 8 for player 1
+20/09/2014 03:24:59.408] - [INFO] - message sent: took 6,914,877
+20/09/2014 03:24:59.517] - [INFO] - writing response back for turn 9 for player 1
+20/09/2014 03:24:59.520] - [INFO] - message sent: took 8,978,320
+20/09/2014 03:24:59.635] - [INFO] - writing response back for turn 10 for player 1
+20/09/2014 03:24:59.637] - [INFO] - message sent: took 9,338,682
+20/09/2014 03:24:59.747] - [INFO] - writing response back for turn 11 for player 1
+20/09/2014 03:24:59.751] - [INFO] - message sent: took 10,787,467
+20/09/2014 03:24:59.867] - [INFO] - writing response back for turn 12 for player 1
+20/09/2014 03:24:59.869] - [INFO] - message sent: took 6,845,635
+20/09/2014 03:24:59.979] - [INFO] - writing response back for turn 13 for player 1
+20/09/2014 03:24:59.981] - [INFO] - message sent: took 8,295,443
+20/09/2014 03:25:00.095] - [INFO] - writing response back for turn 14 for player 1
+20/09/2014 03:25:00.098] - [INFO] - message sent: took 9,567,225
+20/09/2014 03:25:00.207] - [INFO] - writing response back for turn 15 for player 1
+20/09/2014 03:25:00.208] - [INFO] - message sent: took 7,427,389
+20/09/2014 03:25:00.319] - [INFO] - writing response back for turn 16 for player 1
+20/09/2014 03:25:00.325] - [INFO] - message sent: took 12,126,069
+20/09/2014 03:25:00.431] - [INFO] - [id: 0x692939fa, /127.0.0.1:50986 :> localhost/127.0.0.1:19999] DISCONNECTED
+20/09/2014 03:25:00.433] - [INFO] - [id: 0x692939fa, /127.0.0.1:50986 :> localhost/127.0.0.1:19999] UNBOUND
+20/09/2014 03:25:00.434] - [INFO] - [id: 0x692939fa, /127.0.0.1:50986 :> localhost/127.0.0.1:19999] CLOSED
+20/09/2014 03:25:40.888] - [INFO] - Client starting
+20/09/2014 03:25:41.022] - [INFO] - [id: 0x7e08dc9b] OPEN
+20/09/2014 03:25:41.035] - [INFO] - [id: 0x7e08dc9b, /127.0.0.1:50987 => localhost/127.0.0.1:19999] BOUND: /127.0.0.1:50987
+20/09/2014 03:25:41.037] - [INFO] - [id: 0x7e08dc9b, /127.0.0.1:50987 => localhost/127.0.0.1:19999] CONNECTED: localhost/127.0.0.1:19999
+20/09/2014 03:25:41.846] - [INFO] - writing response back for turn 1 for player 1
+20/09/2014 03:25:41.851] - [INFO] - message sent: took 11,906,674
+20/09/2014 03:25:42.291] - [INFO] - writing response back for turn 2 for player 1
+20/09/2014 03:25:42.293] - [INFO] - message sent: took 8,159,480
+20/09/2014 03:25:42.410] - [INFO] - writing response back for turn 3 for player 1
+20/09/2014 03:25:42.411] - [INFO] - message sent: took 6,803,211
+20/09/2014 03:25:42.537] - [INFO] - writing response back for turn 4 for player 1
+20/09/2014 03:25:42.540] - [INFO] - message sent: took 16,600,625
+20/09/2014 03:25:42.648] - [INFO] - writing response back for turn 5 for player 1
+20/09/2014 03:25:42.650] - [INFO] - message sent: took 7,659,592
+20/09/2014 03:25:42.759] - [INFO] - writing response back for turn 6 for player 1
+20/09/2014 03:25:42.762] - [INFO] - message sent: took 7,512,985
+20/09/2014 03:25:42.871] - [INFO] - writing response back for turn 7 for player 1
+20/09/2014 03:25:42.879] - [INFO] - message sent: took 13,752,695
+20/09/2014 03:25:42.989] - [INFO] - writing response back for turn 8 for player 1
+20/09/2014 03:25:42.998] - [INFO] - message sent: took 14,892,099
+20/09/2014 03:25:43.107] - [INFO] - writing response back for turn 9 for player 1
+20/09/2014 03:25:43.108] - [INFO] - message sent: took 6,402,408
+20/09/2014 03:25:43.221] - [INFO] - writing response back for turn 10 for player 1
+20/09/2014 03:25:43.225] - [INFO] - message sent: took 11,226,093
+20/09/2014 03:25:43.336] - [INFO] - writing response back for turn 11 for player 1
+20/09/2014 03:25:43.339] - [INFO] - message sent: took 8,957,630
+20/09/2014 03:25:43.447] - [INFO] - writing response back for turn 12 for player 1
+20/09/2014 03:25:43.452] - [INFO] - message sent: took 10,124,028
+20/09/2014 03:25:43.563] - [INFO] - writing response back for turn 13 for player 1
+20/09/2014 03:25:43.564] - [INFO] - message sent: took 6,320,539
+20/09/2014 03:25:43.676] - [INFO] - writing response back for turn 14 for player 1
+20/09/2014 03:25:43.680] - [INFO] - message sent: took 9,637,543
+20/09/2014 03:25:43.792] - [INFO] - writing response back for turn 15 for player 1
+20/09/2014 03:25:43.795] - [INFO] - message sent: took 8,186,751
+20/09/2014 03:25:43.904] - [INFO] - writing response back for turn 16 for player 1
+20/09/2014 03:25:43.906] - [INFO] - message sent: took 6,291,034
+20/09/2014 03:25:44.015] - [INFO] - [id: 0x7e08dc9b, /127.0.0.1:50987 :> localhost/127.0.0.1:19999] DISCONNECTED
+20/09/2014 03:25:44.016] - [INFO] - [id: 0x7e08dc9b, /127.0.0.1:50987 :> localhost/127.0.0.1:19999] UNBOUND
+20/09/2014 03:25:44.016] - [INFO] - [id: 0x7e08dc9b, /127.0.0.1:50987 :> localhost/127.0.0.1:19999] CLOSED
+20/09/2014 03:25:57.105] - [INFO] - Client starting
+20/09/2014 03:25:57.230] - [INFO] - [id: 0xb4631a10] OPEN
+20/09/2014 03:25:57.243] - [INFO] - [id: 0xb4631a10, /127.0.0.1:50988 => localhost/127.0.0.1:19999] BOUND: /127.0.0.1:50988
+20/09/2014 03:25:57.244] - [INFO] - [id: 0xb4631a10, /127.0.0.1:50988 => localhost/127.0.0.1:19999] CONNECTED: localhost/127.0.0.1:19999
+20/09/2014 03:25:58.063] - [INFO] - writing response back for turn 1 for player 1
+20/09/2014 03:25:58.069] - [INFO] - message sent: took 13,290,710
+20/09/2014 03:25:58.502] - [INFO] - writing response back for turn 2 for player 1
+20/09/2014 03:25:58.504] - [INFO] - message sent: took 6,964,998
+20/09/2014 03:25:58.617] - [INFO] - writing response back for turn 3 for player 1
+20/09/2014 03:25:58.619] - [INFO] - message sent: took 7,650,231
+20/09/2014 03:25:58.752] - [INFO] - writing response back for turn 4 for player 1
+20/09/2014 03:25:58.754] - [INFO] - message sent: took 21,382,672
+20/09/2014 03:25:58.865] - [INFO] - writing response back for turn 5 for player 1
+20/09/2014 03:25:58.867] - [INFO] - message sent: took 6,812,841
+20/09/2014 03:25:58.977] - [INFO] - writing response back for turn 6 for player 1
+20/09/2014 03:25:58.978] - [INFO] - message sent: took 7,113,378
+20/09/2014 03:25:59.096] - [INFO] - writing response back for turn 7 for player 1
+20/09/2014 03:25:59.098] - [INFO] - message sent: took 7,374,112
+20/09/2014 03:25:59.218] - [INFO] - writing response back for turn 8 for player 1
+20/09/2014 03:25:59.220] - [INFO] - message sent: took 8,322,437
+20/09/2014 03:25:59.336] - [INFO] - writing response back for turn 9 for player 1
+20/09/2014 03:25:59.340] - [INFO] - message sent: took 10,943,419
+20/09/2014 03:25:59.446] - [INFO] - writing response back for turn 10 for player 1
+20/09/2014 03:25:59.448] - [INFO] - message sent: took 7,227,003
+20/09/2014 03:25:59.558] - [INFO] - writing response back for turn 11 for player 1
+20/09/2014 03:25:59.560] - [INFO] - message sent: took 7,148,681
+20/09/2014 03:25:59.672] - [INFO] - writing response back for turn 12 for player 1
+20/09/2014 03:25:59.677] - [INFO] - message sent: took 8,129,570
+20/09/2014 03:25:59.785] - [INFO] - writing response back for turn 13 for player 1
+20/09/2014 03:25:59.788] - [INFO] - message sent: took 7,459,490
+20/09/2014 03:25:59.908] - [INFO] - writing response back for turn 14 for player 1
+20/09/2014 03:25:59.910] - [INFO] - message sent: took 8,026,002
+20/09/2014 03:26:00.026] - [INFO] - writing response back for turn 15 for player 1
+20/09/2014 03:26:00.028] - [INFO] - message sent: took 13,889,544
+20/09/2014 03:26:00.144] - [INFO] - writing response back for turn 16 for player 1
+20/09/2014 03:26:00.149] - [INFO] - message sent: took 16,371,931
+20/09/2014 03:26:00.267] - [INFO] - writing response back for turn 17 for player 1
+20/09/2014 03:26:00.274] - [INFO] - message sent: took 14,531,003
+20/09/2014 03:26:00.382] - [INFO] - writing response back for turn 18 for player 1
+20/09/2014 03:26:00.385] - [INFO] - message sent: took 7,874,331
+20/09/2014 03:26:00.493] - [INFO] - writing response back for turn 19 for player 1
+20/09/2014 03:26:00.495] - [INFO] - message sent: took 6,931,584
+20/09/2014 03:26:00.603] - [INFO] - writing response back for turn 20 for player 1
+20/09/2014 03:26:00.604] - [INFO] - message sent: took 6,134,025
+20/09/2014 03:26:00.713] - [INFO] - writing response back for turn 21 for player 1
+20/09/2014 03:26:00.715] - [INFO] - message sent: took 6,649,241
+20/09/2014 03:26:00.825] - [INFO] - writing response back for turn 22 for player 1
+20/09/2014 03:26:00.827] - [INFO] - message sent: took 7,054,261
+20/09/2014 03:26:00.937] - [INFO] - writing response back for turn 23 for player 1
+20/09/2014 03:26:00.939] - [INFO] - message sent: took 6,839,786
+20/09/2014 03:26:01.049] - [INFO] - writing response back for turn 24 for player 1
+20/09/2014 03:26:01.050] - [INFO] - message sent: took 6,541,082
+20/09/2014 03:26:01.159] - [INFO] - writing response back for turn 25 for player 1
+20/09/2014 03:26:01.161] - [INFO] - message sent: took 7,200,372
+20/09/2014 03:26:01.270] - [INFO] - writing response back for turn 26 for player 1
+20/09/2014 03:26:01.271] - [INFO] - message sent: took 6,247,073
+20/09/2014 03:26:01.380] - [INFO] - writing response back for turn 27 for player 1
+20/09/2014 03:26:01.382] - [INFO] - message sent: took 7,264,269
+20/09/2014 03:26:01.493] - [INFO] - writing response back for turn 28 for player 1
+20/09/2014 03:26:01.494] - [INFO] - message sent: took 6,363,852
+20/09/2014 03:26:01.603] - [INFO] - writing response back for turn 29 for player 1
+20/09/2014 03:26:01.604] - [INFO] - message sent: took 6,435,650
+20/09/2014 03:26:01.713] - [INFO] - writing response back for turn 30 for player 1
+20/09/2014 03:26:01.714] - [INFO] - message sent: took 6,589,823
+20/09/2014 03:26:01.824] - [INFO] - writing response back for turn 31 for player 1
+20/09/2014 03:26:01.826] - [INFO] - message sent: took 7,215,673
+20/09/2014 03:26:01.934] - [INFO] - writing response back for turn 32 for player 1
+20/09/2014 03:26:01.938] - [INFO] - message sent: took 8,443,431
+20/09/2014 03:26:02.050] - [INFO] - writing response back for turn 33 for player 1
+20/09/2014 03:26:02.051] - [INFO] - message sent: took 6,526,645
+20/09/2014 03:26:02.165] - [INFO] - writing response back for turn 34 for player 1
+20/09/2014 03:26:02.168] - [INFO] - message sent: took 12,854,913
+20/09/2014 03:26:02.276] - [INFO] - writing response back for turn 35 for player 1
+20/09/2014 03:26:02.279] - [INFO] - message sent: took 8,302,807
+20/09/2014 03:26:02.387] - [INFO] - writing response back for turn 36 for player 1
+20/09/2014 03:26:02.388] - [INFO] - message sent: took 7,198,847
+20/09/2014 03:26:02.499] - [INFO] - writing response back for turn 37 for player 1
+20/09/2014 03:26:02.501] - [INFO] - message sent: took 7,049,409
+20/09/2014 03:26:02.610] - [INFO] - writing response back for turn 38 for player 1
+20/09/2014 03:26:02.610] - [INFO] - message sent: took 6,306,063
+20/09/2014 03:26:02.721] - [INFO] - writing response back for turn 39 for player 1
+20/09/2014 03:26:02.723] - [INFO] - message sent: took 7,900,779
+20/09/2014 03:26:02.828] - [INFO] - [id: 0xb4631a10, /127.0.0.1:50988 :> localhost/127.0.0.1:19999] DISCONNECTED
+20/09/2014 03:26:02.830] - [INFO] - [id: 0xb4631a10, /127.0.0.1:50988 :> localhost/127.0.0.1:19999] UNBOUND
+20/09/2014 03:26:02.831] - [INFO] - [id: 0xb4631a10, /127.0.0.1:50988 :> localhost/127.0.0.1:19999] CLOSED

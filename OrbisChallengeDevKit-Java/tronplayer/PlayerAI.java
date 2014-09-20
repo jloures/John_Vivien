@@ -26,7 +26,7 @@ public class PlayerAI implements Player {
 	public PlayerAction getMove(TronGameBoard map,
 			LightCycle playerCycle, LightCycle opponentCycle, int moveNumber) {
 		
-		return PlayerAction.SAME_DIRECTION; 
+		 return PlayerAction.MOVE_UP;
         
         }
 
