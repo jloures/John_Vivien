@@ -1,0 +1,670 @@
+20/09/2014 01:23:04.474 - GameLog] - [FINE] - A new game is starting
+20/09/2014 01:23:06.257 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 1
+20/09/2014 01:23:06.257 - ResponseLog] - [FINE] - 0 (3, 10) wants to move RIGHT
+20/09/2014 01:23:06.258 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_UP for turn 1
+20/09/2014 01:23:06.258 - ResponseLog] - [FINE] - 1 (17, 10) wants to move UP
+20/09/2014 01:23:07.504 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 2
+20/09/2014 01:23:07.505 - ResponseLog] - [FINE] - 0 (4, 10) wants to move RIGHT
+20/09/2014 01:23:07.505 - ResponseLog] - [FINE] - tronplayer responded with move SAME_DIRECTION for turn 2
+20/09/2014 01:23:07.506 - ResponseLog] - [FINE] - 1 (17, 9) wants to move UP
+20/09/2014 01:23:07.645 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 3
+20/09/2014 01:23:07.645 - ResponseLog] - [FINE] - 0 (5, 10) wants to move RIGHT
+20/09/2014 01:23:07.646 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_UP for turn 3
+20/09/2014 01:23:07.646 - ResponseLog] - [FINE] - 1 (17, 8) wants to move UP
+20/09/2014 01:23:07.757 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 4
+20/09/2014 01:23:07.758 - ResponseLog] - [FINE] - 0 (6, 10) wants to move RIGHT
+20/09/2014 01:23:07.758 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_DOWN for turn 4
+20/09/2014 01:23:07.758 - ResponseLog] - [FINE] - 1 (17, 7) wants to move UP
+20/09/2014 01:23:07.875 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 5
+20/09/2014 01:23:07.876 - ResponseLog] - [FINE] - 0 (7, 10) wants to move RIGHT
+20/09/2014 01:23:07.876 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_RIGHT for turn 5
+20/09/2014 01:23:07.877 - ResponseLog] - [FINE] - 1 (17, 6) wants to move RIGHT
+20/09/2014 01:23:07.986 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 6
+20/09/2014 01:23:07.986 - ResponseLog] - [FINE] - 0 (8, 10) wants to move RIGHT
+20/09/2014 01:23:07.986 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_UP for turn 6
+20/09/2014 01:23:07.987 - ResponseLog] - [FINE] - 1 (18, 6) wants to move UP
+20/09/2014 01:23:08.098 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 7
+20/09/2014 01:23:08.098 - ResponseLog] - [FINE] - 0 (9, 10) wants to move RIGHT
+20/09/2014 01:23:08.099 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_UP for turn 7
+20/09/2014 01:23:08.099 - ResponseLog] - [FINE] - 1 (18, 5) wants to move UP
+20/09/2014 01:23:08.214 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 8
+20/09/2014 01:23:08.214 - ResponseLog] - [FINE] - 0 (10, 10) wants to move RIGHT
+20/09/2014 01:23:08.215 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_UP for turn 8
+20/09/2014 01:23:08.215 - ResponseLog] - [FINE] - 1 (18, 4) wants to move UP
+20/09/2014 01:23:08.324 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 9
+20/09/2014 01:23:08.324 - ResponseLog] - [FINE] - 0 (11, 10) wants to move RIGHT
+20/09/2014 01:23:08.325 - ResponseLog] - [FINE] - tronplayer responded with move SAME_DIRECTION for turn 9
+20/09/2014 01:23:08.325 - ResponseLog] - [FINE] - 1 (18, 3) wants to move UP
+20/09/2014 01:23:08.436 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 10
+20/09/2014 01:23:08.436 - ResponseLog] - [FINE] - 0 (12, 10) wants to move RIGHT
+20/09/2014 01:23:08.437 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_LEFT for turn 10
+20/09/2014 01:23:08.437 - ResponseLog] - [FINE] - 1 (18, 2) wants to move LEFT
+20/09/2014 01:23:08.549 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 11
+20/09/2014 01:23:08.549 - ResponseLog] - [FINE] - 0 (13, 10) wants to move RIGHT
+20/09/2014 01:23:08.550 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_RIGHT for turn 11
+20/09/2014 01:23:08.665 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 12
+20/09/2014 01:23:08.665 - ResponseLog] - [FINE] - 0 (14, 10) wants to move RIGHT
+20/09/2014 01:23:08.666 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_RIGHT for turn 12
+20/09/2014 01:23:08.776 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 13
+20/09/2014 01:23:08.777 - ResponseLog] - [FINE] - 0 (15, 10) wants to move RIGHT
+20/09/2014 01:23:08.777 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_DOWN for turn 13
+20/09/2014 01:23:08.777 - ResponseLog] - [FINE] - 1 (15, 2) wants to move DOWN
+20/09/2014 01:23:08.887 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 14
+20/09/2014 01:23:08.887 - ResponseLog] - [FINE] - 0 (16, 10) wants to move RIGHT
+20/09/2014 01:23:08.888 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_LEFT for turn 14
+20/09/2014 01:23:08.888 - ResponseLog] - [FINE] - 1 (15, 3) wants to move LEFT
+20/09/2014 01:23:08.998 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 15
+20/09/2014 01:23:08.998 - ResponseLog] - [FINE] - 0 (17, 10) wants to move RIGHT
+20/09/2014 01:23:08.998 - ResponseLog] - [FINE] - tronplayer responded with move SAME_DIRECTION for turn 15
+20/09/2014 01:23:08.999 - ResponseLog] - [FINE] - 1 (14, 3) wants to move LEFT
+20/09/2014 01:23:09.112 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 16
+20/09/2014 01:23:09.112 - ResponseLog] - [FINE] - 0 (17, 10) wants to move RIGHT
+20/09/2014 01:23:09.113 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_UP for turn 16
+20/09/2014 01:23:09.113 - ResponseLog] - [FINE] - 1 (13, 3) wants to move UP
+20/09/2014 01:23:09.228 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 17
+20/09/2014 01:23:09.229 - ResponseLog] - [FINE] - 0 (17, 10) wants to move RIGHT
+20/09/2014 01:23:09.229 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_RIGHT for turn 17
+20/09/2014 01:23:09.230 - ResponseLog] - [FINE] - 1 (13, 2) wants to move RIGHT
+20/09/2014 01:23:09.340 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 18
+20/09/2014 01:23:09.340 - ResponseLog] - [FINE] - 0 (17, 10) wants to move RIGHT
+20/09/2014 01:23:09.341 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_UP for turn 18
+20/09/2014 01:23:09.341 - ResponseLog] - [FINE] - 1 (14, 2) wants to move UP
+20/09/2014 01:23:09.452 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 19
+20/09/2014 01:23:09.452 - ResponseLog] - [FINE] - 0 (17, 10) wants to move RIGHT
+20/09/2014 01:23:09.453 - ResponseLog] - [FINE] - tronplayer responded with move SAME_DIRECTION for turn 19
+20/09/2014 01:23:09.453 - ResponseLog] - [FINE] - 1 (14, 1) wants to move UP
+20/09/2014 01:23:09.617 - GameLog] - [FINE] - Player tronplayer left
+20/09/2014 01:23:58.392 - GameLog] - [FINE] - A new game is starting
+20/09/2014 01:23:58.896 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 1
+20/09/2014 01:23:58.896 - ResponseLog] - [FINE] - 0 (3, 10) wants to move RIGHT
+20/09/2014 01:23:58.897 - ResponseLog] - [FINE] - tronplayer responded with move SAME_DIRECTION for turn 1
+20/09/2014 01:23:58.898 - ResponseLog] - [FINE] - 1 (17, 10) wants to move LEFT
+20/09/2014 01:23:59.014 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 2
+20/09/2014 01:23:59.014 - ResponseLog] - [FINE] - 0 (4, 10) wants to move RIGHT
+20/09/2014 01:23:59.015 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_DOWN for turn 2
+20/09/2014 01:23:59.015 - ResponseLog] - [FINE] - 1 (16, 10) wants to move DOWN
+20/09/2014 01:23:59.125 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 3
+20/09/2014 01:23:59.126 - ResponseLog] - [FINE] - 0 (5, 10) wants to move RIGHT
+20/09/2014 01:23:59.126 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_UP for turn 3
+20/09/2014 01:23:59.126 - ResponseLog] - [FINE] - 1 (16, 11) wants to move DOWN
+20/09/2014 01:23:59.238 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 4
+20/09/2014 01:23:59.238 - ResponseLog] - [FINE] - 0 (6, 10) wants to move RIGHT
+20/09/2014 01:23:59.239 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_RIGHT for turn 4
+20/09/2014 01:23:59.239 - ResponseLog] - [FINE] - 1 (16, 12) wants to move RIGHT
+20/09/2014 01:23:59.353 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 5
+20/09/2014 01:23:59.355 - ResponseLog] - [FINE] - 0 (7, 10) wants to move RIGHT
+20/09/2014 01:23:59.356 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_RIGHT for turn 5
+20/09/2014 01:23:59.357 - ResponseLog] - [FINE] - 1 (17, 12) wants to move RIGHT
+20/09/2014 01:23:59.468 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 6
+20/09/2014 01:23:59.469 - ResponseLog] - [FINE] - 0 (8, 10) wants to move RIGHT
+20/09/2014 01:23:59.469 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_RIGHT for turn 6
+20/09/2014 01:23:59.470 - ResponseLog] - [FINE] - 1 (18, 12) wants to move RIGHT
+20/09/2014 01:23:59.586 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 7
+20/09/2014 01:23:59.587 - ResponseLog] - [FINE] - 0 (9, 10) wants to move RIGHT
+20/09/2014 01:23:59.587 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_UP for turn 7
+20/09/2014 01:23:59.587 - ResponseLog] - [FINE] - 1 (19, 12) wants to move UP
+20/09/2014 01:23:59.699 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 8
+20/09/2014 01:23:59.700 - ResponseLog] - [FINE] - 0 (10, 10) wants to move RIGHT
+20/09/2014 01:23:59.700 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_RIGHT for turn 8
+20/09/2014 01:23:59.700 - ResponseLog] - [FINE] - 1 (19, 11) wants to move RIGHT
+20/09/2014 01:23:59.810 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 9
+20/09/2014 01:23:59.810 - ResponseLog] - [FINE] - 0 (11, 10) wants to move RIGHT
+20/09/2014 01:23:59.811 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_LEFT for turn 9
+20/09/2014 01:23:59.811 - ResponseLog] - [FINE] - 1 (20, 11) wants to move RIGHT
+20/09/2014 01:23:59.924 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 10
+20/09/2014 01:23:59.925 - ResponseLog] - [FINE] - 0 (12, 10) wants to move RIGHT
+20/09/2014 01:23:59.925 - ResponseLog] - [FINE] - tronplayer responded with move SAME_DIRECTION for turn 10
+20/09/2014 01:23:59.925 - ResponseLog] - [FINE] - 1 (20, 11) wants to move RIGHT
+20/09/2014 01:24:00.034 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 11
+20/09/2014 01:24:00.034 - ResponseLog] - [FINE] - 0 (13, 10) wants to move RIGHT
+20/09/2014 01:24:00.035 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_RIGHT for turn 11
+20/09/2014 01:24:00.035 - ResponseLog] - [FINE] - 1 (20, 11) wants to move RIGHT
+20/09/2014 01:24:00.146 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 12
+20/09/2014 01:24:00.146 - ResponseLog] - [FINE] - 0 (14, 10) wants to move RIGHT
+20/09/2014 01:24:00.147 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_DOWN for turn 12
+20/09/2014 01:24:00.147 - ResponseLog] - [FINE] - 1 (20, 11) wants to move DOWN
+20/09/2014 01:24:00.259 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 13
+20/09/2014 01:24:00.259 - ResponseLog] - [FINE] - 0 (15, 10) wants to move RIGHT
+20/09/2014 01:24:00.260 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_LEFT for turn 13
+20/09/2014 01:24:00.260 - ResponseLog] - [FINE] - 1 (20, 11) wants to move RIGHT
+20/09/2014 01:24:00.364 - GameLog] - [FINE] - Player tronplayer left
+20/09/2014 01:26:50.568 - GameLog] - [FINE] - A new game is starting
+20/09/2014 01:26:51.042 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 1
+20/09/2014 01:26:51.043 - ResponseLog] - [FINE] - 0 (3, 10) wants to move RIGHT
+20/09/2014 01:26:51.043 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_RIGHT for turn 1
+20/09/2014 01:26:51.425 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 2
+20/09/2014 01:26:51.426 - ResponseLog] - [FINE] - 0 (4, 10) wants to move RIGHT
+20/09/2014 01:26:51.427 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_UP for turn 2
+20/09/2014 01:26:51.427 - ResponseLog] - [FINE] - 1 (16, 10) wants to move UP
+20/09/2014 01:26:51.541 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 3
+20/09/2014 01:26:51.541 - ResponseLog] - [FINE] - 0 (5, 10) wants to move RIGHT
+20/09/2014 01:26:51.542 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_LEFT for turn 3
+20/09/2014 01:26:51.542 - ResponseLog] - [FINE] - 1 (16, 9) wants to move LEFT
+20/09/2014 01:26:51.657 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 4
+20/09/2014 01:26:51.657 - ResponseLog] - [FINE] - 0 (6, 10) wants to move RIGHT
+20/09/2014 01:26:51.658 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_UP for turn 4
+20/09/2014 01:26:51.658 - ResponseLog] - [FINE] - 1 (15, 9) wants to move UP
+20/09/2014 01:26:51.769 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 5
+20/09/2014 01:26:51.770 - ResponseLog] - [FINE] - 0 (7, 10) wants to move RIGHT
+20/09/2014 01:26:51.770 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_RIGHT for turn 5
+20/09/2014 01:26:51.771 - ResponseLog] - [FINE] - 1 (15, 8) wants to move RIGHT
+20/09/2014 01:26:51.882 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 6
+20/09/2014 01:26:51.883 - ResponseLog] - [FINE] - 0 (8, 10) wants to move RIGHT
+20/09/2014 01:26:51.883 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_UP for turn 6
+20/09/2014 01:26:51.883 - ResponseLog] - [FINE] - 1 (16, 8) wants to move UP
+20/09/2014 01:26:51.994 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 7
+20/09/2014 01:26:51.994 - ResponseLog] - [FINE] - 0 (9, 10) wants to move RIGHT
+20/09/2014 01:26:51.995 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_UP for turn 7
+20/09/2014 01:26:51.995 - ResponseLog] - [FINE] - 1 (16, 7) wants to move UP
+20/09/2014 01:26:52.107 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 8
+20/09/2014 01:26:52.107 - ResponseLog] - [FINE] - 0 (10, 10) wants to move RIGHT
+20/09/2014 01:26:52.108 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_RIGHT for turn 8
+20/09/2014 01:26:52.108 - ResponseLog] - [FINE] - 1 (16, 6) wants to move RIGHT
+20/09/2014 01:26:52.218 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 9
+20/09/2014 01:26:52.218 - ResponseLog] - [FINE] - 0 (11, 10) wants to move RIGHT
+20/09/2014 01:26:52.219 - ResponseLog] - [FINE] - tronplayer responded with move SAME_DIRECTION for turn 9
+20/09/2014 01:26:52.219 - ResponseLog] - [FINE] - 1 (17, 6) wants to move RIGHT
+20/09/2014 01:26:52.328 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 10
+20/09/2014 01:26:52.329 - ResponseLog] - [FINE] - 0 (12, 10) wants to move RIGHT
+20/09/2014 01:26:52.329 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_RIGHT for turn 10
+20/09/2014 01:26:52.329 - ResponseLog] - [FINE] - 1 (18, 6) wants to move RIGHT
+20/09/2014 01:26:52.444 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 11
+20/09/2014 01:26:52.444 - ResponseLog] - [FINE] - 0 (13, 10) wants to move RIGHT
+20/09/2014 01:26:52.445 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_DOWN for turn 11
+20/09/2014 01:26:52.445 - ResponseLog] - [FINE] - 1 (19, 6) wants to move DOWN
+20/09/2014 01:26:52.557 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 12
+20/09/2014 01:26:52.557 - ResponseLog] - [FINE] - 0 (14, 10) wants to move RIGHT
+20/09/2014 01:26:52.558 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_DOWN for turn 12
+20/09/2014 01:26:52.558 - ResponseLog] - [FINE] - 1 (19, 7) wants to move DOWN
+20/09/2014 01:26:52.668 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 13
+20/09/2014 01:26:52.669 - ResponseLog] - [FINE] - 0 (15, 10) wants to move RIGHT
+20/09/2014 01:26:52.669 - ResponseLog] - [FINE] - tronplayer responded with move SAME_DIRECTION for turn 13
+20/09/2014 01:26:52.670 - ResponseLog] - [FINE] - 1 (19, 8) wants to move DOWN
+20/09/2014 01:26:52.779 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 14
+20/09/2014 01:26:52.780 - ResponseLog] - [FINE] - 0 (16, 10) wants to move RIGHT
+20/09/2014 01:26:52.780 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_LEFT for turn 14
+20/09/2014 01:26:52.781 - ResponseLog] - [FINE] - 1 (19, 9) wants to move LEFT
+20/09/2014 01:26:52.892 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 15
+20/09/2014 01:26:52.892 - ResponseLog] - [FINE] - 0 (16, 10) wants to move RIGHT
+20/09/2014 01:26:52.893 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_RIGHT for turn 15
+20/09/2014 01:26:53.005 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 16
+20/09/2014 01:26:53.005 - ResponseLog] - [FINE] - 0 (16, 10) wants to move RIGHT
+20/09/2014 01:26:53.005 - ResponseLog] - [FINE] - tronplayer responded with move SAME_DIRECTION for turn 16
+20/09/2014 01:26:53.006 - ResponseLog] - [FINE] - 1 (17, 9) wants to move LEFT
+20/09/2014 01:26:53.110 - GameLog] - [FINE] - Player tronplayer left
+20/09/2014 01:27:07.952 - GameLog] - [FINE] - A new game is starting
+20/09/2014 01:27:08.430 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 1
+20/09/2014 01:27:08.431 - ResponseLog] - [FINE] - 0 (3, 10) wants to move RIGHT
+20/09/2014 01:27:08.431 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_LEFT for turn 1
+20/09/2014 01:27:08.432 - ResponseLog] - [FINE] - 1 (17, 10) wants to move LEFT
+20/09/2014 01:27:08.547 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 2
+20/09/2014 01:27:08.548 - ResponseLog] - [FINE] - 0 (4, 10) wants to move RIGHT
+20/09/2014 01:27:08.548 - ResponseLog] - [FINE] - tronplayer responded with move SAME_DIRECTION for turn 2
+20/09/2014 01:27:08.548 - ResponseLog] - [FINE] - 1 (16, 10) wants to move LEFT
+20/09/2014 01:27:08.659 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 3
+20/09/2014 01:27:08.659 - ResponseLog] - [FINE] - 0 (5, 10) wants to move RIGHT
+20/09/2014 01:27:08.660 - ResponseLog] - [FINE] - tronplayer responded with move SAME_DIRECTION for turn 3
+20/09/2014 01:27:08.660 - ResponseLog] - [FINE] - 1 (15, 10) wants to move LEFT
+20/09/2014 01:27:08.770 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 4
+20/09/2014 01:27:08.770 - ResponseLog] - [FINE] - 0 (6, 10) wants to move RIGHT
+20/09/2014 01:27:08.770 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_DOWN for turn 4
+20/09/2014 01:27:08.771 - ResponseLog] - [FINE] - 1 (14, 10) wants to move DOWN
+20/09/2014 01:27:08.885 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 5
+20/09/2014 01:27:08.886 - ResponseLog] - [FINE] - 0 (7, 10) wants to move RIGHT
+20/09/2014 01:27:08.886 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_RIGHT for turn 5
+20/09/2014 01:27:08.887 - ResponseLog] - [FINE] - 1 (14, 11) wants to move RIGHT
+20/09/2014 01:27:08.997 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 6
+20/09/2014 01:27:08.998 - ResponseLog] - [FINE] - 0 (8, 10) wants to move RIGHT
+20/09/2014 01:27:08.998 - ResponseLog] - [FINE] - tronplayer responded with move SAME_DIRECTION for turn 6
+20/09/2014 01:27:08.999 - ResponseLog] - [FINE] - 1 (15, 11) wants to move RIGHT
+20/09/2014 01:27:09.114 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 7
+20/09/2014 01:27:09.115 - ResponseLog] - [FINE] - 0 (9, 10) wants to move RIGHT
+20/09/2014 01:27:09.115 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_DOWN for turn 7
+20/09/2014 01:27:09.115 - ResponseLog] - [FINE] - 1 (16, 11) wants to move DOWN
+20/09/2014 01:27:09.229 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 8
+20/09/2014 01:27:09.230 - ResponseLog] - [FINE] - 0 (10, 10) wants to move RIGHT
+20/09/2014 01:27:09.230 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_UP for turn 8
+20/09/2014 01:27:09.231 - ResponseLog] - [FINE] - 1 (16, 12) wants to move DOWN
+20/09/2014 01:27:09.340 - ResponseLog] - [FINE] - human responded with move MOVE_DOWN for turn 9
+20/09/2014 01:27:09.341 - ResponseLog] - [FINE] - 0 (11, 10) wants to move DOWN
+20/09/2014 01:27:09.342 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_UP for turn 9
+20/09/2014 01:27:09.342 - ResponseLog] - [FINE] - 1 (16, 13) wants to move DOWN
+20/09/2014 01:27:09.451 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 10
+20/09/2014 01:27:09.452 - ResponseLog] - [FINE] - 0 (11, 11) wants to move DOWN
+20/09/2014 01:27:09.452 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_LEFT for turn 10
+20/09/2014 01:27:09.453 - ResponseLog] - [FINE] - 1 (16, 14) wants to move LEFT
+20/09/2014 01:27:09.562 - ResponseLog] - [FINE] - human responded with move MOVE_DOWN for turn 11
+20/09/2014 01:27:09.562 - ResponseLog] - [FINE] - 0 (11, 12) wants to move DOWN
+20/09/2014 01:27:09.563 - ResponseLog] - [FINE] - tronplayer responded with move SAME_DIRECTION for turn 11
+20/09/2014 01:27:09.563 - ResponseLog] - [FINE] - 1 (15, 14) wants to move LEFT
+20/09/2014 01:27:09.674 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 12
+20/09/2014 01:27:09.674 - ResponseLog] - [FINE] - 0 (11, 13) wants to move DOWN
+20/09/2014 01:27:09.674 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_LEFT for turn 12
+20/09/2014 01:27:09.674 - ResponseLog] - [FINE] - 1 (14, 14) wants to move LEFT
+20/09/2014 01:27:09.784 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 13
+20/09/2014 01:27:09.785 - ResponseLog] - [FINE] - 0 (11, 14) wants to move DOWN
+20/09/2014 01:27:09.785 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_LEFT for turn 13
+20/09/2014 01:27:09.785 - ResponseLog] - [FINE] - 1 (13, 14) wants to move LEFT
+20/09/2014 01:27:09.894 - ResponseLog] - [FINE] - human responded with move MOVE_LEFT for turn 14
+20/09/2014 01:27:09.895 - ResponseLog] - [FINE] - 0 (11, 15) wants to move LEFT
+20/09/2014 01:27:09.895 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_DOWN for turn 14
+20/09/2014 01:27:09.895 - ResponseLog] - [FINE] - 1 (12, 14) wants to move DOWN
+20/09/2014 01:27:10.004 - ResponseLog] - [FINE] - human responded with move MOVE_LEFT for turn 15
+20/09/2014 01:27:10.005 - ResponseLog] - [FINE] - 0 (10, 15) wants to move LEFT
+20/09/2014 01:27:10.005 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_DOWN for turn 15
+20/09/2014 01:27:10.005 - ResponseLog] - [FINE] - 1 (12, 15) wants to move DOWN
+20/09/2014 01:27:10.118 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 16
+20/09/2014 01:27:10.119 - ResponseLog] - [FINE] - 0 (9, 15) wants to move LEFT
+20/09/2014 01:27:10.119 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_LEFT for turn 16
+20/09/2014 01:27:10.119 - ResponseLog] - [FINE] - 1 (12, 16) wants to move LEFT
+20/09/2014 01:27:10.230 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 17
+20/09/2014 01:27:10.231 - ResponseLog] - [FINE] - 0 (8, 15) wants to move LEFT
+20/09/2014 01:27:10.231 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_UP for turn 17
+20/09/2014 01:27:10.231 - ResponseLog] - [FINE] - 1 (11, 16) wants to move UP
+20/09/2014 01:27:10.346 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 18
+20/09/2014 01:27:10.347 - ResponseLog] - [FINE] - 0 (7, 15) wants to move LEFT
+20/09/2014 01:27:10.347 - ResponseLog] - [FINE] - tronplayer responded with move SAME_DIRECTION for turn 18
+20/09/2014 01:27:10.347 - ResponseLog] - [FINE] - 1 (11, 15) wants to move UP
+20/09/2014 01:27:10.456 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 19
+20/09/2014 01:27:10.457 - ResponseLog] - [FINE] - 0 (6, 15) wants to move LEFT
+20/09/2014 01:27:10.457 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_RIGHT for turn 19
+20/09/2014 01:27:10.457 - ResponseLog] - [FINE] - 1 (11, 15) wants to move RIGHT
+20/09/2014 01:27:10.567 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 20
+20/09/2014 01:27:10.568 - ResponseLog] - [FINE] - 0 (5, 15) wants to move LEFT
+20/09/2014 01:27:10.568 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_UP for turn 20
+20/09/2014 01:27:10.568 - ResponseLog] - [FINE] - 1 (11, 15) wants to move UP
+20/09/2014 01:27:10.678 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 21
+20/09/2014 01:27:10.679 - ResponseLog] - [FINE] - 0 (4, 15) wants to move LEFT
+20/09/2014 01:27:10.679 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_UP for turn 21
+20/09/2014 01:27:10.679 - ResponseLog] - [FINE] - 1 (11, 15) wants to move UP
+20/09/2014 01:27:10.792 - ResponseLog] - [FINE] - human responded with move MOVE_UP for turn 22
+20/09/2014 01:27:10.793 - ResponseLog] - [FINE] - 0 (3, 15) wants to move UP
+20/09/2014 01:27:10.793 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_DOWN for turn 22
+20/09/2014 01:27:10.793 - ResponseLog] - [FINE] - 1 (11, 15) wants to move UP
+20/09/2014 01:27:10.903 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 23
+20/09/2014 01:27:10.903 - ResponseLog] - [FINE] - 0 (3, 14) wants to move UP
+20/09/2014 01:27:10.903 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_LEFT for turn 23
+20/09/2014 01:27:10.904 - ResponseLog] - [FINE] - 1 (11, 15) wants to move LEFT
+20/09/2014 01:27:11.012 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 24
+20/09/2014 01:27:11.012 - ResponseLog] - [FINE] - 0 (3, 13) wants to move UP
+20/09/2014 01:27:11.012 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_LEFT for turn 24
+20/09/2014 01:27:11.013 - ResponseLog] - [FINE] - 1 (11, 15) wants to move LEFT
+20/09/2014 01:27:11.121 - ResponseLog] - [FINE] - human responded with move MOVE_LEFT for turn 25
+20/09/2014 01:27:11.121 - ResponseLog] - [FINE] - 0 (3, 12) wants to move LEFT
+20/09/2014 01:27:11.122 - ResponseLog] - [FINE] - tronplayer responded with move SAME_DIRECTION for turn 25
+20/09/2014 01:27:11.122 - ResponseLog] - [FINE] - 1 (11, 15) wants to move UP
+20/09/2014 01:27:11.232 - ResponseLog] - [FINE] - human responded with move MOVE_LEFT for turn 26
+20/09/2014 01:27:11.233 - ResponseLog] - [FINE] - 0 (2, 12) wants to move LEFT
+20/09/2014 01:27:11.233 - ResponseLog] - [FINE] - tronplayer responded with move SAME_DIRECTION for turn 26
+20/09/2014 01:27:11.234 - ResponseLog] - [FINE] - 1 (11, 15) wants to move UP
+20/09/2014 01:27:11.343 - ResponseLog] - [FINE] - human responded with move MOVE_UP for turn 27
+20/09/2014 01:27:11.343 - ResponseLog] - [FINE] - 0 (1, 12) wants to move UP
+20/09/2014 01:27:11.344 - ResponseLog] - [FINE] - tronplayer responded with move SAME_DIRECTION for turn 27
+20/09/2014 01:27:11.344 - ResponseLog] - [FINE] - 1 (11, 15) wants to move UP
+20/09/2014 01:27:11.454 - ResponseLog] - [FINE] - human responded with move MOVE_UP for turn 28
+20/09/2014 01:27:11.455 - ResponseLog] - [FINE] - 0 (1, 11) wants to move UP
+20/09/2014 01:27:11.455 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_UP for turn 28
+20/09/2014 01:27:11.455 - ResponseLog] - [FINE] - 1 (11, 15) wants to move UP
+20/09/2014 01:27:11.566 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 29
+20/09/2014 01:27:11.566 - ResponseLog] - [FINE] - 0 (1, 10) wants to move UP
+20/09/2014 01:27:11.566 - ResponseLog] - [FINE] - tronplayer responded with move SAME_DIRECTION for turn 29
+20/09/2014 01:27:11.567 - ResponseLog] - [FINE] - 1 (11, 15) wants to move UP
+20/09/2014 01:27:11.678 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 30
+20/09/2014 01:27:11.679 - ResponseLog] - [FINE] - 0 (1, 9) wants to move UP
+20/09/2014 01:27:11.679 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_DOWN for turn 30
+20/09/2014 01:27:11.679 - ResponseLog] - [FINE] - 1 (11, 15) wants to move UP
+20/09/2014 01:27:11.789 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 31
+20/09/2014 01:27:11.790 - ResponseLog] - [FINE] - 0 (1, 8) wants to move UP
+20/09/2014 01:27:11.790 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_DOWN for turn 31
+20/09/2014 01:27:11.790 - ResponseLog] - [FINE] - 1 (11, 15) wants to move UP
+20/09/2014 01:27:11.899 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 32
+20/09/2014 01:27:11.900 - ResponseLog] - [FINE] - 0 (1, 7) wants to move UP
+20/09/2014 01:27:11.900 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_RIGHT for turn 32
+20/09/2014 01:27:11.901 - ResponseLog] - [FINE] - 1 (11, 15) wants to move RIGHT
+20/09/2014 01:27:12.009 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 33
+20/09/2014 01:27:12.010 - ResponseLog] - [FINE] - 0 (1, 6) wants to move UP
+20/09/2014 01:27:12.010 - ResponseLog] - [FINE] - tronplayer responded with move SAME_DIRECTION for turn 33
+20/09/2014 01:27:12.010 - ResponseLog] - [FINE] - 1 (11, 15) wants to move UP
+20/09/2014 01:27:12.123 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 34
+20/09/2014 01:27:12.123 - ResponseLog] - [FINE] - 0 (1, 5) wants to move UP
+20/09/2014 01:27:12.123 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_RIGHT for turn 34
+20/09/2014 01:27:12.123 - ResponseLog] - [FINE] - 1 (11, 15) wants to move RIGHT
+20/09/2014 01:27:12.233 - ResponseLog] - [FINE] - human responded with move MOVE_RIGHT for turn 35
+20/09/2014 01:27:12.233 - ResponseLog] - [FINE] - 0 (1, 4) wants to move RIGHT
+20/09/2014 01:27:12.233 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_DOWN for turn 35
+20/09/2014 01:27:12.234 - ResponseLog] - [FINE] - 1 (11, 15) wants to move UP
+20/09/2014 01:27:12.343 - ResponseLog] - [FINE] - human responded with move MOVE_RIGHT for turn 36
+20/09/2014 01:27:12.344 - ResponseLog] - [FINE] - 0 (2, 4) wants to move RIGHT
+20/09/2014 01:27:12.344 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_UP for turn 36
+20/09/2014 01:27:12.344 - ResponseLog] - [FINE] - 1 (11, 15) wants to move UP
+20/09/2014 01:27:12.454 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 37
+20/09/2014 01:27:12.455 - ResponseLog] - [FINE] - 0 (3, 4) wants to move RIGHT
+20/09/2014 01:27:12.455 - ResponseLog] - [FINE] - tronplayer responded with move SAME_DIRECTION for turn 37
+20/09/2014 01:27:12.456 - ResponseLog] - [FINE] - 1 (11, 15) wants to move UP
+20/09/2014 01:27:12.565 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 38
+20/09/2014 01:27:12.566 - ResponseLog] - [FINE] - 0 (4, 4) wants to move RIGHT
+20/09/2014 01:27:12.566 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_UP for turn 38
+20/09/2014 01:27:12.566 - ResponseLog] - [FINE] - 1 (11, 15) wants to move UP
+20/09/2014 01:27:12.675 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 39
+20/09/2014 01:27:12.676 - ResponseLog] - [FINE] - 0 (5, 4) wants to move RIGHT
+20/09/2014 01:27:12.676 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_LEFT for turn 39
+20/09/2014 01:27:12.677 - ResponseLog] - [FINE] - 1 (11, 15) wants to move LEFT
+20/09/2014 01:27:12.786 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 40
+20/09/2014 01:27:12.786 - ResponseLog] - [FINE] - 0 (6, 4) wants to move RIGHT
+20/09/2014 01:27:12.787 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_DOWN for turn 40
+20/09/2014 01:27:12.787 - ResponseLog] - [FINE] - 1 (11, 15) wants to move UP
+20/09/2014 01:27:12.896 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 41
+20/09/2014 01:27:12.897 - ResponseLog] - [FINE] - 0 (7, 4) wants to move RIGHT
+20/09/2014 01:27:12.897 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_RIGHT for turn 41
+20/09/2014 01:27:12.897 - ResponseLog] - [FINE] - 1 (11, 15) wants to move RIGHT
+20/09/2014 01:27:13.007 - ResponseLog] - [FINE] - human responded with move MOVE_DOWN for turn 42
+20/09/2014 01:27:13.008 - ResponseLog] - [FINE] - 0 (8, 4) wants to move DOWN
+20/09/2014 01:27:13.008 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_DOWN for turn 42
+20/09/2014 01:27:13.008 - ResponseLog] - [FINE] - 1 (11, 15) wants to move UP
+20/09/2014 01:27:13.117 - ResponseLog] - [FINE] - human responded with move MOVE_DOWN for turn 43
+20/09/2014 01:27:13.117 - ResponseLog] - [FINE] - 0 (8, 5) wants to move DOWN
+20/09/2014 01:27:13.118 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_RIGHT for turn 43
+20/09/2014 01:27:13.118 - ResponseLog] - [FINE] - 1 (11, 15) wants to move RIGHT
+20/09/2014 01:27:13.226 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 44
+20/09/2014 01:27:13.227 - ResponseLog] - [FINE] - 0 (8, 6) wants to move DOWN
+20/09/2014 01:27:13.227 - ResponseLog] - [FINE] - tronplayer responded with move SAME_DIRECTION for turn 44
+20/09/2014 01:27:13.227 - ResponseLog] - [FINE] - 1 (11, 15) wants to move UP
+20/09/2014 01:27:13.337 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 45
+20/09/2014 01:27:13.337 - ResponseLog] - [FINE] - 0 (8, 7) wants to move DOWN
+20/09/2014 01:27:13.337 - ResponseLog] - [FINE] - tronplayer responded with move SAME_DIRECTION for turn 45
+20/09/2014 01:27:13.338 - ResponseLog] - [FINE] - 1 (11, 15) wants to move UP
+20/09/2014 01:27:13.446 - ResponseLog] - [FINE] - human responded with move MOVE_RIGHT for turn 46
+20/09/2014 01:27:13.447 - ResponseLog] - [FINE] - 0 (8, 8) wants to move RIGHT
+20/09/2014 01:27:13.447 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_DOWN for turn 46
+20/09/2014 01:27:13.447 - ResponseLog] - [FINE] - 1 (11, 15) wants to move UP
+20/09/2014 01:27:13.556 - ResponseLog] - [FINE] - human responded with move MOVE_RIGHT for turn 47
+20/09/2014 01:27:13.556 - ResponseLog] - [FINE] - 0 (9, 8) wants to move RIGHT
+20/09/2014 01:27:13.557 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_LEFT for turn 47
+20/09/2014 01:27:13.557 - ResponseLog] - [FINE] - 1 (11, 15) wants to move LEFT
+20/09/2014 01:27:13.666 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 48
+20/09/2014 01:27:13.667 - ResponseLog] - [FINE] - 0 (10, 8) wants to move RIGHT
+20/09/2014 01:27:13.667 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_DOWN for turn 48
+20/09/2014 01:27:13.667 - ResponseLog] - [FINE] - 1 (11, 15) wants to move UP
+20/09/2014 01:27:13.776 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 49
+20/09/2014 01:27:13.777 - ResponseLog] - [FINE] - 0 (11, 8) wants to move RIGHT
+20/09/2014 01:27:13.777 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_LEFT for turn 49
+20/09/2014 01:27:13.778 - ResponseLog] - [FINE] - 1 (11, 15) wants to move LEFT
+20/09/2014 01:27:13.886 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 50
+20/09/2014 01:27:13.886 - ResponseLog] - [FINE] - 0 (12, 8) wants to move RIGHT
+20/09/2014 01:27:13.886 - ResponseLog] - [FINE] - tronplayer responded with move SAME_DIRECTION for turn 50
+20/09/2014 01:27:13.887 - ResponseLog] - [FINE] - 1 (11, 15) wants to move UP
+20/09/2014 01:27:13.997 - ResponseLog] - [FINE] - human responded with move MOVE_UP for turn 51
+20/09/2014 01:27:13.998 - ResponseLog] - [FINE] - 0 (13, 8) wants to move UP
+20/09/2014 01:27:13.998 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_DOWN for turn 51
+20/09/2014 01:27:13.998 - ResponseLog] - [FINE] - 1 (11, 15) wants to move UP
+20/09/2014 01:27:14.107 - ResponseLog] - [FINE] - human responded with move MOVE_UP for turn 52
+20/09/2014 01:27:14.107 - ResponseLog] - [FINE] - 0 (13, 7) wants to move UP
+20/09/2014 01:27:14.108 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_UP for turn 52
+20/09/2014 01:27:14.108 - ResponseLog] - [FINE] - 1 (11, 15) wants to move UP
+20/09/2014 01:27:14.216 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 53
+20/09/2014 01:27:14.217 - ResponseLog] - [FINE] - 0 (13, 6) wants to move UP
+20/09/2014 01:27:14.217 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_DOWN for turn 53
+20/09/2014 01:27:14.217 - ResponseLog] - [FINE] - 1 (11, 15) wants to move UP
+20/09/2014 01:27:14.326 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 54
+20/09/2014 01:27:14.327 - ResponseLog] - [FINE] - 0 (13, 5) wants to move UP
+20/09/2014 01:27:14.327 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_DOWN for turn 54
+20/09/2014 01:27:14.327 - ResponseLog] - [FINE] - 1 (11, 15) wants to move UP
+20/09/2014 01:27:14.437 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 55
+20/09/2014 01:27:14.437 - ResponseLog] - [FINE] - 0 (13, 4) wants to move UP
+20/09/2014 01:27:14.438 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_UP for turn 55
+20/09/2014 01:27:14.438 - ResponseLog] - [FINE] - 1 (11, 15) wants to move UP
+20/09/2014 01:27:14.546 - ResponseLog] - [FINE] - human responded with move MOVE_LEFT for turn 56
+20/09/2014 01:27:14.546 - ResponseLog] - [FINE] - 0 (13, 3) wants to move LEFT
+20/09/2014 01:27:14.547 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_DOWN for turn 56
+20/09/2014 01:27:14.547 - ResponseLog] - [FINE] - 1 (11, 15) wants to move UP
+20/09/2014 01:27:14.656 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 57
+20/09/2014 01:27:14.657 - ResponseLog] - [FINE] - 0 (12, 3) wants to move LEFT
+20/09/2014 01:27:14.657 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_DOWN for turn 57
+20/09/2014 01:27:14.657 - ResponseLog] - [FINE] - 1 (11, 15) wants to move UP
+20/09/2014 01:27:14.766 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 58
+20/09/2014 01:27:14.766 - ResponseLog] - [FINE] - 0 (11, 3) wants to move LEFT
+20/09/2014 01:27:14.767 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_DOWN for turn 58
+20/09/2014 01:27:14.767 - ResponseLog] - [FINE] - 1 (11, 15) wants to move UP
+20/09/2014 01:27:14.875 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 59
+20/09/2014 01:27:14.876 - ResponseLog] - [FINE] - 0 (10, 3) wants to move LEFT
+20/09/2014 01:27:14.876 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_RIGHT for turn 59
+20/09/2014 01:27:14.876 - ResponseLog] - [FINE] - 1 (11, 15) wants to move RIGHT
+20/09/2014 01:27:14.985 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 60
+20/09/2014 01:27:14.985 - ResponseLog] - [FINE] - 0 (9, 3) wants to move LEFT
+20/09/2014 01:27:14.985 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_RIGHT for turn 60
+20/09/2014 01:27:14.985 - ResponseLog] - [FINE] - 1 (11, 15) wants to move RIGHT
+20/09/2014 01:27:15.094 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 61
+20/09/2014 01:27:15.094 - ResponseLog] - [FINE] - 0 (8, 3) wants to move LEFT
+20/09/2014 01:27:15.095 - ResponseLog] - [FINE] - tronplayer responded with move SAME_DIRECTION for turn 61
+20/09/2014 01:27:15.095 - ResponseLog] - [FINE] - 1 (11, 15) wants to move UP
+20/09/2014 01:27:15.205 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 62
+20/09/2014 01:27:15.205 - ResponseLog] - [FINE] - 0 (7, 3) wants to move LEFT
+20/09/2014 01:27:15.205 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_LEFT for turn 62
+20/09/2014 01:27:15.206 - ResponseLog] - [FINE] - 1 (11, 15) wants to move LEFT
+20/09/2014 01:27:15.316 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 63
+20/09/2014 01:27:15.316 - ResponseLog] - [FINE] - 0 (6, 3) wants to move LEFT
+20/09/2014 01:27:15.316 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_DOWN for turn 63
+20/09/2014 01:27:15.316 - ResponseLog] - [FINE] - 1 (11, 15) wants to move UP
+20/09/2014 01:27:15.427 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 64
+20/09/2014 01:27:15.427 - ResponseLog] - [FINE] - 0 (5, 3) wants to move LEFT
+20/09/2014 01:27:15.428 - ResponseLog] - [FINE] - tronplayer responded with move SAME_DIRECTION for turn 64
+20/09/2014 01:27:15.428 - ResponseLog] - [FINE] - 1 (11, 15) wants to move UP
+20/09/2014 01:27:15.537 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 65
+20/09/2014 01:27:15.537 - ResponseLog] - [FINE] - 0 (4, 3) wants to move LEFT
+20/09/2014 01:27:15.537 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_RIGHT for turn 65
+20/09/2014 01:27:15.537 - ResponseLog] - [FINE] - 1 (11, 15) wants to move RIGHT
+20/09/2014 01:27:15.647 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 66
+20/09/2014 01:27:15.647 - ResponseLog] - [FINE] - 0 (3, 3) wants to move LEFT
+20/09/2014 01:27:15.647 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_LEFT for turn 66
+20/09/2014 01:27:15.647 - ResponseLog] - [FINE] - 1 (11, 15) wants to move LEFT
+20/09/2014 01:27:15.757 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 67
+20/09/2014 01:27:15.757 - ResponseLog] - [FINE] - 0 (2, 3) wants to move LEFT
+20/09/2014 01:27:15.757 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_DOWN for turn 67
+20/09/2014 01:27:15.758 - ResponseLog] - [FINE] - 1 (11, 15) wants to move UP
+20/09/2014 01:27:15.866 - ResponseLog] - [FINE] - human responded with move MOVE_UP for turn 68
+20/09/2014 01:27:15.866 - ResponseLog] - [FINE] - 0 (1, 3) wants to move UP
+20/09/2014 01:27:15.866 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_DOWN for turn 68
+20/09/2014 01:27:15.866 - ResponseLog] - [FINE] - 1 (11, 15) wants to move UP
+20/09/2014 01:27:15.975 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 69
+20/09/2014 01:27:15.976 - ResponseLog] - [FINE] - 0 (1, 2) wants to move UP
+20/09/2014 01:27:15.976 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_UP for turn 69
+20/09/2014 01:27:15.976 - ResponseLog] - [FINE] - 1 (11, 15) wants to move UP
+20/09/2014 01:27:16.085 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 70
+20/09/2014 01:27:16.086 - ResponseLog] - [FINE] - 0 (1, 1) wants to move UP
+20/09/2014 01:27:16.086 - ResponseLog] - [FINE] - tronplayer responded with move SAME_DIRECTION for turn 70
+20/09/2014 01:27:16.086 - ResponseLog] - [FINE] - 1 (11, 15) wants to move UP
+20/09/2014 01:27:16.191 - GameLog] - [FINE] - Player tronplayer left
+20/09/2014 01:27:32.439 - GameLog] - [FINE] - A new game is starting
+20/09/2014 01:27:32.914 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 1
+20/09/2014 01:27:32.915 - ResponseLog] - [FINE] - 0 (3, 10) wants to move RIGHT
+20/09/2014 01:27:32.915 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_UP for turn 1
+20/09/2014 01:27:32.916 - ResponseLog] - [FINE] - 1 (17, 10) wants to move UP
+20/09/2014 01:27:33.035 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 2
+20/09/2014 01:27:33.036 - ResponseLog] - [FINE] - 0 (4, 10) wants to move RIGHT
+20/09/2014 01:27:33.036 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_LEFT for turn 2
+20/09/2014 01:27:33.037 - ResponseLog] - [FINE] - 1 (17, 9) wants to move LEFT
+20/09/2014 01:27:33.146 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 3
+20/09/2014 01:27:33.147 - ResponseLog] - [FINE] - 0 (5, 10) wants to move RIGHT
+20/09/2014 01:27:33.147 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_DOWN for turn 3
+20/09/2014 01:27:33.148 - ResponseLog] - [FINE] - 1 (16, 9) wants to move DOWN
+20/09/2014 01:27:33.256 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 4
+20/09/2014 01:27:33.257 - ResponseLog] - [FINE] - 0 (6, 10) wants to move RIGHT
+20/09/2014 01:27:33.257 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_UP for turn 4
+20/09/2014 01:27:33.257 - ResponseLog] - [FINE] - 1 (16, 10) wants to move DOWN
+20/09/2014 01:27:33.371 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 5
+20/09/2014 01:27:33.371 - ResponseLog] - [FINE] - 0 (7, 10) wants to move RIGHT
+20/09/2014 01:27:33.372 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_RIGHT for turn 5
+20/09/2014 01:27:33.372 - ResponseLog] - [FINE] - 1 (16, 11) wants to move RIGHT
+20/09/2014 01:27:33.482 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 6
+20/09/2014 01:27:33.483 - ResponseLog] - [FINE] - 0 (8, 10) wants to move RIGHT
+20/09/2014 01:27:33.483 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_UP for turn 6
+20/09/2014 01:27:33.484 - ResponseLog] - [FINE] - 1 (17, 11) wants to move UP
+20/09/2014 01:27:33.599 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 7
+20/09/2014 01:27:33.599 - ResponseLog] - [FINE] - 0 (9, 10) wants to move RIGHT
+20/09/2014 01:27:33.600 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_LEFT for turn 7
+20/09/2014 01:27:33.600 - ResponseLog] - [FINE] - 1 (17, 10) wants to move LEFT
+20/09/2014 01:27:33.715 - ResponseLog] - [FINE] - human responded with move MOVE_DOWN for turn 8
+20/09/2014 01:27:33.716 - ResponseLog] - [FINE] - 0 (10, 10) wants to move DOWN
+20/09/2014 01:27:33.716 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_UP for turn 8
+20/09/2014 01:27:33.716 - ResponseLog] - [FINE] - 1 (17, 10) wants to move UP
+20/09/2014 01:27:33.827 - ResponseLog] - [FINE] - human responded with move MOVE_DOWN for turn 9
+20/09/2014 01:27:33.828 - ResponseLog] - [FINE] - 0 (10, 11) wants to move DOWN
+20/09/2014 01:27:33.828 - ResponseLog] - [FINE] - tronplayer responded with move SAME_DIRECTION for turn 9
+20/09/2014 01:27:33.829 - ResponseLog] - [FINE] - 1 (17, 10) wants to move UP
+20/09/2014 01:27:33.939 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 10
+20/09/2014 01:27:33.940 - ResponseLog] - [FINE] - 0 (10, 12) wants to move DOWN
+20/09/2014 01:27:33.940 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_RIGHT for turn 10
+20/09/2014 01:27:33.940 - ResponseLog] - [FINE] - 1 (17, 10) wants to move RIGHT
+20/09/2014 01:27:34.049 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 11
+20/09/2014 01:27:34.049 - ResponseLog] - [FINE] - 0 (10, 13) wants to move DOWN
+20/09/2014 01:27:34.050 - ResponseLog] - [FINE] - tronplayer responded with move SAME_DIRECTION for turn 11
+20/09/2014 01:27:34.051 - ResponseLog] - [FINE] - 1 (17, 10) wants to move UP
+20/09/2014 01:27:34.160 - ResponseLog] - [FINE] - human responded with move MOVE_LEFT for turn 12
+20/09/2014 01:27:34.161 - ResponseLog] - [FINE] - 0 (10, 14) wants to move LEFT
+20/09/2014 01:27:34.161 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_RIGHT for turn 12
+20/09/2014 01:27:34.161 - ResponseLog] - [FINE] - 1 (17, 10) wants to move RIGHT
+20/09/2014 01:27:34.272 - ResponseLog] - [FINE] - human responded with move MOVE_LEFT for turn 13
+20/09/2014 01:27:34.273 - ResponseLog] - [FINE] - 0 (9, 14) wants to move LEFT
+20/09/2014 01:27:34.273 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_UP for turn 13
+20/09/2014 01:27:34.274 - ResponseLog] - [FINE] - 1 (17, 10) wants to move UP
+20/09/2014 01:27:34.384 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 14
+20/09/2014 01:27:34.385 - ResponseLog] - [FINE] - 0 (8, 14) wants to move LEFT
+20/09/2014 01:27:34.385 - ResponseLog] - [FINE] - tronplayer responded with move SAME_DIRECTION for turn 14
+20/09/2014 01:27:34.386 - ResponseLog] - [FINE] - 1 (17, 10) wants to move UP
+20/09/2014 01:27:34.495 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 15
+20/09/2014 01:27:34.496 - ResponseLog] - [FINE] - 0 (7, 14) wants to move LEFT
+20/09/2014 01:27:34.496 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_LEFT for turn 15
+20/09/2014 01:27:34.496 - ResponseLog] - [FINE] - 1 (17, 10) wants to move LEFT
+20/09/2014 01:27:34.607 - ResponseLog] - [FINE] - human responded with move MOVE_UP for turn 16
+20/09/2014 01:27:34.607 - ResponseLog] - [FINE] - 0 (6, 14) wants to move UP
+20/09/2014 01:27:34.607 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_DOWN for turn 16
+20/09/2014 01:27:34.608 - ResponseLog] - [FINE] - 1 (17, 10) wants to move UP
+20/09/2014 01:27:34.718 - ResponseLog] - [FINE] - human responded with move MOVE_UP for turn 17
+20/09/2014 01:27:34.719 - ResponseLog] - [FINE] - 0 (6, 13) wants to move UP
+20/09/2014 01:27:34.719 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_DOWN for turn 17
+20/09/2014 01:27:34.719 - ResponseLog] - [FINE] - 1 (17, 10) wants to move UP
+20/09/2014 01:27:34.830 - ResponseLog] - [FINE] - human responded with move MOVE_LEFT for turn 18
+20/09/2014 01:27:34.831 - ResponseLog] - [FINE] - 0 (6, 12) wants to move LEFT
+20/09/2014 01:27:34.831 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_UP for turn 18
+20/09/2014 01:27:34.831 - ResponseLog] - [FINE] - 1 (17, 10) wants to move UP
+20/09/2014 01:27:34.945 - ResponseLog] - [FINE] - human responded with move MOVE_LEFT for turn 19
+20/09/2014 01:27:34.946 - ResponseLog] - [FINE] - 0 (5, 12) wants to move LEFT
+20/09/2014 01:27:34.946 - ResponseLog] - [FINE] - tronplayer responded with move SAME_DIRECTION for turn 19
+20/09/2014 01:27:34.947 - ResponseLog] - [FINE] - 1 (17, 10) wants to move UP
+20/09/2014 01:27:35.056 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 20
+20/09/2014 01:27:35.057 - ResponseLog] - [FINE] - 0 (4, 12) wants to move LEFT
+20/09/2014 01:27:35.057 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_LEFT for turn 20
+20/09/2014 01:27:35.057 - ResponseLog] - [FINE] - 1 (17, 10) wants to move LEFT
+20/09/2014 01:27:35.168 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 21
+20/09/2014 01:27:35.168 - ResponseLog] - [FINE] - 0 (3, 12) wants to move LEFT
+20/09/2014 01:27:35.168 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_UP for turn 21
+20/09/2014 01:27:35.169 - ResponseLog] - [FINE] - 1 (17, 10) wants to move UP
+20/09/2014 01:27:35.277 - ResponseLog] - [FINE] - human responded with move MOVE_UP for turn 22
+20/09/2014 01:27:35.278 - ResponseLog] - [FINE] - 0 (2, 12) wants to move UP
+20/09/2014 01:27:35.278 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_LEFT for turn 22
+20/09/2014 01:27:35.278 - ResponseLog] - [FINE] - 1 (17, 10) wants to move LEFT
+20/09/2014 01:27:35.389 - ResponseLog] - [FINE] - human responded with move MOVE_UP for turn 23
+20/09/2014 01:27:35.389 - ResponseLog] - [FINE] - 0 (2, 11) wants to move UP
+20/09/2014 01:27:35.389 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_DOWN for turn 23
+20/09/2014 01:27:35.390 - ResponseLog] - [FINE] - 1 (17, 10) wants to move UP
+20/09/2014 01:27:35.501 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 24
+20/09/2014 01:27:35.501 - ResponseLog] - [FINE] - 0 (2, 10) wants to move UP
+20/09/2014 01:27:35.501 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_LEFT for turn 24
+20/09/2014 01:27:35.502 - ResponseLog] - [FINE] - 1 (17, 10) wants to move LEFT
+20/09/2014 01:27:35.612 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 25
+20/09/2014 01:27:35.613 - ResponseLog] - [FINE] - 0 (2, 9) wants to move UP
+20/09/2014 01:27:35.613 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_LEFT for turn 25
+20/09/2014 01:27:35.613 - ResponseLog] - [FINE] - 1 (17, 10) wants to move LEFT
+20/09/2014 01:27:35.722 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 26
+20/09/2014 01:27:35.722 - ResponseLog] - [FINE] - 0 (2, 8) wants to move UP
+20/09/2014 01:27:35.722 - ResponseLog] - [FINE] - tronplayer responded with move SAME_DIRECTION for turn 26
+20/09/2014 01:27:35.722 - ResponseLog] - [FINE] - 1 (17, 10) wants to move UP
+20/09/2014 01:27:35.833 - ResponseLog] - [FINE] - human responded with move MOVE_RIGHT for turn 27
+20/09/2014 01:27:35.833 - ResponseLog] - [FINE] - 0 (2, 7) wants to move RIGHT
+20/09/2014 01:27:35.834 - ResponseLog] - [FINE] - tronplayer responded with move SAME_DIRECTION for turn 27
+20/09/2014 01:27:35.834 - ResponseLog] - [FINE] - 1 (17, 10) wants to move UP
+20/09/2014 01:27:35.943 - ResponseLog] - [FINE] - human responded with move MOVE_RIGHT for turn 28
+20/09/2014 01:27:35.944 - ResponseLog] - [FINE] - 0 (3, 7) wants to move RIGHT
+20/09/2014 01:27:35.944 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_LEFT for turn 28
+20/09/2014 01:27:35.944 - ResponseLog] - [FINE] - 1 (17, 10) wants to move LEFT
+20/09/2014 01:27:36.053 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 29
+20/09/2014 01:27:36.053 - ResponseLog] - [FINE] - 0 (4, 7) wants to move RIGHT
+20/09/2014 01:27:36.053 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_LEFT for turn 29
+20/09/2014 01:27:36.054 - ResponseLog] - [FINE] - 1 (17, 10) wants to move LEFT
+20/09/2014 01:27:36.165 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 30
+20/09/2014 01:27:36.166 - ResponseLog] - [FINE] - 0 (5, 7) wants to move RIGHT
+20/09/2014 01:27:36.166 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_LEFT for turn 30
+20/09/2014 01:27:36.166 - ResponseLog] - [FINE] - 1 (17, 10) wants to move LEFT
+20/09/2014 01:27:36.276 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 31
+20/09/2014 01:27:36.276 - ResponseLog] - [FINE] - 0 (6, 7) wants to move RIGHT
+20/09/2014 01:27:36.277 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_DOWN for turn 31
+20/09/2014 01:27:36.277 - ResponseLog] - [FINE] - 1 (17, 10) wants to move UP
+20/09/2014 01:27:36.386 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 32
+20/09/2014 01:27:36.387 - ResponseLog] - [FINE] - 0 (7, 7) wants to move RIGHT
+20/09/2014 01:27:36.387 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_LEFT for turn 32
+20/09/2014 01:27:36.387 - ResponseLog] - [FINE] - 1 (17, 10) wants to move LEFT
+20/09/2014 01:27:36.497 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 33
+20/09/2014 01:27:36.497 - ResponseLog] - [FINE] - 0 (8, 7) wants to move RIGHT
+20/09/2014 01:27:36.497 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_RIGHT for turn 33
+20/09/2014 01:27:36.497 - ResponseLog] - [FINE] - 1 (17, 10) wants to move RIGHT
+20/09/2014 01:27:36.605 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 34
+20/09/2014 01:27:36.606 - ResponseLog] - [FINE] - 0 (9, 7) wants to move RIGHT
+20/09/2014 01:27:36.606 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_RIGHT for turn 34
+20/09/2014 01:27:36.606 - ResponseLog] - [FINE] - 1 (17, 10) wants to move RIGHT
+20/09/2014 01:27:36.716 - ResponseLog] - [FINE] - human responded with move MOVE_UP for turn 35
+20/09/2014 01:27:36.716 - ResponseLog] - [FINE] - 0 (10, 7) wants to move UP
+20/09/2014 01:27:36.716 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_UP for turn 35
+20/09/2014 01:27:36.717 - ResponseLog] - [FINE] - 1 (17, 10) wants to move UP
+20/09/2014 01:27:36.826 - ResponseLog] - [FINE] - human responded with move MOVE_UP for turn 36
+20/09/2014 01:27:36.826 - ResponseLog] - [FINE] - 0 (10, 6) wants to move UP
+20/09/2014 01:27:36.827 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_RIGHT for turn 36
+20/09/2014 01:27:36.827 - ResponseLog] - [FINE] - 1 (17, 10) wants to move RIGHT
+20/09/2014 01:27:36.937 - ResponseLog] - [FINE] - human responded with move MOVE_LEFT for turn 37
+20/09/2014 01:27:36.937 - ResponseLog] - [FINE] - 0 (10, 5) wants to move LEFT
+20/09/2014 01:27:36.937 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_UP for turn 37
+20/09/2014 01:27:36.938 - ResponseLog] - [FINE] - 1 (17, 10) wants to move UP
+20/09/2014 01:27:37.047 - ResponseLog] - [FINE] - human responded with move MOVE_LEFT for turn 38
+20/09/2014 01:27:37.048 - ResponseLog] - [FINE] - 0 (9, 5) wants to move LEFT
+20/09/2014 01:27:37.049 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_DOWN for turn 38
+20/09/2014 01:27:37.049 - ResponseLog] - [FINE] - 1 (17, 10) wants to move UP
+20/09/2014 01:27:37.158 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 39
+20/09/2014 01:27:37.159 - ResponseLog] - [FINE] - 0 (8, 5) wants to move LEFT
+20/09/2014 01:27:37.159 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_RIGHT for turn 39
+20/09/2014 01:27:37.160 - ResponseLog] - [FINE] - 1 (17, 10) wants to move RIGHT
+20/09/2014 01:27:37.268 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 40
+20/09/2014 01:27:37.269 - ResponseLog] - [FINE] - 0 (7, 5) wants to move LEFT
+20/09/2014 01:27:37.269 - ResponseLog] - [FINE] - tronplayer responded with move SAME_DIRECTION for turn 40
+20/09/2014 01:27:37.269 - ResponseLog] - [FINE] - 1 (17, 10) wants to move UP
+20/09/2014 01:27:37.379 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 41
+20/09/2014 01:27:37.379 - ResponseLog] - [FINE] - 0 (6, 5) wants to move LEFT
+20/09/2014 01:27:37.379 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_DOWN for turn 41
+20/09/2014 01:27:37.380 - ResponseLog] - [FINE] - 1 (17, 10) wants to move UP
+20/09/2014 01:27:37.489 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 42
+20/09/2014 01:27:37.489 - ResponseLog] - [FINE] - 0 (5, 5) wants to move LEFT
+20/09/2014 01:27:37.490 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_LEFT for turn 42
+20/09/2014 01:27:37.490 - ResponseLog] - [FINE] - 1 (17, 10) wants to move LEFT
+20/09/2014 01:27:37.599 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 43
+20/09/2014 01:27:37.599 - ResponseLog] - [FINE] - 0 (4, 5) wants to move LEFT
+20/09/2014 01:27:37.599 - ResponseLog] - [FINE] - tronplayer responded with move SAME_DIRECTION for turn 43
+20/09/2014 01:27:37.600 - ResponseLog] - [FINE] - 1 (17, 10) wants to move UP
+20/09/2014 01:27:37.709 - ResponseLog] - [FINE] - human responded with move MOVE_UP for turn 44
+20/09/2014 01:27:37.710 - ResponseLog] - [FINE] - 0 (3, 5) wants to move UP
+20/09/2014 01:27:37.710 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_DOWN for turn 44
+20/09/2014 01:27:37.710 - ResponseLog] - [FINE] - 1 (17, 10) wants to move UP
+20/09/2014 01:27:37.819 - ResponseLog] - [FINE] - human responded with move MOVE_UP for turn 45
+20/09/2014 01:27:37.819 - ResponseLog] - [FINE] - 0 (3, 4) wants to move UP
+20/09/2014 01:27:37.819 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_DOWN for turn 45
+20/09/2014 01:27:37.819 - ResponseLog] - [FINE] - 1 (17, 10) wants to move UP
+20/09/2014 01:27:37.928 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 46
+20/09/2014 01:27:37.928 - ResponseLog] - [FINE] - 0 (3, 3) wants to move UP
+20/09/2014 01:27:37.929 - ResponseLog] - [FINE] - tronplayer responded with move SAME_DIRECTION for turn 46
+20/09/2014 01:27:37.929 - ResponseLog] - [FINE] - 1 (17, 10) wants to move UP
+20/09/2014 01:27:38.038 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 47
+20/09/2014 01:27:38.038 - ResponseLog] - [FINE] - 0 (3, 2) wants to move UP
+20/09/2014 01:27:38.038 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_RIGHT for turn 47
+20/09/2014 01:27:38.039 - ResponseLog] - [FINE] - 1 (17, 10) wants to move RIGHT
+20/09/2014 01:27:38.148 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 48
+20/09/2014 01:27:38.148 - ResponseLog] - [FINE] - 0 (3, 1) wants to move UP
+20/09/2014 01:27:38.149 - ResponseLog] - [FINE] - tronplayer responded with move MOVE_LEFT for turn 48
+20/09/2014 01:27:38.149 - ResponseLog] - [FINE] - 1 (17, 10) wants to move LEFT
+20/09/2014 01:27:38.253 - GameLog] - [FINE] - Player tronplayer left
