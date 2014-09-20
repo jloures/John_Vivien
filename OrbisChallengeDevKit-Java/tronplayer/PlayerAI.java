@@ -26,21 +26,9 @@ public class PlayerAI implements Player {
 	public PlayerAction getMove(TronGameBoard map,
 			LightCycle playerCycle, LightCycle opponentCycle, int moveNumber) {
 		
-		randMove = randomMovePicker.nextInt(5);
-		if(randMove == 0){
-			return PlayerAction.SAME_DIRECTION;
-		}else if(randMove == 1){
-			return PlayerAction.MOVE_RIGHT;
-		}else if(randMove == 2){
-			return PlayerAction.MOVE_UP;
-		}else if(randMove == 3){
-			return PlayerAction.MOVE_LEFT;
-		}else if(randMove == 4){
-			return PlayerAction.MOVE_DOWN;
-		}
-		
-		return PlayerAction.ACTIVATE_POWERUP;
-	}
+		return PlayerAction.SAME_DIRECTION; 
+        
+        }
 
 }
 
