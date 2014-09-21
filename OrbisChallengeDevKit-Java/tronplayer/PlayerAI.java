@@ -1,55 +1,153 @@
-import java.util.Random;
-
 import com.orbischallenge.tron.api.PlayerAction;
 import com.orbischallenge.tron.client.api.LightCycle;
-import com.orbischallenge.tron.client.api.TronGameBoard;
 import com.orbischallenge.tron.client.api.TileTypeEnum;
+import com.orbischallenge.tron.client.api.TronGameBoard;
 import com.orbischallenge.tron.protocol.TronProtocol;
-import com.orbischallenge.tron.protocol.TronProtocol.PowerUpType;
 import com.orbischallenge.tron.protocol.TronProtocol.Direction;
+import com.orbischallenge.tron.protocol.TronProtocol.PowerUpType;
+import java.awt.Point;
+import static java.lang.Math.abs;
+import java.util.ArrayList;
+import java.util.Random;
 
 public class PlayerAI implements Player {
 
         private int map_detail[][];
+        private ArrayList <Point> power_ups;
+        
    
 	@Override
 	public void newGame(TronGameBoard map,  
 			LightCycle playerCycle, LightCycle opponentCycle) {
-                //all values are initialized to 0 by default
-                //the actual size of the playable board is (map.length() - 2)^2 because of the walls on the sides
-                int size = map.length() - 2;
-                map_detail = new int[size][size]; 
-                /*
-                Wall = -1
-                PowerUps = 10
-                Trail = 1
-                LightCycle = 2
-                */
-                for (int i = 0; i < size; i++) 
-                    for (int j = 0; j < size; j++) {
-                        switch (map.tileType(i + 1, j + 1)) {
-                            case WALL: map_detail[i][j] = -1;
-                                       break;
-                            case TRAIL: map_detail[i][j] = 1 ;
-                                       break;
-                            case LIGHTCYCLE: map_detail[i][j] = 2 ;
-                                       break;
-                            case POWERUP: map_detail[i][j] = 10;
-                                       break;
+		power_ups = new ArrayList<>(); //initialize data structure which will hold coordinates to all powerups
+                Point point_curr = new Point(); //initialize temp variable (only used in the loop)
+                int size = map.length() - 2; //actual board is only (n - 2) ^2 big due to the fact that 2 wall tiles show up on each side
+                for(int i = 0; i < size; i++) //for loop for identifying powerups
+                    for(int j = 0; j < size; j++)
+                        if(map.tileType(i, j).equals(TileTypeEnum.POWERUP)) {
+                            point_curr.x = i;
+                            point_curr.y = j;
+                            power_ups.add(point_curr);
                         }
-                    }
-		return;
-		
 	}
 	
 	@Override
 	public PlayerAction getMove(TronGameBoard map,
 			LightCycle playerCycle, LightCycle opponentCycle, int moveNumber) {
 		
-		 return PlayerAction.MOVE_UP;
+                // Dummy variables used for the sole purpose of gathering info on the position and/or possible movements of the player       
+                Point point = playerCycle.getPosition();
+                TileTypeEnum up = map.tileType((int)point.getX(), (int)point.getY() - 1);
+                TileTypeEnum down = map.tileType((int)point.getX(), (int)point.getY() + 1);
+                TileTypeEnum right = map.tileType((int)point.getX() + 1, (int)point.getY());
+                TileTypeEnum left = map.tileType((int)point.getX() - 1, (int)point.getY());
+                
+                //Determine your aim
+                //if(ClosestPowerUp(map,playerCycle) == -1)
+                    
+                return StayAlive(point, map, playerCycle);
+		 
+        }
+        
+        //Refresh the current state of the PowerUps
+        public void RefreshPowerUp(TronGameBoard map) {
+        
+            for(Point point: power_ups)
+                if(!map.tileType((int)point.getX(), (int)point.getY()).equals(TileTypeEnum.POWERUP))
+                    power_ups.remove(point);
+        }
+        
+        //This function is used to determine the best way to get somewhere a.k.a AIM
+        public PlayerAction GetToAim (TronGameBoard map, LightCycle playerCycle, LightCycle opponentCycle, Point aim) {
+        
+            
+            return PlayerAction.SAME_DIRECTION;
         
         }
+        
+        //Method for finding the closest powerup according to the maps features
+        //Returns -1 on failure (List is empty, no more powerups) or the index of the closest powerup
+        
+        public int ClosestPowerUp (TronGameBoard map, LightCycle playerCycle) {
+        
+            if(power_ups.isEmpty()) //No more powerups return -1
+                return -1;
+            
+            //Refresh your powerup
+            RefreshPowerUp(map);
+            
+            int short_distance = 10000; //The shortest distance to the closest powerup
+            int index = 0; //Index of the closest powerup
 
+            //iterate through all powerups in the list
+            for(Point point: power_ups) {
+                //calculate distance
+                int distance = (int)(abs(point.getX() - playerCycle.getPosition().getX()) + abs(point.getY() - playerCycle.getPosition().getY()));
+                //check if it is indeed the shortest distance
+                if(distance <= short_distance) {
+                    short_distance = distance;
+                    index = power_ups.indexOf(point);
+                }
+            }
+            
+                return index;
+        }
+        
+        /*The only thing this function does is to avoid nearby obstacles by moving the lightcycle to the closest empty tile*/
+        
+        public PlayerAction StayAlive (Point point, TronGameBoard map, LightCycle playerCycle) {
+        
+        switch(playerCycle.getDirection()) {
+                    case DOWN: if(!map.isOccupied((int)point.getX(),(int)point.getY() + 1))
+                                        return PlayerAction.SAME_DIRECTION;
+                        else if(!map.isOccupied((int)point.getX() + 1,(int)point.getY()))
+                                            return PlayerAction.MOVE_RIGHT;
+                        else if(!map.isOccupied((int)point.getX() - 1,(int)point.getY()))
+                                            return PlayerAction.MOVE_LEFT;
+                        else if(playerCycle.hasPowerup())
+                                             return PlayerAction.ACTIVATE_POWERUP;
+                        break;
+                        
+                    case UP: if(!map.isOccupied((int)point.getX(),(int)point.getY() - 1))
+                                        return PlayerAction.SAME_DIRECTION;
+                        else if(!map.isOccupied((int)point.getX() + 1,(int)point.getY()))
+                                            return PlayerAction.MOVE_RIGHT;
+                        else if(!map.isOccupied((int)point.getX() - 1,(int)point.getY()))
+                                            return PlayerAction.MOVE_LEFT;
+                        else if(playerCycle.hasPowerup())
+                                             return PlayerAction.ACTIVATE_POWERUP;
+                        break;    
+                     
+                    case RIGHT: if(!map.isOccupied((int)point.getX() + 1,(int)point.getY()))
+                                        return PlayerAction.SAME_DIRECTION;
+                        else if(!map.isOccupied((int)point.getX(),(int)point.getY() - 1))
+                                            return PlayerAction.MOVE_UP;
+                        else if(!map.isOccupied((int)point.getX(),(int)point.getY() + 1))
+                                            return PlayerAction.MOVE_DOWN;
+                        else if(playerCycle.hasPowerup())
+                                             return PlayerAction.ACTIVATE_POWERUP;
+                        break; 
+                        
+                    case LEFT: if(!map.isOccupied((int)point.getX() - 1, (int)point.getY()))
+                                        return PlayerAction.SAME_DIRECTION;
+                        else if(!map.isOccupied((int)point.getX(),(int)point.getY() - 1))
+                                            return PlayerAction.MOVE_UP;
+                        else if(!map.isOccupied((int)point.getX(),(int)point.getY() + 1))
+                                            return PlayerAction.MOVE_DOWN;
+                        else if(playerCycle.hasPowerup())
+                                             return PlayerAction.ACTIVATE_POWERUP;
+                        break;  
+                        
+                    default: return PlayerAction.SAME_DIRECTION;
+                        
+                }
+                
+                    return PlayerAction.SAME_DIRECTION;
+        
+        }
+        
+        
+ 
 }
 
 /**
