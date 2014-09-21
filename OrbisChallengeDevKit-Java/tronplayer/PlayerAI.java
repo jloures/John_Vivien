@@ -121,12 +121,14 @@ public class PlayerAI implements Player {
                         case DOWN:
                             BestChoice(CurrPos,map,playerCycle,Directions.DOWN,Directions.LEFT);
                         case LEFT:
-                            // call (map,PlayerCycle,CurrPos,Directions.LEFT,Directions.DOWN)
+                            BestChoice(CurrPos,map,playerCycle,Directions.LEFT,Directions.DOWN);
                         case UP:
-                            // call (map,PlayerCycle,CurrPos,LEFT, UP)
+                            BestChoice(CurrPos,map,playerCycle,Directions.LEFT, Directions.UP);
                         case RIGHT:
-                            // call (map,PlayerCycle,CurrPos,DOWN, RIGHT)
-                        default: //call (map,PlayerCycle,CurrPos,DOWN,LEFT)                            
+                            BestChoice(CurrPos,map,playerCycle,Directions.DOWN, Directions.RIGHT);
+                    default: 
+                        BestChoice(CurrPos,map,playerCycle,Directions.DOWN,Directions.LEFT);  
+                    }
             }
 
             else if(Hdir==-1 & Vdir==1) { //left, up
@@ -147,14 +149,16 @@ public class PlayerAI implements Player {
                 if(i==aim.x & j== aim.y)   // best path exsists
                     switch(playerCycle.getDirection()) {
                         case UP:
-                            // call (UP,LEFT)
+                            BestChoice(CurrPos,map,playerCycle,Directions.UP,Directions.LEFT);
                         case LEFT:
-                            // call (LEFT,UP)
+                            BestChoice(CurrPos,map,playerCycle,Directions.LEFT,Directions.UP);
                         case DOWN:
-                            // call (LEFT, DOWN)
+                            BestChoice(CurrPos,map,playerCycle,Directions.LEFT, Directions.DOWN);
                         case RIGHT:
-                            // call (UP, RIGHT)
-                        default: //call (UP,LEFT)   
+                            BestChoice(CurrPos,map,playerCycle,Directions.UP, Directions.RIGHT);
+                    default: 
+                        BestChoice(CurrPos,map,playerCycle,Directions.UP,Directions.LEFT); 
+                    }
             }
 
             else if(Hdir==1 & Vdir==-1) { //right, down
@@ -175,15 +179,16 @@ public class PlayerAI implements Player {
                 if(i==aim.x & j== aim.y)   // best path exsists
                     switch(playerCycle.getDirection()) {
                         case DOWN:
-                            // call (DOWN,RIGHT)
+                            BestChoice(CurrPos,map,playerCycle,Directions.DOWN,Directions.RIGHT);
                         case RIGHT:
-                            // call (RIGHT,DOWN)
+                            BestChoice(CurrPos,map,playerCycle,Directions.RIGHT,Directions.DOWN);
                         case UP:
-                            // call (RIGHT,UP)
+                            BestChoice(CurrPos,map,playerCycle,Directions.RIGHT,Directions.UP);
                         case LEFT:
-                            // call (DOWN,LEFT)
-                        
-                        default: //call (DOWN,RIGHT)
+                            BestChoice(CurrPos,map,playerCycle,Directions.DOWN,Directions.LEFT);
+                    default: 
+                        BestChoice(CurrPos,map,playerCycle,Directions.DOWN,Directions.RIGHT);
+                    }
             }
 
             else if(Hdir==1 & Vdir ==1) { //right, up
@@ -204,14 +209,16 @@ public class PlayerAI implements Player {
                 if(i==aim.x & j== aim.y)   // best path exsists
                     switch(playerCycle.getDirection()) {
                         case UP:
-                            // call (UP,RIGHT)
+                            BestChoice(CurrPos,map,playerCycle,Directions.UP,Directions.RIGHT);
                         case RIGHT:
-                            // call (RIGHT,UP)
+                            BestChoice(CurrPos,map,playerCycle,Directions.RIGHT,Directions.UP);
                         case DOWN:
-                            // call (RIGHT,DOWN)
+                            BestChoice(CurrPos,map,playerCycle,Directions.RIGHT,Directions.DOWN);
                         case LEFT:
-                            // call (UP,LEFT)
-                        default: //call (UP,RIGHT)
+                            BestChoice(CurrPos,map,playerCycle,Directions.UP,Directions.LEFT);
+                    default: 
+                        BestChoice(CurrPos,map,playerCycle,Directions.UP,Directions.RIGHT);
+                    }
             }
             
             //try the best path II
@@ -224,7 +231,12 @@ public class PlayerAI implements Player {
                         }
                 }
                 if(i==aim.x)   // best path exsists
-                    // call (LEFT,NONE)
+                    switch(playerCycle.getDirection()){
+                        case RIGHT:
+                            BestChoice(CurrPos,map,playerCycle,Directions.UP,Directions.DOWN);
+                        default: 
+                            BestChoice(CurrPos,map,playerCycle,Directions.LEFT,Directions.NONE);
+                    }
             }
             
             else if(Hdir==1) {   //where Vdir = 0, go straight right
@@ -236,7 +248,12 @@ public class PlayerAI implements Player {
                         }
                 }
                 if(i==aim.x)   // best path exsists
-                    // call (RIGHT, NONE)
+                    switch(playerCycle.getDirection()){
+                        case LEFT:
+                            BestChoice(CurrPos,map,playerCycle,Directions.UP,Directions.DOWN);
+                        default: 
+                            BestChoice(CurrPos,map,playerCycle,Directions.RIGHT,Directions.NONE);
+                    }
             }
             
             else if(Vdir==-1) {   //where Vdir = 0, go straight down
@@ -248,7 +265,12 @@ public class PlayerAI implements Player {
                         }
                 }
                 if(j==aim.y)   // best path exsists
-                    // call (DOWN,NONE)
+                    switch(playerCycle.getDirection()){
+                        case DOWN:
+                            BestChoice(CurrPos,map,playerCycle,Directions.LEFT,Directions.RIGHT);
+                        default: 
+                            BestChoice(CurrPos,map,playerCycle,Directions.DOWN,Directions.NONE);
+                    }
             }
             
             else if(Vdir==1) {   //where Vdir = 0, go straight up
@@ -260,11 +282,16 @@ public class PlayerAI implements Player {
                         }
                 }
                 if(j==aim.y)   // best path exsists
-                    // call (UP,NONE)
+                    switch(playerCycle.getDirection()){
+                        case UP:
+                            BestChoice(CurrPos,map,playerCycle,Directions.LEFT,Directions.RIGHT);
+                        default: 
+                            BestChoice(CurrPos,map,playerCycle,Directions.UP,Directions.NONE);
+                    }
             }
                    
             // no best path, go random
-                // call(NONE,NONE)
+            BestChoice(CurrPos,map,playerCycle,Directions.LEFT,Directions.NONE);
         
         }
         
