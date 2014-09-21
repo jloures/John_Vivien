@@ -60,6 +60,154 @@ public class PlayerAI implements Player {
         //This function is used to determine the best way to get somewhere a.k.a AIM
         public PlayerAction GetToAim (TronGameBoard map, LightCycle playerCycle, LightCycle opponentCycle, Point aim) {
         
+            Point CurrPos = new Point();
+            CurrPos = playerCycle.getPosition(); 
+            
+            boolean BestPath = false;
+            int i = CurrPos.x;
+            int j = CurrPos.y;
+            int Hdir = 0;
+            int Vdir = 0;
+            
+            if(CurrPos.x > aim.x)   // shall turn left
+                Hdir = -1;
+            else if(CurrPos.x < aim.x)   // shall turn right
+                Hdir = 1;
+            //else stay the same
+            
+            if(CurrPos.y > aim.y)   // shall go down
+                Vdir = -1;
+            else if(CurrPos.y < aim.y)  //shall go up
+                Vdir = 1;
+            // else stay the same
+            
+            //try the best path I
+            if(Hdir==-1 & Vdir==-1) {
+                for(; i>=aim.x; i--){
+                    for(; j>=aim.y; j--) {
+                        if(map.tileType(i, j).equals(TileTypeEnum.WALL) 
+                                || map.tileType(i, j).equals(TileTypeEnum.TRAIL)) {
+                            j++;
+                            break;
+                        }
+                    }
+                    if(map.tileType(i, j).equals(TileTypeEnum.WALL) 
+                                || map.tileType(i, j).equals(TileTypeEnum.TRAIL)) {
+                        i++;
+                        break;
+                    }
+                }
+                if(i==aim.x & j== aim.y)   // best path exsists
+                    BestPath = true;
+            }
+
+            else if(Hdir==-1 & Vdir==1) {
+                for(; i>=aim.x; i--){
+                    for(; j>=aim.y; j++) {
+                        if(map.tileType(i, j).equals(TileTypeEnum.WALL) 
+                                || map.tileType(i, j).equals(TileTypeEnum.TRAIL)) {
+                            j--;
+                            break;
+                        }
+                    }
+                    if(map.tileType(i, j).equals(TileTypeEnum.WALL) 
+                                || map.tileType(i, j).equals(TileTypeEnum.TRAIL)) {
+                        i++;
+                        break;
+                    }
+                }
+                if(i==aim.x & j== aim.y)   // best path exsists
+                    BestPath = true;   
+            }
+
+            else if(Hdir==1 & Vdir==-1) {
+                for(; i>=aim.x; i++){
+                    for(; j>=aim.y; j--) {
+                        if(map.tileType(i, j).equals(TileTypeEnum.WALL) 
+                                || map.tileType(i, j).equals(TileTypeEnum.TRAIL)) {
+                            j++;
+                            break;
+                        }
+                    }
+                    if(map.tileType(i, j).equals(TileTypeEnum.WALL) 
+                                || map.tileType(i, j).equals(TileTypeEnum.TRAIL)) {
+                        i--;
+                        break;
+                    }
+                }
+                if(i==aim.x & j== aim.y)   // best path exsists
+                    BestPath = true;
+            }
+
+            else if(Hdir==1 & Vdir ==1) {
+                for(; i>=aim.x; i++){
+                    for(; j>=aim.y; j++) {
+                        if(map.tileType(i, j).equals(TileTypeEnum.WALL) 
+                                || map.tileType(i, j).equals(TileTypeEnum.TRAIL)) {
+                            j--;
+                            break;
+                        }
+                    }
+                    if(map.tileType(i, j).equals(TileTypeEnum.WALL) 
+                                || map.tileType(i, j).equals(TileTypeEnum.TRAIL)) {
+                        i--;
+                        break;
+                    }
+                }
+                if(i==aim.x & j== aim.y)   // best path exsists
+                    BestPath = true;
+            }
+            
+            //try the best path II
+            else if(Hdir==-1) {   //where Vdir = 0, go straight left
+                for(;i>=aim.x;i--){
+                    if(map.tileType(i, j).equals(TileTypeEnum.WALL) 
+                                || map.tileType(i, j).equals(TileTypeEnum.TRAIL)) {
+                            i++;
+                            break;
+                        }
+                }
+                if(i==aim.x)   // best path exsists
+                    BestPath = true;
+            }
+            
+            else if(Hdir==1) {   //where Vdir = 0, go straight right
+                for(;i<=aim.x;i++){
+                    if(map.tileType(i, j).equals(TileTypeEnum.WALL) 
+                                || map.tileType(i, j).equals(TileTypeEnum.TRAIL)) {
+                            i--;
+                            break;
+                        }
+                }
+                if(i==aim.x)   // best path exsists
+                    BestPath = true;
+            }
+            
+            else if(Vdir==-1) {   //where Vdir = 0, go straight left
+                for(;j>=aim.y;j--){
+                    if(map.tileType(i, j).equals(TileTypeEnum.WALL) 
+                                || map.tileType(i, j).equals(TileTypeEnum.TRAIL)) {
+                            j++;
+                            break;
+                        }
+                }
+                if(j==aim.y)   // best path exsists
+                    BestPath = true;
+            }
+            
+            else if(Vdir==1) {   //where Vdir = 0, go straight left
+                for(;j>=aim.y;j++){
+                    if(map.tileType(i, j).equals(TileTypeEnum.WALL) 
+                                || map.tileType(i, j).equals(TileTypeEnum.TRAIL)) {
+                            j--;
+                            break;
+                        }
+                }
+                if(j==aim.y)   // best path exsists
+                    BestPath = true;
+            }
+            
+            //try some path
             
             return PlayerAction.SAME_DIRECTION;
         
