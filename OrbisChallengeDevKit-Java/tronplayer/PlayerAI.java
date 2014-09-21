@@ -14,6 +14,8 @@ public class PlayerAI implements Player {
 
         private int map_detail[][];
         private ArrayList <Point> power_ups;
+        private int maze_const;
+        
         private enum Directions {
             UP, DOWN, LEFT, RIGHT, NONE
         }
@@ -24,6 +26,7 @@ public class PlayerAI implements Player {
 			LightCycle playerCycle, LightCycle opponentCycle) {
 		power_ups = new ArrayList<>(); //initialize data structure which will hold coordinates to all powerups
                 Point point_curr = new Point(); //initialize temp variable (only used in the loop)
+                maze_const = 5; //within how many tiles should the recursive algorithm look for a solution
                 int size = map.length() - 2; //actual board is only (n - 2) ^2 big due to the fact that 2 wall tiles show up on each side
                 for(int i = 0; i < size; i++) //for loop for identifying powerups
                     for(int j = 0; j < size; j++)
@@ -38,21 +41,15 @@ public class PlayerAI implements Player {
 	public PlayerAction getMove(TronGameBoard map,
 			LightCycle playerCycle, LightCycle opponentCycle, int moveNumber) {
             
-                //Measuring processing time due to challenges constraints
-                long start = System.currentTimeMillis();
                 // Dummy variables used for the sole purpose of gathering info on the position and/or possible movements of the player       
-                Point point = playerCycle.getPosition();
-                long end = System.currentTimeMillis();
-                System.out.println("Total processing Time: " + (end - start));
-                return StayAlive(point,map,playerCycle);
-                
-               /* //Determine your aim
+                Point point = playerCycle.getPosition();  
+               //Determine your aim
                 Point dummy = Aim(map,playerCycle,opponentCycle);
                 if(dummy.equals(new Point(-1,-1)))
                     return StayAlive(point, map, playerCycle);
 		else
                     return GetToAim(map,playerCycle,opponentCycle,dummy);
-                */
+                
         }
         
         //Refresh the current state of the PowerUps
@@ -331,101 +328,153 @@ public class PlayerAI implements Player {
         /*This is the most import function of the code, it will treat the game as a maze*/
         public PlayerAction StayAlive (Point point, TronGameBoard map, LightCycle playerCycle) {
         
-            PlayerAction action = PlayerAction.SAME_DIRECTION;
-            for(int i = 5; i >= 1; i--) {
-                if(SolveMaze(action,point,map,playerCycle,i))
-                    return action;
+            for(int i = maze_const; i >= 1; i--) {
+                if(SolveMaze(playerCycle.getPosition().x, playerCycle.getPosition().y,map,playerCycle,i))
+                    return PlayerAction.SAME_DIRECTION;
             }
-            
-                return action;
+
+            return BestChoice(new Point(playerCycle.getPosition().x,playerCycle.getPosition().y),map,playerCycle,Directions.NONE,Directions.NONE);
         }
         
         /*This function actually solves the maze recursively*/
-        public boolean SolveMaze (PlayerAction action, Point point, TronGameBoard map, LightCycle playerCycle, int numMoves) {
+        public boolean SolveMaze (int x, int y, TronGameBoard map, LightCycle playerCycle, int num) {
         
-            
-        
+            boolean successful = false;
+            if (num == 0) {
+                return true;
+            }
+            return successful;
         }
         
         /*The only thing this function does is to avoid nearby obstacles by moving the lightcycle to the closest empty tile*/   
         public PlayerAction BestChoice (Point point, TronGameBoard map, LightCycle playerCycle, Directions first, Directions second) {
         
-        switch(playerCycle.getDirection()) {
-                    case DOWN: if(isSafe(map,point.x,point.y + 1) && isSafe(map,point.x,point.y + 2))
-                                    if(playerCycle.hasPowerup())
-                                        return PlayerAction.ACTIVATE_POWERUP;
-                                    else
-                                        return PlayerAction.SAME_DIRECTION;
-                        else if(isSafe(map,point.x + 1,point.y) && isSafe(map,point.x + 2,point.y))
-                                    if(playerCycle.hasPowerup())
-                                        return PlayerAction.ACTIVATE_POWERUP_MOVE_RIGHT;
-                                    else
-                                        return PlayerAction.MOVE_RIGHT;
-                        else if(isSafe(map,point.x - 1 ,point.y) && isSafe(map,point.x - 2,point.y))
-                                    if(playerCycle.hasPowerup())
-                                        return PlayerAction.ACTIVATE_POWERUP_MOVE_LEFT;
-                                    else
-                                        return PlayerAction.MOVE_LEFT;
+            switch(first) {
+                case DOWN:  
+                    if(isSafe(map,point.x,point.y + 1) && isSafe(map,point.x,point.y + 2))
+                        return PlayerAction.MOVE_DOWN;
+                    break;
+                case UP: 
+                    if(isSafe(map,point.x,point.y - 1) && isSafe(map,point.x,point.y - 2))
+                                return PlayerAction.MOVE_UP;
+                    break;    
+                case RIGHT:
+                    if(isSafe(map,point.x + 1,point.y) && isSafe(map,point.x + 2,point.y))
+                                return PlayerAction.MOVE_RIGHT;
+                    break; 
+                case LEFT: 
+                    if(isSafe(map,point.x,point.y) && isSafe(map,point.x,point.y + 2))
+                                return PlayerAction.MOVE_LEFT;
+                    break; 
+                default: switch(playerCycle.getDirection()) { 
+                    case LEFT: 
+                        if(isSafe(map,point.x - 1,point.y) && isSafe(map,point.x - 2, point.y))
+                            return PlayerAction.SAME_DIRECTION;
+                        if(isSafe(map,point.x,point.y - 1) && isSafe(map,point.x, point.y - 2))
+                            return PlayerAction.MOVE_UP;
+                        if(isSafe(map,point.x,point.y + 1) && isSafe(map,point.x, point.y + 2))
+                            return PlayerAction.MOVE_DOWN;
+                        if(playerCycle.hasPowerup())
+                            return PlayerAction.ACTIVATE_POWERUP;
                         break;
-                        
-                    case UP: if(isSafe(map,point.x,point.y - 1) && isSafe(map,point.x,point.y - 2))
-                                    if(playerCycle.hasPowerup())
-                                        return PlayerAction.ACTIVATE_POWERUP;
-                                    else
-                                        return PlayerAction.SAME_DIRECTION;
-                        else if(isSafe(map,point.x + 1,point.y) && isSafe(map,point.x + 2,point.y))
-                                    if(playerCycle.hasPowerup())
-                                        return PlayerAction.ACTIVATE_POWERUP_MOVE_RIGHT;
-                                    else
-                                        return PlayerAction.MOVE_RIGHT;
-                        else if(isSafe(map,point.x - 1 ,point.y) && isSafe(map,point.x - 2,point.y))
-                                    if(playerCycle.hasPowerup())
-                                        return PlayerAction.ACTIVATE_POWERUP_MOVE_LEFT;
-                                    else
-                                        return PlayerAction.MOVE_LEFT;
-                        break;    
-                     
-                    case RIGHT: if(isSafe(map,point.x + 1,point.y) && isSafe(map,point.x + 2,point.y))
-                                    if(playerCycle.hasPowerup())
-                                        return PlayerAction.ACTIVATE_POWERUP;
-                                    else
-                                        return PlayerAction.SAME_DIRECTION;
-                        else if(isSafe(map,point.x,point.y - 1) && isSafe(map,point.x,point.y - 2))
-                                    if(playerCycle.hasPowerup())
-                                        return PlayerAction.ACTIVATE_POWERUP_MOVE_UP;
-                                    else
-                                        return PlayerAction.MOVE_UP;
-                        else if(isSafe(map,point.x ,point.y + 1) && isSafe(map,point.x,point.y + 2))
-                                    if(playerCycle.hasPowerup())
-                                        return PlayerAction.ACTIVATE_POWERUP_MOVE_DOWN;
-                                    else
-                                        return PlayerAction.MOVE_DOWN;
-                        break; 
-                        
-                    case LEFT: if(isSafe(map,point.x - 1,point.y) && isSafe(map,point.x - 2,point.y))
-                                    if(playerCycle.hasPowerup())
-                                        return PlayerAction.ACTIVATE_POWERUP;
-                                    else
-                                        return PlayerAction.SAME_DIRECTION;
-                        else if(isSafe(map,point.x,point.y - 1) && isSafe(map,point.x,point.y - 2))
-                                    if(playerCycle.hasPowerup())
-                                        return PlayerAction.ACTIVATE_POWERUP_MOVE_UP;
-                                    else
-                                        return PlayerAction.MOVE_UP;
-                        else if(isSafe(map,point.x ,point.y + 1) && isSafe(map,point.x, point.y + 2))
-                                    if(playerCycle.hasPowerup())
-                                        return PlayerAction.ACTIVATE_POWERUP_MOVE_DOWN;
-                                    else
-                                        return PlayerAction.MOVE_DOWN;
-                        break;  
-                        
-                    default: return PlayerAction.SAME_DIRECTION;
-                        
+                    case RIGHT: 
+                        if(isSafe(map,point.x + 1,point.y) && isSafe(map,point.x + 2, point.y))
+                            return PlayerAction.SAME_DIRECTION;
+                        if(isSafe(map,point.x,point.y - 1) && isSafe(map,point.x, point.y - 2))
+                            return PlayerAction.MOVE_UP;
+                        if(isSafe(map,point.x,point.y + 1) && isSafe(map,point.x, point.y + 2))
+                            return PlayerAction.MOVE_DOWN;
+                        if(playerCycle.hasPowerup())
+                            return PlayerAction.ACTIVATE_POWERUP;
+                        break;
+                    case UP: 
+                        if(isSafe(map,point.x,point.y - 1) && isSafe(map,point.x, point.y - 2))
+                            return PlayerAction.SAME_DIRECTION;
+                        if(isSafe(map,point.x - 1,point.y) && isSafe(map,point.x - 2, point.y))
+                            return PlayerAction.MOVE_LEFT;
+                        if(isSafe(map,point.x + 1,point.y) && isSafe(map,point.x + 2, point.y))
+                            return PlayerAction.MOVE_RIGHT;
+                        if(playerCycle.hasPowerup())
+                            return PlayerAction.ACTIVATE_POWERUP;
+                        break;
+                    case DOWN: 
+                        if(isSafe(map,point.x,point.y + 1) && isSafe(map,point.x, point.y + 2))
+                            return PlayerAction.SAME_DIRECTION;
+                        if(isSafe(map,point.x - 1,point.y) && isSafe(map,point.x - 2, point.y))
+                            return PlayerAction.MOVE_LEFT;
+                        if(isSafe(map,point.x + 1,point.y) && isSafe(map,point.x + 2, point.y))
+                            return PlayerAction.MOVE_RIGHT;
+                        if(playerCycle.hasPowerup())
+                            return PlayerAction.ACTIVATE_POWERUP;
+                        break;
+                    }
                 }
-                
-                    return PlayerAction.SAME_DIRECTION;
+
+            switch(second) {
+                case DOWN:  
+                    if(isSafe(map,point.x,point.y + 1) && isSafe(map,point.x,point.y + 2))
+                        return PlayerAction.MOVE_DOWN;
+                    break;
+                case UP: 
+                    if(isSafe(map,point.x,point.y - 1) && isSafe(map,point.x,point.y - 2))
+                                return PlayerAction.MOVE_UP;
+                    break;    
+                case RIGHT:
+                    if(isSafe(map,point.x + 1,point.y) && isSafe(map,point.x + 2,point.y))
+                                return PlayerAction.MOVE_RIGHT;
+                    break; 
+                case LEFT: 
+                    if(isSafe(map,point.x,point.y) && isSafe(map,point.x,point.y + 2))
+                                return PlayerAction.MOVE_LEFT;
+                    break; 
+                default: switch(playerCycle.getDirection()) { 
+                    case LEFT: 
+                        if(isSafe(map,point.x - 1,point.y) && isSafe(map,point.x - 2, point.y))
+                            return PlayerAction.SAME_DIRECTION;
+                        if(isSafe(map,point.x,point.y - 1) && isSafe(map,point.x, point.y - 2))
+                            return PlayerAction.MOVE_UP;
+                        if(isSafe(map,point.x,point.y + 1) && isSafe(map,point.x, point.y + 2))
+                            return PlayerAction.MOVE_DOWN;
+                        if(playerCycle.hasPowerup())
+                            return PlayerAction.ACTIVATE_POWERUP;
+                        break;
+                    case RIGHT: 
+                        if(isSafe(map,point.x + 1,point.y) && isSafe(map,point.x + 2, point.y))
+                            return PlayerAction.SAME_DIRECTION;
+                        if(isSafe(map,point.x,point.y - 1) && isSafe(map,point.x, point.y - 2))
+                            return PlayerAction.MOVE_UP;
+                        if(isSafe(map,point.x,point.y + 1) && isSafe(map,point.x, point.y + 2))
+                            return PlayerAction.MOVE_DOWN;
+                        if(playerCycle.hasPowerup())
+                            return PlayerAction.ACTIVATE_POWERUP;
+                        break;
+                    case UP: 
+                        if(isSafe(map,point.x,point.y - 1) && isSafe(map,point.x, point.y - 2))
+                            return PlayerAction.SAME_DIRECTION;
+                        if(isSafe(map,point.x - 1,point.y) && isSafe(map,point.x - 2, point.y))
+                            return PlayerAction.MOVE_LEFT;
+                        if(isSafe(map,point.x + 1,point.y) && isSafe(map,point.x + 2, point.y))
+                            return PlayerAction.MOVE_RIGHT;
+                        if(playerCycle.hasPowerup())
+                            return PlayerAction.ACTIVATE_POWERUP;
+                        break;
+                    case DOWN: 
+                        if(isSafe(map,point.x,point.y + 1) && isSafe(map,point.x, point.y + 2))
+                            return PlayerAction.SAME_DIRECTION;
+                        if(isSafe(map,point.x - 1,point.y) && isSafe(map,point.x - 2, point.y))
+                            return PlayerAction.MOVE_LEFT;
+                        if(isSafe(map,point.x + 1,point.y) && isSafe(map,point.x + 2, point.y))
+                            return PlayerAction.MOVE_RIGHT;
+                        if(playerCycle.hasPowerup())
+                            return PlayerAction.ACTIVATE_POWERUP;
+                        break;
+                    }
+                }
+            
+            
+            return PlayerAction.SAME_DIRECTION;
         
-        }
+    }
 }
 
 /**
