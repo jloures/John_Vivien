@@ -15,7 +15,7 @@ public class PlayerAI implements Player {
         private int map_detail[][];
         private ArrayList <Point> power_ups;
         private enum Directions {
-            UP, DOWN, LEFT, RIGHT
+            UP, DOWN, LEFT, RIGHT, NONE
         }
         
    
@@ -42,10 +42,6 @@ public class PlayerAI implements Player {
                 long start = System.currentTimeMillis();
                 // Dummy variables used for the sole purpose of gathering info on the position and/or possible movements of the player       
                 Point point = playerCycle.getPosition();
-                TileTypeEnum up = map.tileType((int)point.getX(), (int)point.getY() - 1);
-                TileTypeEnum down = map.tileType((int)point.getX(), (int)point.getY() + 1);
-                TileTypeEnum right = map.tileType((int)point.getX() + 1, (int)point.getY());
-                TileTypeEnum left = map.tileType((int)point.getX() - 1, (int)point.getY());
                 long end = System.currentTimeMillis();
                 System.out.println("Total processing Time: " + (end - start));
                 return StayAlive(point,map,playerCycle);
@@ -271,8 +267,27 @@ public class PlayerAI implements Player {
             return true;
         }
         
-        /*The only thing this function does is to avoid nearby obstacles by moving the lightcycle to the closest empty tile*/   
+        /*This is the most import function of the code, it will treat the game as a maze*/
         public PlayerAction StayAlive (Point point, TronGameBoard map, LightCycle playerCycle) {
+        
+            PlayerAction action = PlayerAction.SAME_DIRECTION;
+            for(int i = 5; i >= 1; i--) {
+                if(SolveMaze(action,point,map,playerCycle,i))
+                    return action;
+            }
+            
+                return action;
+        }
+        
+        /*This function actually solves the maze recursively*/
+        public boolean SolveMaze (PlayerAction action, Point point, TronGameBoard map, LightCycle playerCycle, int numMoves) {
+        
+            
+        
+        }
+        
+        /*The only thing this function does is to avoid nearby obstacles by moving the lightcycle to the closest empty tile*/   
+        public PlayerAction BestChoice (Point point, TronGameBoard map, LightCycle playerCycle, Directions first, Directions second) {
         
         switch(playerCycle.getDirection()) {
                     case DOWN: if(isSafe(map,point.x,point.y + 1) && isSafe(map,point.x,point.y + 2))
