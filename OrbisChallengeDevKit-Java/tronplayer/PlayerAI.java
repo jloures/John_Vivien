@@ -101,7 +101,7 @@ public class PlayerAI implements Player {
             // else stay the same
             
             //try the best path I
-            if(Hdir==-1 & Vdir==-1) {
+            if(Hdir==-1 & Vdir==-1) { // left, down
                 for(; i>=aim.x; i--){
                     for(; j>=aim.y; j--) {
                         if(map.tileType(i, j).equals(TileTypeEnum.WALL) 
@@ -117,10 +117,19 @@ public class PlayerAI implements Player {
                     }
                 }
                 if(i==aim.x & j== aim.y)   // best path exsists
-                    BestPath = true;
+                    switch(playerCycle.getDirection()) {
+                        case DOWN:
+                            BestChoice(CurrPos,map,playerCycle,Directions.DOWN,Directions.LEFT);
+                        case LEFT:
+                            // call (map,PlayerCycle,CurrPos,Directions.LEFT,Directions.DOWN)
+                        case UP:
+                            // call (map,PlayerCycle,CurrPos,LEFT, UP)
+                        case RIGHT:
+                            // call (map,PlayerCycle,CurrPos,DOWN, RIGHT)
+                        default: //call (map,PlayerCycle,CurrPos,DOWN,LEFT)                            
             }
 
-            else if(Hdir==-1 & Vdir==1) {
+            else if(Hdir==-1 & Vdir==1) { //left, up
                 for(; i>=aim.x; i--){
                     for(; j>=aim.y; j++) {
                         if(map.tileType(i, j).equals(TileTypeEnum.WALL) 
@@ -136,10 +145,19 @@ public class PlayerAI implements Player {
                     }
                 }
                 if(i==aim.x & j== aim.y)   // best path exsists
-                    BestPath = true;   
+                    switch(playerCycle.getDirection()) {
+                        case UP:
+                            // call (UP,LEFT)
+                        case LEFT:
+                            // call (LEFT,UP)
+                        case DOWN:
+                            // call (LEFT, DOWN)
+                        case RIGHT:
+                            // call (UP, RIGHT)
+                        default: //call (UP,LEFT)   
             }
 
-            else if(Hdir==1 & Vdir==-1) {
+            else if(Hdir==1 & Vdir==-1) { //right, down
                 for(; i>=aim.x; i++){
                     for(; j>=aim.y; j--) {
                         if(map.tileType(i, j).equals(TileTypeEnum.WALL) 
@@ -155,10 +173,20 @@ public class PlayerAI implements Player {
                     }
                 }
                 if(i==aim.x & j== aim.y)   // best path exsists
-                    BestPath = true;
+                    switch(playerCycle.getDirection()) {
+                        case DOWN:
+                            // call (DOWN,RIGHT)
+                        case RIGHT:
+                            // call (RIGHT,DOWN)
+                        case UP:
+                            // call (RIGHT,UP)
+                        case LEFT:
+                            // call (DOWN,LEFT)
+                        
+                        default: //call (DOWN,RIGHT)
             }
 
-            else if(Hdir==1 & Vdir ==1) {
+            else if(Hdir==1 & Vdir ==1) { //right, up
                 for(; i>=aim.x; i++){
                     for(; j>=aim.y; j++) {
                         if(map.tileType(i, j).equals(TileTypeEnum.WALL) 
@@ -174,7 +202,16 @@ public class PlayerAI implements Player {
                     }
                 }
                 if(i==aim.x & j== aim.y)   // best path exsists
-                    BestPath = true;
+                    switch(playerCycle.getDirection()) {
+                        case UP:
+                            // call (UP,RIGHT)
+                        case RIGHT:
+                            // call (RIGHT,UP)
+                        case DOWN:
+                            // call (RIGHT,DOWN)
+                        case LEFT:
+                            // call (UP,LEFT)
+                        default: //call (UP,RIGHT)
             }
             
             //try the best path II
@@ -187,7 +224,7 @@ public class PlayerAI implements Player {
                         }
                 }
                 if(i==aim.x)   // best path exsists
-                    BestPath = true;
+                    // call (LEFT,NONE)
             }
             
             else if(Hdir==1) {   //where Vdir = 0, go straight right
@@ -199,10 +236,10 @@ public class PlayerAI implements Player {
                         }
                 }
                 if(i==aim.x)   // best path exsists
-                    BestPath = true;
+                    // call (RIGHT, NONE)
             }
             
-            else if(Vdir==-1) {   //where Vdir = 0, go straight left
+            else if(Vdir==-1) {   //where Vdir = 0, go straight down
                 for(;j>=aim.y;j--){
                     if(map.tileType(i, j).equals(TileTypeEnum.WALL) 
                                 || map.tileType(i, j).equals(TileTypeEnum.TRAIL)) {
@@ -211,10 +248,10 @@ public class PlayerAI implements Player {
                         }
                 }
                 if(j==aim.y)   // best path exsists
-                    BestPath = true;
+                    // call (DOWN,NONE)
             }
             
-            else if(Vdir==1) {   //where Vdir = 0, go straight left
+            else if(Vdir==1) {   //where Vdir = 0, go straight up
                 for(;j>=aim.y;j++){
                     if(map.tileType(i, j).equals(TileTypeEnum.WALL) 
                                 || map.tileType(i, j).equals(TileTypeEnum.TRAIL)) {
@@ -223,12 +260,11 @@ public class PlayerAI implements Player {
                         }
                 }
                 if(j==aim.y)   // best path exsists
-                    BestPath = true;
+                    // call (UP,NONE)
             }
-            
-            //try some path
-            
-            return PlayerAction.SAME_DIRECTION;
+                   
+            // no best path, go random
+                // call(NONE,NONE)
         
         }
         
