@@ -12,8 +12,7 @@ import java.util.Random;
 
 public class PlayerAI implements Player {
 
-        private int map_detail[][];
-        private ArrayList <Point> power_ups;
+        private Point power_ups[];
         private int maze_const;
         private int power_num;
         private enum Directions {
@@ -24,20 +23,24 @@ public class PlayerAI implements Player {
 	@Override
 	public void newGame(TronGameBoard map,  
 			LightCycle playerCycle, LightCycle opponentCycle) {
-		power_ups = new ArrayList<>(); //initialize data structure which will hold coordinates to all powerups
                 power_num = 0;
                 Point point_curr = new Point(); //initialize temp variable (only used in the loop)
-                maze_const = 5; //within how many tiles should the recursive algorithm look for a solution
+                maze_const = 8; //within how many tiles should the recursive algorithm look for a solution
                 int size = map.length() - 2; //actual board is only (n - 2) ^2 big due to the fact that 2 wall tiles show up on each side
                 for(int i = 0; i < size; i++) //for loop for identifying powerups
                     for(int j = 0; j < size; j++)
                         if(map.tileType(i, j).equals(TileTypeEnum.POWERUP)) {
-                            point_curr.x = i;
-                            point_curr.y = j;
                             power_num++;
-                            power_ups.add(point_curr);
                         }
-                System.out.println("This game has: " + power_num + " powerups!");
+                power_ups = new Point[power_num];
+                power_num = 0;
+                for(int i = 0; i < size; i++) //for loop for identifying powerups
+                    for(int j = 0; j < size; j++)
+                        if(map.tileType(i, j).equals(TileTypeEnum.POWERUP)) {
+                            power_ups[power_num].x = i;
+                            power_ups[power_num].y = j;
+                            power_num++;
+                        }
         }
 	@Override
 	public PlayerAction getMove(TronGameBoard map,
@@ -46,7 +49,7 @@ public class PlayerAI implements Player {
                 // Dummy variables used for the sole purpose of gathering info on the position and/or possible movements of the player       
                 Point point = playerCycle.getPosition();  
                //Determine your aim
-                Point dummy = Aim(map,playerCycle,opponentCycle);
+               Point dummy = Aim(map,playerCycle,opponentCycle);
                 if(dummy.equals(new Point(-1,-1))) {
                     System.out.println("Going straight to StayAlive!");
                     return StayAlive(point, map, playerCycle);
@@ -54,26 +57,26 @@ public class PlayerAI implements Player {
                 
                 System.out.println("Going for GetToAim");
                 return GetToAim(map,playerCycle,opponentCycle,dummy);
-                
         }
         
         //Refresh the current state of the PowerUps
         public void RefreshPowerUp(TronGameBoard map) {
         
-            for(Point point: power_ups)
-                if(!map.tileType((int)point.getX(), (int)point.getY()).equals(TileTypeEnum.POWERUP)) {
-                    power_num--;
-                    power_ups.remove(point);
+            for(int i = 0; i < power_num; i++) {
+                if(!map.tileType((int)power_ups[i].getX(), (int)power_ups[i].getY()).equals(TileTypeEnum.POWERUP)) {
+                    power_ups[i].x = -1;
+                    power_ups[i].y = -1;
                 }
-        }
-        
+            //System.out.println("One power up less. Total: " + power_num);
+            }
+        }     
         //This function will determine what the Point for which the AI should Aim for
         public Point Aim (TronGameBoard map, LightCycle playerCycle, LightCycle opponentCycle) {
         
             //See if there are any powerups left (Top priority)
             int index = ClosestPowerUp(map,playerCycle);
             if(index != -1)
-                return power_ups.get(index);
+                return power_ups[index];
             
             //Call function StayAlive
                 return new Point(-1,-1);
@@ -302,7 +305,12 @@ public class PlayerAI implements Player {
         
         public int ClosestPowerUp (TronGameBoard map, LightCycle playerCycle) {
         
-            if(power_ups.isEmpty()) //No more powerups return -1
+            boolean empty = true;
+            for(int i = 0; i < power_num && empty; i++)
+                if(power_ups[i].x != -1)
+                    empty = false;
+            
+            if(empty)
                 return -1;
             
             //Refresh your powerup
@@ -312,16 +320,15 @@ public class PlayerAI implements Player {
             int index = 0; //Index of the closest powerup
 
             //iterate through all powerups in the list
-            for(Point point: power_ups) {
+            for(int i = 0; i < power_num; i++) {
                 //calculate distance
-                int distance = (int)(abs(point.getX() - playerCycle.getPosition().getX()) + abs(point.getY() - playerCycle.getPosition().getY()));
+                int distance = (int)(abs(power_ups[i].getX() - playerCycle.getPosition().getX()) + abs(power_ups[i].getY() - playerCycle.getPosition().getY()));
                 //check if it is indeed the shortest distance
                 if(distance <= short_distance) {
                     short_distance = distance;
-                    index = power_ups.indexOf(point);
+                    index = i;
                 }
             }
-                System.out.println("The closest powerup is at: " + power_ups.get(index).x + "," + power_ups.get(index).y);
                 return index;
         }
         
@@ -335,20 +342,51 @@ public class PlayerAI implements Player {
         /*This is the most import function of the code, it will treat the game as a maze*/
         public PlayerAction StayAlive (Point point, TronGameBoard map, LightCycle playerCycle) {
         
+            int maze[][] = new int[map.length()][map.length()];
             for(int i = maze_const; i >= 1; i--) {
-                if(SolveMaze(playerCycle.getPosition().x, playerCycle.getPosition().y,map,playerCycle,i))
-                    return PlayerAction.SAME_DIRECTION;
+                if(SolveMaze(maze, playerCycle.getPosition().x + 1, playerCycle.getPosition().y + 1,map,playerCycle,i))
+                    if(maze[playerCycle.getPosition().x][playerCycle.getPosition().y + 1] == 2)
+                        return PlayerAction.MOVE_DOWN;
+                    else if(maze[playerCycle.getPosition().x][playerCycle.getPosition().y - 1] == 2)
+                        return PlayerAction.MOVE_UP;
+                    else if(maze[playerCycle.getPosition().x - 1][playerCycle.getPosition().y] == 2)
+                        return PlayerAction.MOVE_LEFT;
+                    else if(maze[playerCycle.getPosition().x + 1][playerCycle.getPosition().y] == 2)
+                        return PlayerAction.MOVE_RIGHT;
             }
 
             return BestChoice(new Point(playerCycle.getPosition().x,playerCycle.getPosition().y),map,playerCycle,Directions.NONE,Directions.NONE);
         }
         
         /*This function actually solves the maze recursively*/
-        public boolean SolveMaze (int x, int y, TronGameBoard map, LightCycle playerCycle, int num) {
+        public boolean SolveMaze (int maze[][], int x, int y, TronGameBoard map, LightCycle playerCycle, int num) {
         
+            //tried = 1, good_path = 2
             boolean successful = false;
             if (num == 0) {
-                return true;
+                maze[x][y] = 2;
+                successful = true;
+            }
+            else {
+                maze[x][y] = 1;
+                //try moving south
+                if(isSafe(map, x + 1, y))
+                    successful = SolveMaze(maze, x + 1, y, map, playerCycle, num - 1);
+                if(!successful)
+                    //try moving east
+                    if(isSafe(map, x, y + 1))
+                        successful = SolveMaze (maze, x, y + 1, map, playerCycle, num - 1);
+                if(!successful)
+                    //try moving north
+                    if(isSafe(map, x - 1, y))
+                        successful = SolveMaze(maze, x - 1, y, map, playerCycle, num - 1);
+                if(!successful)
+                    //try moving west
+                    if(isSafe(map, x, y - 1))
+                        successful = SolveMaze(maze, x, y -1, map, playerCycle, num - 1);
+                if(successful)
+                  //this is the correct path
+                    maze[x][y] = 2;
             }
             return successful;
         }
