@@ -6265,3 +6265,314 @@
 20/09/2014 09:35:18.483 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 68
 20/09/2014 09:35:18.483 - ResponseLog] - [FINE] - 1 (18, 9) wants to move DOWN
 20/09/2014 09:35:18.587 - GameLog] - [FINE] - Player java left
+20/09/2014 11:11:46.991 - GameLog] - [FINE] - A new game is starting
+20/09/2014 11:13:30.555 - GameLog] - [FINE] - A new game is starting
+20/09/2014 11:13:59.866 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 1
+20/09/2014 11:13:59.866 - ResponseLog] - [FINE] - 0 (3, 11) wants to move RIGHT
+20/09/2014 11:13:59.867 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 1
+20/09/2014 11:13:59.867 - ResponseLog] - [FINE] - 1 (19, 11) wants to move LEFT
+20/09/2014 11:14:00.074 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 2
+20/09/2014 11:14:00.075 - ResponseLog] - [FINE] - 0 (4, 11) wants to move RIGHT
+20/09/2014 11:14:00.075 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 2
+20/09/2014 11:14:00.076 - ResponseLog] - [FINE] - 1 (18, 11) wants to move LEFT
+20/09/2014 11:14:00.186 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 3
+20/09/2014 11:14:00.186 - ResponseLog] - [FINE] - 0 (5, 11) wants to move RIGHT
+20/09/2014 11:14:00.439 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 3
+20/09/2014 11:14:00.440 - ResponseLog] - [FINE] - 1 (17, 11) wants to move LEFT
+20/09/2014 11:14:00.550 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 4
+20/09/2014 11:14:00.551 - ResponseLog] - [FINE] - 0 (6, 11) wants to move RIGHT
+20/09/2014 11:14:00.551 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 4
+20/09/2014 11:14:00.552 - ResponseLog] - [FINE] - 1 (16, 11) wants to move LEFT
+20/09/2014 11:14:00.662 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 5
+20/09/2014 11:14:00.663 - ResponseLog] - [FINE] - 0 (7, 11) wants to move RIGHT
+20/09/2014 11:14:00.664 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 5
+20/09/2014 11:14:00.664 - ResponseLog] - [FINE] - 1 (15, 11) wants to move LEFT
+20/09/2014 11:14:00.774 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 6
+20/09/2014 11:14:00.774 - ResponseLog] - [FINE] - 0 (8, 11) wants to move RIGHT
+20/09/2014 11:14:00.774 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 6
+20/09/2014 11:14:00.775 - ResponseLog] - [FINE] - 1 (14, 11) wants to move LEFT
+20/09/2014 11:14:00.885 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 7
+20/09/2014 11:14:00.886 - ResponseLog] - [FINE] - 0 (9, 11) wants to move RIGHT
+20/09/2014 11:14:00.886 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 7
+20/09/2014 11:14:00.887 - ResponseLog] - [FINE] - 1 (13, 11) wants to move LEFT
+20/09/2014 11:14:00.997 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 8
+20/09/2014 11:14:00.998 - ResponseLog] - [FINE] - 0 (10, 11) wants to move RIGHT
+20/09/2014 11:14:00.999 - ResponseLog] - [FINE] - java responded with move MOVE_UP for turn 8
+20/09/2014 11:14:00.999 - ResponseLog] - [FINE] - 1 (12, 11) wants to move UP
+20/09/2014 11:14:01.108 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 9
+20/09/2014 11:14:01.108 - ResponseLog] - [FINE] - 0 (11, 11) wants to move RIGHT
+20/09/2014 11:14:01.108 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 9
+20/09/2014 11:14:01.109 - ResponseLog] - [FINE] - 1 (12, 10) wants to move UP
+20/09/2014 11:14:01.984 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 10
+20/09/2014 11:14:01.984 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:01.984 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 10
+20/09/2014 11:14:01.985 - ResponseLog] - [FINE] - 1 (12, 9) wants to move UP
+20/09/2014 11:14:02.094 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 11
+20/09/2014 11:14:02.095 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:02.095 - ResponseLog] - [FINE] - java responded with move MOVE_LEFT for turn 11
+20/09/2014 11:14:02.095 - ResponseLog] - [FINE] - 1 (12, 8) wants to move LEFT
+20/09/2014 11:14:02.219 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 12
+20/09/2014 11:14:02.219 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:02.220 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 12
+20/09/2014 11:14:02.220 - ResponseLog] - [FINE] - 1 (11, 8) wants to move LEFT
+20/09/2014 11:14:02.349 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 13
+20/09/2014 11:14:02.350 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:02.350 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 13
+20/09/2014 11:14:02.350 - ResponseLog] - [FINE] - 1 (10, 8) wants to move LEFT
+20/09/2014 11:14:02.460 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 14
+20/09/2014 11:14:02.460 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:02.461 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 14
+20/09/2014 11:14:02.461 - ResponseLog] - [FINE] - 1 (9, 8) wants to move LEFT
+20/09/2014 11:14:02.570 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 15
+20/09/2014 11:14:02.571 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:02.571 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 15
+20/09/2014 11:14:02.572 - ResponseLog] - [FINE] - 1 (8, 8) wants to move LEFT
+20/09/2014 11:14:02.865 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 16
+20/09/2014 11:14:02.865 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:02.866 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 16
+20/09/2014 11:14:02.866 - ResponseLog] - [FINE] - 1 (7, 8) wants to move LEFT
+20/09/2014 11:14:02.975 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 17
+20/09/2014 11:14:02.975 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:02.976 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 17
+20/09/2014 11:14:02.976 - ResponseLog] - [FINE] - 1 (6, 8) wants to move LEFT
+20/09/2014 11:14:03.085 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 18
+20/09/2014 11:14:03.086 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:03.086 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 18
+20/09/2014 11:14:03.086 - ResponseLog] - [FINE] - 1 (5, 8) wants to move LEFT
+20/09/2014 11:14:03.202 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 19
+20/09/2014 11:14:03.202 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:03.202 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 19
+20/09/2014 11:14:03.203 - ResponseLog] - [FINE] - 1 (4, 8) wants to move LEFT
+20/09/2014 11:14:03.312 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 20
+20/09/2014 11:14:03.312 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:03.313 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 20
+20/09/2014 11:14:03.313 - ResponseLog] - [FINE] - 1 (3, 8) wants to move LEFT
+20/09/2014 11:14:03.422 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 21
+20/09/2014 11:14:03.423 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:03.423 - ResponseLog] - [FINE] - java responded with move MOVE_UP for turn 21
+20/09/2014 11:14:03.423 - ResponseLog] - [FINE] - 1 (2, 8) wants to move UP
+20/09/2014 11:14:03.533 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 22
+20/09/2014 11:14:03.534 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:03.534 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 22
+20/09/2014 11:14:03.534 - ResponseLog] - [FINE] - 1 (2, 7) wants to move UP
+20/09/2014 11:14:03.644 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 23
+20/09/2014 11:14:03.644 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:03.645 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 23
+20/09/2014 11:14:03.645 - ResponseLog] - [FINE] - 1 (2, 6) wants to move UP
+20/09/2014 11:14:03.754 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 24
+20/09/2014 11:14:03.754 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:03.754 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 24
+20/09/2014 11:14:03.755 - ResponseLog] - [FINE] - 1 (2, 5) wants to move UP
+20/09/2014 11:14:03.863 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 25
+20/09/2014 11:14:03.863 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:03.864 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 25
+20/09/2014 11:14:03.864 - ResponseLog] - [FINE] - 1 (2, 4) wants to move UP
+20/09/2014 11:14:03.973 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 26
+20/09/2014 11:14:03.973 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:03.973 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 26
+20/09/2014 11:14:03.974 - ResponseLog] - [FINE] - 1 (2, 3) wants to move UP
+20/09/2014 11:14:04.083 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 27
+20/09/2014 11:14:04.084 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:04.084 - ResponseLog] - [FINE] - java responded with move MOVE_RIGHT for turn 27
+20/09/2014 11:14:04.084 - ResponseLog] - [FINE] - 1 (2, 2) wants to move RIGHT
+20/09/2014 11:14:04.193 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 28
+20/09/2014 11:14:04.194 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:04.194 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 28
+20/09/2014 11:14:04.194 - ResponseLog] - [FINE] - 1 (3, 2) wants to move RIGHT
+20/09/2014 11:14:04.305 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 29
+20/09/2014 11:14:04.307 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:04.308 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 29
+20/09/2014 11:14:04.308 - ResponseLog] - [FINE] - 1 (4, 2) wants to move RIGHT
+20/09/2014 11:14:04.418 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 30
+20/09/2014 11:14:04.418 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:04.419 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 30
+20/09/2014 11:14:04.419 - ResponseLog] - [FINE] - 1 (5, 2) wants to move RIGHT
+20/09/2014 11:14:04.528 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 31
+20/09/2014 11:14:04.529 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:04.529 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 31
+20/09/2014 11:14:04.529 - ResponseLog] - [FINE] - 1 (6, 2) wants to move RIGHT
+20/09/2014 11:14:04.640 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 32
+20/09/2014 11:14:04.641 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:04.641 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 32
+20/09/2014 11:14:04.642 - ResponseLog] - [FINE] - 1 (7, 2) wants to move RIGHT
+20/09/2014 11:14:04.753 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 33
+20/09/2014 11:14:04.753 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:04.753 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 33
+20/09/2014 11:14:04.754 - ResponseLog] - [FINE] - 1 (8, 2) wants to move RIGHT
+20/09/2014 11:14:04.863 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 34
+20/09/2014 11:14:04.864 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:04.864 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 34
+20/09/2014 11:14:04.864 - ResponseLog] - [FINE] - 1 (9, 2) wants to move RIGHT
+20/09/2014 11:14:04.973 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 35
+20/09/2014 11:14:04.974 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:04.974 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 35
+20/09/2014 11:14:04.974 - ResponseLog] - [FINE] - 1 (10, 2) wants to move RIGHT
+20/09/2014 11:14:05.084 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 36
+20/09/2014 11:14:05.084 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:05.084 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 36
+20/09/2014 11:14:05.084 - ResponseLog] - [FINE] - 1 (11, 2) wants to move RIGHT
+20/09/2014 11:14:05.194 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 37
+20/09/2014 11:14:05.194 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:05.194 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 37
+20/09/2014 11:14:05.194 - ResponseLog] - [FINE] - 1 (12, 2) wants to move RIGHT
+20/09/2014 11:14:05.303 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 38
+20/09/2014 11:14:05.303 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:05.304 - ResponseLog] - [FINE] - java responded with move MOVE_DOWN for turn 38
+20/09/2014 11:14:05.304 - ResponseLog] - [FINE] - 1 (13, 2) wants to move DOWN
+20/09/2014 11:14:05.413 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 39
+20/09/2014 11:14:05.414 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:05.414 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 39
+20/09/2014 11:14:05.414 - ResponseLog] - [FINE] - 1 (13, 3) wants to move DOWN
+20/09/2014 11:14:05.523 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 40
+20/09/2014 11:14:05.524 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:05.524 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 40
+20/09/2014 11:14:05.524 - ResponseLog] - [FINE] - 1 (13, 4) wants to move DOWN
+20/09/2014 11:14:07.935 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 41
+20/09/2014 11:14:08.418 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:08.418 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 41
+20/09/2014 11:14:08.418 - ResponseLog] - [FINE] - 1 (13, 5) wants to move DOWN
+20/09/2014 11:14:08.530 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 42
+20/09/2014 11:14:08.530 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:08.531 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 42
+20/09/2014 11:14:08.531 - ResponseLog] - [FINE] - 1 (13, 6) wants to move DOWN
+20/09/2014 11:14:08.639 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 43
+20/09/2014 11:14:08.640 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:08.640 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 43
+20/09/2014 11:14:08.640 - ResponseLog] - [FINE] - 1 (13, 7) wants to move DOWN
+20/09/2014 11:14:08.748 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 44
+20/09/2014 11:14:08.749 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:08.749 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 44
+20/09/2014 11:14:08.749 - ResponseLog] - [FINE] - 1 (13, 8) wants to move DOWN
+20/09/2014 11:14:08.859 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 45
+20/09/2014 11:14:08.859 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:08.860 - ResponseLog] - [FINE] - java responded with move MOVE_RIGHT for turn 45
+20/09/2014 11:14:08.860 - ResponseLog] - [FINE] - 1 (13, 9) wants to move RIGHT
+20/09/2014 11:14:08.968 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 46
+20/09/2014 11:14:08.969 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:08.969 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 46
+20/09/2014 11:14:08.969 - ResponseLog] - [FINE] - 1 (14, 9) wants to move RIGHT
+20/09/2014 11:14:09.079 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 47
+20/09/2014 11:14:09.079 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:09.080 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 47
+20/09/2014 11:14:09.080 - ResponseLog] - [FINE] - 1 (15, 9) wants to move RIGHT
+20/09/2014 11:14:09.188 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 48
+20/09/2014 11:14:09.471 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:09.471 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 48
+20/09/2014 11:14:09.472 - ResponseLog] - [FINE] - 1 (16, 9) wants to move RIGHT
+20/09/2014 11:14:09.583 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 49
+20/09/2014 11:14:09.583 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:09.583 - ResponseLog] - [FINE] - java responded with move ACTIVATE_POWERUP for turn 49
+20/09/2014 11:14:09.584 - ResponseLog] - [FINE] - 1 (17, 9) wants to move RIGHT
+20/09/2014 11:14:09.694 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 50
+20/09/2014 11:14:09.694 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:09.694 - ResponseLog] - [FINE] - java responded with move MOVE_UP for turn 50
+20/09/2014 11:14:09.694 - ResponseLog] - [FINE] - 1 (18, 9) wants to move UP
+20/09/2014 11:14:09.805 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 51
+20/09/2014 11:14:09.806 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:09.806 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 51
+20/09/2014 11:14:09.806 - ResponseLog] - [FINE] - 1 (18, 8) wants to move UP
+20/09/2014 11:14:09.916 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 52
+20/09/2014 11:14:09.916 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:09.917 - ResponseLog] - [FINE] - java responded with move MOVE_LEFT for turn 52
+20/09/2014 11:14:09.917 - ResponseLog] - [FINE] - 1 (18, 7) wants to move LEFT
+20/09/2014 11:14:10.027 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 53
+20/09/2014 11:14:10.027 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:10.028 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 53
+20/09/2014 11:14:10.028 - ResponseLog] - [FINE] - 1 (17, 7) wants to move LEFT
+20/09/2014 11:14:10.136 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 54
+20/09/2014 11:14:10.137 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:10.137 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 54
+20/09/2014 11:14:10.137 - ResponseLog] - [FINE] - 1 (16, 7) wants to move LEFT
+20/09/2014 11:14:10.247 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 55
+20/09/2014 11:14:10.247 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:10.248 - ResponseLog] - [FINE] - java responded with move MOVE_UP for turn 55
+20/09/2014 11:14:10.248 - ResponseLog] - [FINE] - 1 (15, 7) wants to move UP
+20/09/2014 11:14:10.357 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 56
+20/09/2014 11:14:10.357 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:10.357 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 56
+20/09/2014 11:14:10.357 - ResponseLog] - [FINE] - 1 (15, 6) wants to move UP
+20/09/2014 11:14:10.465 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 57
+20/09/2014 11:14:10.466 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:10.466 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 57
+20/09/2014 11:14:10.466 - ResponseLog] - [FINE] - 1 (15, 5) wants to move UP
+20/09/2014 11:14:10.575 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 58
+20/09/2014 11:14:10.576 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:10.576 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 58
+20/09/2014 11:14:10.576 - ResponseLog] - [FINE] - 1 (15, 4) wants to move UP
+20/09/2014 11:14:10.686 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 59
+20/09/2014 11:14:10.686 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:10.687 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 59
+20/09/2014 11:14:10.687 - ResponseLog] - [FINE] - 1 (15, 3) wants to move UP
+20/09/2014 11:14:10.797 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 60
+20/09/2014 11:14:10.798 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:10.798 - ResponseLog] - [FINE] - java responded with move MOVE_RIGHT for turn 60
+20/09/2014 11:14:10.798 - ResponseLog] - [FINE] - 1 (15, 2) wants to move RIGHT
+20/09/2014 11:14:10.908 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 61
+20/09/2014 11:14:10.908 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:10.909 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 61
+20/09/2014 11:14:10.909 - ResponseLog] - [FINE] - 1 (16, 2) wants to move RIGHT
+20/09/2014 11:14:11.019 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 62
+20/09/2014 11:14:11.020 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:11.020 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 62
+20/09/2014 11:14:11.020 - ResponseLog] - [FINE] - 1 (17, 2) wants to move RIGHT
+20/09/2014 11:14:11.129 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 63
+20/09/2014 11:14:11.129 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:11.130 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 63
+20/09/2014 11:14:11.130 - ResponseLog] - [FINE] - 1 (18, 2) wants to move RIGHT
+20/09/2014 11:14:11.239 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 64
+20/09/2014 11:14:11.240 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:11.240 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 64
+20/09/2014 11:14:11.240 - ResponseLog] - [FINE] - 1 (19, 2) wants to move RIGHT
+20/09/2014 11:14:11.349 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 65
+20/09/2014 11:14:11.350 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:11.350 - ResponseLog] - [FINE] - java responded with move MOVE_DOWN for turn 65
+20/09/2014 11:14:11.351 - ResponseLog] - [FINE] - 1 (20, 2) wants to move DOWN
+20/09/2014 11:14:11.460 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 66
+20/09/2014 11:14:11.460 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:11.460 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 66
+20/09/2014 11:14:11.460 - ResponseLog] - [FINE] - 1 (20, 3) wants to move DOWN
+20/09/2014 11:14:11.571 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 67
+20/09/2014 11:14:11.571 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:11.571 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 67
+20/09/2014 11:14:11.572 - ResponseLog] - [FINE] - 1 (20, 4) wants to move DOWN
+20/09/2014 11:14:11.680 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 68
+20/09/2014 11:14:11.680 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:11.680 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 68
+20/09/2014 11:14:11.681 - ResponseLog] - [FINE] - 1 (20, 5) wants to move DOWN
+20/09/2014 11:14:11.789 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 69
+20/09/2014 11:14:11.790 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:11.790 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 69
+20/09/2014 11:14:11.791 - ResponseLog] - [FINE] - 1 (20, 6) wants to move DOWN
+20/09/2014 11:14:11.900 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 70
+20/09/2014 11:14:11.901 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:11.901 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 70
+20/09/2014 11:14:11.901 - ResponseLog] - [FINE] - 1 (20, 7) wants to move DOWN
+20/09/2014 11:14:12.009 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 71
+20/09/2014 11:14:12.010 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:12.010 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 71
+20/09/2014 11:14:12.010 - ResponseLog] - [FINE] - 1 (20, 8) wants to move DOWN
+20/09/2014 11:14:12.119 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 72
+20/09/2014 11:14:12.119 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:12.119 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 72
+20/09/2014 11:14:12.119 - ResponseLog] - [FINE] - 1 (20, 9) wants to move DOWN
+20/09/2014 11:14:12.228 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 73
+20/09/2014 11:14:12.228 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:12.228 - ResponseLog] - [FINE] - java responded with move MOVE_LEFT for turn 73
+20/09/2014 11:14:12.229 - ResponseLog] - [FINE] - 1 (20, 10) wants to move LEFT
+20/09/2014 11:14:12.337 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 74
+20/09/2014 11:14:12.337 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:12.337 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 74
+20/09/2014 11:14:12.338 - ResponseLog] - [FINE] - 1 (19, 10) wants to move LEFT
+20/09/2014 11:14:12.446 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 75
+20/09/2014 11:14:12.447 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:12.447 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 75
+20/09/2014 11:14:12.447 - ResponseLog] - [FINE] - 1 (18, 10) wants to move LEFT
+20/09/2014 11:14:12.558 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 76
+20/09/2014 11:14:12.558 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:12.558 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 76
+20/09/2014 11:14:12.558 - ResponseLog] - [FINE] - 1 (17, 10) wants to move LEFT
+20/09/2014 11:14:12.666 - ResponseLog] - [FINE] - human responded with move SAME_DIRECTION for turn 77
+20/09/2014 11:14:12.667 - ResponseLog] - [FINE] - 0 (12, 11) wants to move RIGHT
+20/09/2014 11:14:12.667 - ResponseLog] - [FINE] - java responded with move SAME_DIRECTION for turn 77
+20/09/2014 11:14:12.668 - ResponseLog] - [FINE] - 1 (16, 10) wants to move LEFT
+20/09/2014 11:14:13.689 - GameLog] - [FINE] - Player java left

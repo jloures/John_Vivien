@@ -15,7 +15,7 @@ public class PlayerAI implements Player {
         private int map_detail[][];
         private ArrayList <Point> power_ups;
         private int maze_const;
-        
+        private int power_num;
         private enum Directions {
             UP, DOWN, LEFT, RIGHT, NONE
         }
@@ -25,6 +25,7 @@ public class PlayerAI implements Player {
 	public void newGame(TronGameBoard map,  
 			LightCycle playerCycle, LightCycle opponentCycle) {
 		power_ups = new ArrayList<>(); //initialize data structure which will hold coordinates to all powerups
+                power_num = 0;
                 Point point_curr = new Point(); //initialize temp variable (only used in the loop)
                 maze_const = 5; //within how many tiles should the recursive algorithm look for a solution
                 int size = map.length() - 2; //actual board is only (n - 2) ^2 big due to the fact that 2 wall tiles show up on each side
@@ -33,10 +34,11 @@ public class PlayerAI implements Player {
                         if(map.tileType(i, j).equals(TileTypeEnum.POWERUP)) {
                             point_curr.x = i;
                             point_curr.y = j;
+                            power_num++;
                             power_ups.add(point_curr);
                         }
-	}
-	
+                System.out.println("This game has: " + power_num + " powerups!");
+        }
 	@Override
 	public PlayerAction getMove(TronGameBoard map,
 			LightCycle playerCycle, LightCycle opponentCycle, int moveNumber) {
@@ -45,10 +47,13 @@ public class PlayerAI implements Player {
                 Point point = playerCycle.getPosition();  
                //Determine your aim
                 Point dummy = Aim(map,playerCycle,opponentCycle);
-                if(dummy.equals(new Point(-1,-1)))
+                if(dummy.equals(new Point(-1,-1))) {
+                    System.out.println("Going straight to StayAlive!");
                     return StayAlive(point, map, playerCycle);
-		else
-                    return GetToAim(map,playerCycle,opponentCycle,dummy);
+                }
+                
+                System.out.println("Going for GetToAim");
+                return GetToAim(map,playerCycle,opponentCycle,dummy);
                 
         }
         
@@ -56,8 +61,10 @@ public class PlayerAI implements Player {
         public void RefreshPowerUp(TronGameBoard map) {
         
             for(Point point: power_ups)
-                if(!map.tileType((int)point.getX(), (int)point.getY()).equals(TileTypeEnum.POWERUP))
+                if(!map.tileType((int)point.getX(), (int)point.getY()).equals(TileTypeEnum.POWERUP)) {
+                    power_num--;
                     power_ups.remove(point);
+                }
         }
         
         //This function will determine what the Point for which the AI should Aim for
@@ -314,7 +321,7 @@ public class PlayerAI implements Player {
                     index = power_ups.indexOf(point);
                 }
             }
-            
+                System.out.println("The closest powerup is at: " + power_ups.get(index).x + "," + power_ups.get(index).y);
                 return index;
         }
         
