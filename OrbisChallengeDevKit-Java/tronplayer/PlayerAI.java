@@ -82,7 +82,6 @@ public class PlayerAI implements Player {
             Point CurrPos = new Point();
             CurrPos = playerCycle.getPosition(); 
             
-            boolean BestPath = false;
             int i = CurrPos.x;
             int j = CurrPos.y;
             int Hdir = 0;
@@ -94,19 +93,19 @@ public class PlayerAI implements Player {
                 Hdir = 1;
             //else stay the same
             
-            if(CurrPos.y > aim.y)   // shall go down
+            if(CurrPos.y < aim.y)   // shall go down
                 Vdir = -1;
-            else if(CurrPos.y < aim.y)  //shall go up
+            else if(CurrPos.y > aim.y)  //shall go up
                 Vdir = 1;
             // else stay the same
             
             //try the best path I
             if(Hdir==-1 & Vdir==-1) { // left, down
                 for(; i>=aim.x; i--){
-                    for(; j>=aim.y; j--) {
+                    for(; j<=aim.y; j++) {
                         if(map.tileType(i, j).equals(TileTypeEnum.WALL) 
                                 || map.tileType(i, j).equals(TileTypeEnum.TRAIL)) {
-                            j++;
+                            j--;
                             break;
                         }
                     }
@@ -119,24 +118,24 @@ public class PlayerAI implements Player {
                 if(i==aim.x & j== aim.y)   // best path exsists
                     switch(playerCycle.getDirection()) {
                         case DOWN:
-                            BestChoice(CurrPos,map,playerCycle,Directions.DOWN,Directions.LEFT);
+                            return BestChoice(CurrPos,map,playerCycle,Directions.DOWN,Directions.LEFT);
                         case LEFT:
-                            BestChoice(CurrPos,map,playerCycle,Directions.LEFT,Directions.DOWN);
+                            return BestChoice(CurrPos,map,playerCycle,Directions.LEFT,Directions.DOWN);
                         case UP:
-                            BestChoice(CurrPos,map,playerCycle,Directions.LEFT, Directions.UP);
+                            return BestChoice(CurrPos,map,playerCycle,Directions.LEFT, Directions.UP);
                         case RIGHT:
-                            BestChoice(CurrPos,map,playerCycle,Directions.DOWN, Directions.RIGHT);
+                            return BestChoice(CurrPos,map,playerCycle,Directions.DOWN, Directions.RIGHT);
                     default: 
-                        BestChoice(CurrPos,map,playerCycle,Directions.DOWN,Directions.LEFT);  
+                        return BestChoice(CurrPos,map,playerCycle,Directions.DOWN,Directions.LEFT);  
                     }
             }
 
             else if(Hdir==-1 & Vdir==1) { //left, up
                 for(; i>=aim.x; i--){
-                    for(; j>=aim.y; j++) {
+                    for(; j>=aim.y; j--) {
                         if(map.tileType(i, j).equals(TileTypeEnum.WALL) 
                                 || map.tileType(i, j).equals(TileTypeEnum.TRAIL)) {
-                            j--;
+                            j++;
                             break;
                         }
                     }
@@ -149,20 +148,50 @@ public class PlayerAI implements Player {
                 if(i==aim.x & j== aim.y)   // best path exsists
                     switch(playerCycle.getDirection()) {
                         case UP:
-                            BestChoice(CurrPos,map,playerCycle,Directions.UP,Directions.LEFT);
+                            return BestChoice(CurrPos,map,playerCycle,Directions.UP,Directions.LEFT);
                         case LEFT:
-                            BestChoice(CurrPos,map,playerCycle,Directions.LEFT,Directions.UP);
+                            return BestChoice(CurrPos,map,playerCycle,Directions.LEFT,Directions.UP);
                         case DOWN:
-                            BestChoice(CurrPos,map,playerCycle,Directions.LEFT, Directions.DOWN);
+                            return BestChoice(CurrPos,map,playerCycle,Directions.LEFT, Directions.DOWN);
                         case RIGHT:
-                            BestChoice(CurrPos,map,playerCycle,Directions.UP, Directions.RIGHT);
+                            return BestChoice(CurrPos,map,playerCycle,Directions.UP, Directions.RIGHT);
                     default: 
-                        BestChoice(CurrPos,map,playerCycle,Directions.UP,Directions.LEFT); 
+                        return BestChoice(CurrPos,map,playerCycle,Directions.UP,Directions.LEFT); 
                     }
             }
 
             else if(Hdir==1 & Vdir==-1) { //right, down
-                for(; i>=aim.x; i++){
+                for(; i<=aim.x; i++){
+                    for(; j<=aim.y; j++) {
+                        if(map.tileType(i, j).equals(TileTypeEnum.WALL) 
+                                || map.tileType(i, j).equals(TileTypeEnum.TRAIL)) {
+                            j--;
+                            break;
+                        }
+                    }
+                    if(map.tileType(i, j).equals(TileTypeEnum.WALL) 
+                                || map.tileType(i, j).equals(TileTypeEnum.TRAIL)) {
+                        i--;
+                        break;
+                    }
+                }
+                if(i==aim.x & j== aim.y)   // best path exsists
+                    switch(playerCycle.getDirection()) {
+                        case DOWN:
+                            return BestChoice(CurrPos,map,playerCycle,Directions.DOWN,Directions.RIGHT);
+                        case RIGHT:
+                            return BestChoice(CurrPos,map,playerCycle,Directions.RIGHT,Directions.DOWN);
+                        case UP:
+                            return BestChoice(CurrPos,map,playerCycle,Directions.RIGHT,Directions.UP);
+                        case LEFT:
+                            return BestChoice(CurrPos,map,playerCycle,Directions.DOWN,Directions.LEFT);
+                    default: 
+                        return BestChoice(CurrPos,map,playerCycle,Directions.DOWN,Directions.RIGHT);
+                    }
+            }
+
+            else if(Hdir==1 & Vdir ==1) { //right, up
+                for(; i<=aim.x; i++){
                     for(; j>=aim.y; j--) {
                         if(map.tileType(i, j).equals(TileTypeEnum.WALL) 
                                 || map.tileType(i, j).equals(TileTypeEnum.TRAIL)) {
@@ -178,51 +207,21 @@ public class PlayerAI implements Player {
                 }
                 if(i==aim.x & j== aim.y)   // best path exsists
                     switch(playerCycle.getDirection()) {
-                        case DOWN:
-                            BestChoice(CurrPos,map,playerCycle,Directions.DOWN,Directions.RIGHT);
-                        case RIGHT:
-                            BestChoice(CurrPos,map,playerCycle,Directions.RIGHT,Directions.DOWN);
                         case UP:
-                            BestChoice(CurrPos,map,playerCycle,Directions.RIGHT,Directions.UP);
-                        case LEFT:
-                            BestChoice(CurrPos,map,playerCycle,Directions.DOWN,Directions.LEFT);
-                    default: 
-                        BestChoice(CurrPos,map,playerCycle,Directions.DOWN,Directions.RIGHT);
-                    }
-            }
-
-            else if(Hdir==1 & Vdir ==1) { //right, up
-                for(; i>=aim.x; i++){
-                    for(; j>=aim.y; j++) {
-                        if(map.tileType(i, j).equals(TileTypeEnum.WALL) 
-                                || map.tileType(i, j).equals(TileTypeEnum.TRAIL)) {
-                            j--;
-                            break;
-                        }
-                    }
-                    if(map.tileType(i, j).equals(TileTypeEnum.WALL) 
-                                || map.tileType(i, j).equals(TileTypeEnum.TRAIL)) {
-                        i--;
-                        break;
-                    }
-                }
-                if(i==aim.x & j== aim.y)   // best path exsists
-                    switch(playerCycle.getDirection()) {
-                        case UP:
-                            BestChoice(CurrPos,map,playerCycle,Directions.UP,Directions.RIGHT);
+                            return BestChoice(CurrPos,map,playerCycle,Directions.UP,Directions.RIGHT);
                         case RIGHT:
-                            BestChoice(CurrPos,map,playerCycle,Directions.RIGHT,Directions.UP);
+                            return BestChoice(CurrPos,map,playerCycle,Directions.RIGHT,Directions.UP);
                         case DOWN:
-                            BestChoice(CurrPos,map,playerCycle,Directions.RIGHT,Directions.DOWN);
+                            return BestChoice(CurrPos,map,playerCycle,Directions.RIGHT,Directions.DOWN);
                         case LEFT:
-                            BestChoice(CurrPos,map,playerCycle,Directions.UP,Directions.LEFT);
+                            return BestChoice(CurrPos,map,playerCycle,Directions.UP,Directions.LEFT);
                     default: 
-                        BestChoice(CurrPos,map,playerCycle,Directions.UP,Directions.RIGHT);
+                        return BestChoice(CurrPos,map,playerCycle,Directions.UP,Directions.RIGHT);
                     }
             }
             
             //try the best path II
-            else if(Hdir==-1) {   //where Vdir = 0, go straight left
+            else if(Hdir==-1 && Vdir==0) {   //where Vdir = 0, go straight left
                 for(;i>=aim.x;i--){
                     if(map.tileType(i, j).equals(TileTypeEnum.WALL) 
                                 || map.tileType(i, j).equals(TileTypeEnum.TRAIL)) {
@@ -233,13 +232,13 @@ public class PlayerAI implements Player {
                 if(i==aim.x)   // best path exsists
                     switch(playerCycle.getDirection()){
                         case RIGHT:
-                            BestChoice(CurrPos,map,playerCycle,Directions.UP,Directions.DOWN);
+                            return BestChoice(CurrPos,map,playerCycle,Directions.UP,Directions.DOWN);
                         default: 
-                            BestChoice(CurrPos,map,playerCycle,Directions.LEFT,Directions.NONE);
+                            return BestChoice(CurrPos,map,playerCycle,Directions.LEFT,Directions.NONE);
                     }
             }
             
-            else if(Hdir==1) {   //where Vdir = 0, go straight right
+            else if(Hdir==1 && Vdir==0) {   //where Vdir = 0, go straight right
                 for(;i<=aim.x;i++){
                     if(map.tileType(i, j).equals(TileTypeEnum.WALL) 
                                 || map.tileType(i, j).equals(TileTypeEnum.TRAIL)) {
@@ -250,13 +249,30 @@ public class PlayerAI implements Player {
                 if(i==aim.x)   // best path exsists
                     switch(playerCycle.getDirection()){
                         case LEFT:
-                            BestChoice(CurrPos,map,playerCycle,Directions.UP,Directions.DOWN);
+                            return BestChoice(CurrPos,map,playerCycle,Directions.UP,Directions.DOWN);
                         default: 
-                            BestChoice(CurrPos,map,playerCycle,Directions.RIGHT,Directions.NONE);
+                            return BestChoice(CurrPos,map,playerCycle,Directions.RIGHT,Directions.NONE);
                     }
             }
             
-            else if(Vdir==-1) {   //where Vdir = 0, go straight down
+            else if(Vdir==-1 && Hdir==0) {   //where Vdir = 0, go straight down
+                for(;j<=aim.y;j++){
+                    if(map.tileType(i, j).equals(TileTypeEnum.WALL) 
+                                || map.tileType(i, j).equals(TileTypeEnum.TRAIL)) {
+                            j--;
+                            break;
+                        }
+                }
+                if(j==aim.y)   // best path exsists
+                    switch(playerCycle.getDirection()){
+                        case DOWN:
+                            return BestChoice(CurrPos,map,playerCycle,Directions.LEFT,Directions.RIGHT);
+                        default: 
+                            return BestChoice(CurrPos,map,playerCycle,Directions.DOWN,Directions.NONE);
+                    }
+            }
+            
+            else if(Vdir==1 && Hdir==0) {   //where Vdir = 0, go straight up
                 for(;j>=aim.y;j--){
                     if(map.tileType(i, j).equals(TileTypeEnum.WALL) 
                                 || map.tileType(i, j).equals(TileTypeEnum.TRAIL)) {
@@ -266,33 +282,15 @@ public class PlayerAI implements Player {
                 }
                 if(j==aim.y)   // best path exsists
                     switch(playerCycle.getDirection()){
-                        case DOWN:
-                            BestChoice(CurrPos,map,playerCycle,Directions.LEFT,Directions.RIGHT);
-                        default: 
-                            BestChoice(CurrPos,map,playerCycle,Directions.DOWN,Directions.NONE);
-                    }
-            }
-            
-            else if(Vdir==1) {   //where Vdir = 0, go straight up
-                for(;j>=aim.y;j++){
-                    if(map.tileType(i, j).equals(TileTypeEnum.WALL) 
-                                || map.tileType(i, j).equals(TileTypeEnum.TRAIL)) {
-                            j--;
-                            break;
-                        }
-                }
-                if(j==aim.y)   // best path exsists
-                    switch(playerCycle.getDirection()){
                         case UP:
-                            BestChoice(CurrPos,map,playerCycle,Directions.LEFT,Directions.RIGHT);
+                            return BestChoice(CurrPos,map,playerCycle,Directions.LEFT,Directions.RIGHT);
                         default: 
-                            BestChoice(CurrPos,map,playerCycle,Directions.UP,Directions.NONE);
+                            return BestChoice(CurrPos,map,playerCycle,Directions.UP,Directions.NONE);
                     }
             }
                    
             // no best path, go random
-            BestChoice(CurrPos,map,playerCycle,Directions.LEFT,Directions.NONE);
-        
+            return BestChoice(CurrPos,map,playerCycle,Directions.NONE,Directions.NONE);
         }
         
         //Method for finding the closest powerup according to the maps features
